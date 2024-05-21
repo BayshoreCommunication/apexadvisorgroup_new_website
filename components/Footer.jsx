@@ -63,14 +63,14 @@ const Footer = () => {
                 Opening Hours
               </h2>
               <ul className='text-gray-300 font-thin text-base list-none ml-0'>
-                {SITECONFIG?.footer?.company?.map((el, index) => (
+                {SITECONFIG?.footer?.openingTime?.map((el, index) => (
                   <li className='mb-4' key={index}>
                     {/* <Link href={el.slug} className='hover:underline'>
                       {el.title}
                     </Link> */}
                     <div className='flex gap-5'>
-                      <div>Monday</div>
-                      <div>9 AM–5 PM</div>
+                      <div>{el.day}</div>
+                      <div>{el.time}</div>
                     </div>
                   </li>
                 ))}
