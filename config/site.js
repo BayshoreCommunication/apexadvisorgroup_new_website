@@ -4,23 +4,7 @@ export const SITECONFIG = {
     description: 'Trip Law',
   },
   siteLogo: { url: '/assets/site-logo/10x-tax-pro.png' },
-  mainNav: {
-    left: [
-      {
-        title: 'Home',
-        slug: '/',
-      },
-      {
-        title: 'Services',
-        slug: '/services',
-      },
-      {
-        title: 'About Us',
-        slug: '/about-us',
-      },
-    ],
-  },
-  mobileNav: [
+  navMenuItem: [
     {
       title: 'Home',
       slug: '/',
@@ -32,18 +16,6 @@ export const SITECONFIG = {
     {
       title: 'About Us',
       slug: '/about-us',
-    },
-    {
-      title: 'Appointment',
-      slug: '/appointment',
-    },
-    {
-      title: 'Blog',
-      slug: '/blog',
-    },
-    {
-      title: 'Contact Us',
-      slug: '/contact-us',
     },
   ],
 
@@ -88,20 +60,25 @@ export const SITECONFIG = {
         slug: '/',
       },
       {
+        title: 'About',
+        slug: '/about',
+      },
+      {
         title: 'Services',
         slug: '/services',
       },
       {
-        title: 'About Us',
-        slug: '/about-us',
+        title: 'Services Area',
+        slug: '/services-area',
       },
+
       {
-        title: 'News',
+        title: 'Blog',
         slug: '/blog',
       },
       {
-        title: 'Contact Us',
-        slug: '/contact-us',
+        title: 'Contact',
+        slug: '/contact',
       },
     ],
     contact_us: [

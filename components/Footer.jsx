@@ -63,7 +63,7 @@ const Footer = () => {
                 Opening Hours
               </h2>
               <ul className="text-gray-300 font-thin text-base list-none ml-0">
-                {SITECONFIG?.footer?.company?.map((el, index) => (
+                {SITECONFIG?.footer?.openingTime?.map((el, index) => (
                   <li className="mb-4" key={index}>
                     {/* <Link href={el.slug} className='hover:underline'>
                       {el.title}
