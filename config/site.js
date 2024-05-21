@@ -1,117 +1,112 @@
 export const SITECONFIG = {
   siteMetadata: {
-    title: "Trip Law",
-    description: "Trip Law",
+    title: 'Trip Law',
+    description: 'Trip Law',
   },
-  siteLogo: { url: "/assets/site-logo/10x-tax-pro.png" },
+  siteLogo: { url: '/assets/site-logo/10x-tax-pro.png' },
   mainNav: {
     left: [
       {
-        title: "Home",
-        slug: "/",
+        title: 'Home',
+        slug: '/',
       },
       {
-        title: "Services",
-        slug: "/services",
+        title: 'Services',
+        slug: '/services',
       },
       {
-        title: "About Us",
-        slug: "/about-us",
-      },
-    ],
-    right: [
-      {
-        title: "Appointment",
-        slug: "/appointment",
-      },
-      {
-        title: "Blog",
-        slug: "/blog",
-      },
-      {
-        title: "Contact Us",
-        slug: "/contact-us",
+        title: 'About Us',
+        slug: '/about-us',
       },
     ],
   },
   mobileNav: [
     {
-      title: "Home",
-      slug: "/",
+      title: 'Home',
+      slug: '/',
     },
     {
-      title: "Services",
-      slug: "/services",
+      title: 'Services',
+      slug: '/services',
     },
     {
-      title: "About Us",
-      slug: "/about-us",
+      title: 'About Us',
+      slug: '/about-us',
     },
     {
-      title: "Appointment",
-      slug: "/appointment",
+      title: 'Appointment',
+      slug: '/appointment',
     },
     {
-      title: "Blog",
-      slug: "/blog",
+      title: 'Blog',
+      slug: '/blog',
     },
     {
-      title: "Contact Us",
-      slug: "/contact-us",
+      title: 'Contact Us',
+      slug: '/contact-us',
     },
   ],
 
   footer: {
-    footer_logo: "/assets/site-logo/footer-logo.svg",
+    footer_logo: '/assets/site-logo/footer-logo.svg',
     description:
-      "Accumsan volutpat ocurrersolet numquam accom modare quo et. Et vidit choro aliquid pro inani eir mod vituperata duo. Ut ludus vulputate quvartem accom modare eos novix error percipitur.",
-    company: [
+      'Accumsan volutpat ocurrersolet numquam accom modare quo et. Et vidit choro aliquid pro inani eir mod vituperata duo. Ut ludus vulputate quvartem accom modare eos novix error percipitur.',
+    openingTime: [
       {
-        title: "Career",
-        slug: "/career",
+        day: 'Monday',
+        time: '9 AM–5 PM',
       },
       {
-        title: "Angel Investor",
-        slug: "/angel-investor",
+        day: 'Tuesday',
+        time: '9 AM–5 PM',
       },
       {
-        title: "Terms of Service",
-        slug: "/terms-of-service",
+        day: 'Wednesday',
+        time: '9 AM–5 PM',
       },
       {
-        title: "Legal Information",
-        slug: "/leagal-information",
+        day: 'Thursday',
+        time: '9 AM–5 PM',
       },
       {
-        title: "Credits",
-        slug: "/credits",
+        day: 'Friday',
+        time: '9 AM–5 PM',
+      },
+      {
+        day: 'Saturday',
+        time: 'Closed',
+      },
+      {
+        day: 'Sunday',
+        time: 'Closed',
       },
     ],
+
     quick_links: [
       {
-        title: "Home",
-        slug: "/",
+        title: 'Home',
+        slug: '/',
       },
       {
-        title: "Services",
-        slug: "/services",
+        title: 'Services',
+        slug: '/services',
       },
       {
-        title: "About Us",
-        slug: "/about-us",
+        title: 'About Us',
+        slug: '/about-us',
       },
       {
-        title: "News",
-        slug: "/blog",
+        title: 'News',
+        slug: '/blog',
       },
       {
-        title: "Contact Us",
-        slug: "/contact-us",
+        title: 'Contact Us',
+        slug: '/contact-us',
       },
     ],
     contact_us: [
       {
-        title: "1543 Lakeland Hills Blvd, Ste. 17, Lakeland, FL 33805",
+        title: '1543 Lakeland Hills Blvd, Ste. 17, Lakeland, FL 33805',
         icon: ` <svg
         className="w-4 h-4"
         aria-hidden="true"
@@ -127,34 +122,34 @@ export const SITECONFIG = {
       </svg>`,
       },
       {
-        title: "info@trip-law.com",
-        slug: "/services",
+        title: 'info@trip-law.com',
+        slug: '/services',
       },
       {
-        title: "(863)-599-6735",
-        slug: "/about-us",
+        title: '(863)-599-6735',
+        slug: '/about-us',
       },
     ],
   },
   socialLinks: [
     {
-      title: "Facebook",
-      url: "",
+      title: 'Facebook',
+      url: '',
     },
     {
-      title: "Twitter",
-      url: "#",
+      title: 'Twitter',
+      url: '#',
     },
     {
-      title: "Instagram",
-      url: "#",
+      title: 'Instagram',
+      url: '#',
     },
     {
-      title: "LinkedIn",
-      url: "#",
+      title: 'LinkedIn',
+      url: '#',
     },
   ],
-  address: "1543 Lakeland Hills Blvd, Ste. 17, Lakeland, FL 33805",
-  phone: "info@trip-law.com",
-  email: "(863)-599-6735",
+  address: '1543 Lakeland Hills Blvd, Ste. 17, Lakeland, FL 33805',
+  phone: 'info@trip-law.com',
+  email: '(863)-599-6735',
 };
