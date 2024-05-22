@@ -1,9 +1,9 @@
-'use client';
-import React from 'react';
-import { Button } from '@nextui-org/react';
-import { useRouter } from 'next/navigation';
+"use client";
+import React from "react";
+import { Button } from "@nextui-org/react";
+import { useRouter } from "next/navigation";
 
-const ScondayButton = ({
+const SecondaryButton = ({
   title,
   radius,
   style,
@@ -27,4 +27,4 @@ const ScondayButton = ({
   );
 };
 
-export default ScondayButton;
+export default SecondaryButton;
