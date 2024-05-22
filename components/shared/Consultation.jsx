@@ -4,7 +4,7 @@ import SecondaryButton from "./SecondaryButton";
 
 const Consultation = () => {
   return (
-    <SectionLayout>
+    <section className="mx-auto flex justify-center items-center w-full px-[1.5rem] pb-[3.5rem]">
       <div className="max-w-[800px] mx-auto text-center">
         <h2 className="text-4xl font-semibold mb-6">
           Consultations for our service
@@ -21,7 +21,7 @@ const Consultation = () => {
           radius={"sm"}
         />
       </div>
-    </SectionLayout>
+    </section>
   );
 };
 
