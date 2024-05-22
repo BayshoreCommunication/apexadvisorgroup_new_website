@@ -7,7 +7,7 @@ import { articlesInfo } from "@/config/data";
 import WhiteButton from "../shared/WhiteButton";
 import MotionEffect from "../motion/MotionEffect";
 import CardMotion from "../motion/CardMotion";
-import ScondayButton from "../shared/ScondayButton";
+import SecondaryButton from "../shared/SecondaryButton";
 import ServiceSlider from "./ServiceSlider";
 const bitter = Bitter({ subsets: ["latin"] });
 const mulish = Mulish({ subsets: ["latin"] });

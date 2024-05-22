@@ -2,7 +2,7 @@ import PageHeroSection from "@/components/shared/PageHeroSection";
 import React from "react";
 import aboutUsPage from "../../public/image/about-us-page.jpg";
 import GroupMembers from "@/components/about/GroupMembers";
-import Consultation from "@/components/about/Consultation";
+import Consultation from "@/components/shared/Consultation";
 
 const page = () => {
   return (

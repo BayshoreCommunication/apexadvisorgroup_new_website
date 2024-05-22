@@ -7,7 +7,7 @@ import MotionEffect from "../motion/MotionEffect";
 import { Mulish, Bitter } from "next/font/google";
 import { Card, CardBody, CardFooter, Image } from "@nextui-org/react";
 import BlackButton from "../shared/BlackButton";
-import ScondayButton from "../shared/SecondaryButton";
+import SecondaryButton from "../shared/SecondaryButton";
 import GetAllPostData from "@/lib/GetAllPostData";
 import Link from "next/link";
 
@@ -67,7 +67,7 @@ const NewsSection = async () => {
             }}
           >
             <div className="flex justify-end invisible md:visible">
-              <ScondayButton
+              <SecondaryButton
                 title={"View All"}
                 link={"/blog"}
                 style={"bg-[#1B2639] text-white"}
@@ -139,7 +139,7 @@ const NewsSection = async () => {
           }}
         >
           <div className="flex justify-center visible md:invisible mt-12 md:mt-[-60px]">
-            <ScondayButton
+            <SecondaryButton
               title={"View All"}
               link={"/blog"}
               style={"bg-[#1B2639] text-white"}

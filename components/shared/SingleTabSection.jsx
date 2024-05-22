@@ -13,7 +13,7 @@ import { Mulish, Bitter } from "next/font/google";
 import BlackButton from "./BlackButton";
 import MotionEffect from "../motion/MotionEffect";
 import CardMotion from "../motion/CardMotion";
-import ScondayButton from "./SecondaryButton";
+import SecondaryButton from "./SecondaryButton";
 import ServicesButton from "./ServicesButton";
 
 const bitter = Bitter({ subsets: ["latin"] });

@@ -11,7 +11,7 @@ import {
 import { FaXTwitter } from "react-icons/fa6";
 import MotionEffect from "./motion/MotionEffect";
 import { SITECONFIG } from "@/config/site";
-import ScondayButton from "./shared/SecondaryButton";
+import SecondaryButton from "./shared/SecondaryButton";
 
 const Footer = () => {
   return (
@@ -95,7 +95,7 @@ const Footer = () => {
                     />
                   </li>
                   <li className="mb-4 flex items-center gap-3">
-                    <ScondayButton
+                    <SecondaryButton
                       title={"Subscribe"}
                       link={"/"}
                       style={"border-2 text-white"}

@@ -14,7 +14,7 @@ import {
 import { usePathname } from "next/navigation";
 import { SITECONFIG } from "@/config/site";
 import Image from "next/image";
-import ScondayButton from "./shared/SecondaryButton";
+import SecondaryButton from "./shared/SecondaryButton";
 
 const MainNavbar = () => {
   const pathname = usePathname();
@@ -72,7 +72,7 @@ const MainNavbar = () => {
         justify="end"
       >
         <div className="flex gap-4 justify-end items-end">
-          <ScondayButton
+          <SecondaryButton
             title={"Email Now"}
             link={"/"}
             style={"bg-[#0E758B] text-white"}
@@ -98,7 +98,7 @@ const MainNavbar = () => {
               </div>
               <p>(813) 678 2400</p>
             </div>
-            <ScondayButton
+            <SecondaryButton
               title={"Book an appoinment"}
               link={"/"}
               style={"bg-[#0E758B] text-white"}
