@@ -8,7 +8,7 @@ const page = () => {
       <PageHeroSection
         heading={'Services'}
         subheading={'By Apex Advisor Group Inc'}
-        image={ServicePage}
+        image={'/image/services.jpg'}
         width={1000}
         height={657}
       />
