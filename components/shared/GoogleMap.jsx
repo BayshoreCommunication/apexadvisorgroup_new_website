@@ -1,16 +1,16 @@
-import React from "react";
+import React from 'react';
 
 const GoogleMap = () => {
   return (
-    <div className="">
+    <div className=''>
       <iframe
-        className="absolute left-0 top-0 h-full w-full"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28165.427442414046!2d-81.98759941612768!3d28.064841688735978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88dd40aacfff5f3f%3A0x9c6292c6be609e8b!2s1543%20Lakeland%20Hills%20Blvd%20%2317%2C%20Lakeland%2C%20FL%2033805%2C%20USA!5e0!3m2!1sen!2sbd!4v1709022100498!5m2!1sen!2sbd"
-        width="600"
-        height="450"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
+        className='absolute left-0 top-0 h-full w-full'
+        src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d451077.960865704!2d-82.332259!3d27.96186!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2cfbb1f31d2d9%3A0x7b3e4d8f350e516e!2sApex%20Tax%20%26%20Accounting%20Services!5e0!3m2!1sen!2sbd!4v1716372216631!5m2!1sen!2sbd'
+        width='600'
+        height='450'
+        allowfullscreen=''
+        loading='lazy'
+        referrerpolicy='no-referrer-when-downgrade'
       ></iframe>
     </div>
   );

@@ -1,4 +1,5 @@
 'use client';
+import Link from 'next/link';
 import SectionLayout from '../shared/SectionLayout';
 import { motion } from 'framer-motion';
 
@@ -51,12 +52,13 @@ const HeroSection = () => {
                 variants={itemVariants}
                 className='mt-8 flex justify-center md:justify-start'
               >
-                <button
+                <Link
+                  href={'/contact'}
                   type='button'
                   class='text-white bg-none hover:bg-[#0E758B] font-medium text-base md:text-lxl px-6 md:px-8 py-2.5 me-0 md:me-6 mb-2 border border-white '
                 >
                   GET IN TOUCH
-                </button>
+                </Link>
               </motion.div>
             </div>
             <div></div>
