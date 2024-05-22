@@ -7,7 +7,7 @@ import ImageMotion from "../motion/ImageMotion";
 import MotionEffect from "../motion/MotionEffect";
 import { Mulish, Bitter } from "next/font/google";
 import BlackButton from "../shared/BlackButton";
-import ScondayButton from "../shared/ScondayButton";
+import SecondaryButton from "../shared/SecondaryButton";
 import VideoPlayer from "../shared/Video/VideoPlayer";
 
 const bitter = Bitter({ subsets: ["latin"] });
@@ -48,7 +48,7 @@ const ScheduleSection = () => {
                 journey abroad.
               </p>
               <div className="flex justify-center mt-8 md:justify-start">
-                <ScondayButton
+                <SecondaryButton
                   title={"Schedule Free Consultation"}
                   link={"/appointment"}
                   style={"bg-[#1B2639] text-white"}
