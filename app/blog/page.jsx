@@ -86,7 +86,7 @@ const page = async () => {
                     Need Consultacy Help?
                   </h2>
 
-                  <p className='mb-4 text-lg text-stone-200 text-center max-w-[780px] mt-4 mx-4 mb-4'>
+                  <p className='text-lg text-stone-200 text-center max-w-[780px] mt-4 mx-4 mb-4'>
                     We are here to give you 24/7 hours services.
                   </p>
                   <div className='flex items-start justify-center'>
