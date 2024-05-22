@@ -1,17 +1,7 @@
-'use client';
-import Image from 'next/image';
+
 import React from 'react';
 import SectionLayout from '../shared/SectionLayout';
-import CardMotion from '../motion/CardMotion';
-import ImageMotion from '../motion/ImageMotion';
-import MotionEffect from '../motion/MotionEffect';
-import { motion } from 'framer-motion';
-import { Mulish, Bitter } from 'next/font/google';
-import BlackButton from '../shared/BlackButton';
-import RevealMotion from '../motion/RevealMotion';
-import ScondayButton from '../shared/ScondayButton';
-import { Suspense } from 'react';
-import VideoPlayer from '../shared/Video/VideoPlayer';
+
 
 const AboutSection = () => {
   return (

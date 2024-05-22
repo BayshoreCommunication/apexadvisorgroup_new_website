@@ -1,18 +1,11 @@
 'use client';
 import React from 'react';
 import SectionLayout from '../shared/SectionLayout';
-import CardMotion from '../motion/CardMotion';
-import ImageMotion from '../motion/ImageMotion';
-import MotionEffect from '../motion/MotionEffect';
-import { Mulish, Bitter } from 'next/font/google';
 import { Card, CardBody, CardFooter, Image } from '@nextui-org/react';
-import BlackButton from '../shared/BlackButton';
-import ScondayButton from '../shared/ScondayButton';
 import GetAllPostData from '@/lib/GetAllPostData';
 import Link from 'next/link';
+import SecondaryButton from '../shared/SecondaryButton';
 
-const bitter = Bitter({ subsets: ['latin'] });
-const mulish = Mulish({ subsets: ['latin'] });
 
 const BlogSection = async () => {
   const blogPostData = await GetAllPostData();
@@ -71,7 +64,7 @@ const BlogSection = async () => {
                     <h2 className='text-default-500 text-lg font-bold line-clamp-1 mb-2'>
                       {blogs?.title}
                     </h2>
-                    <ScondayButton
+                    <SecondaryButton
                       title={'Read More'}
                       href={`/blog/${blogs?.slug}`}
                       style={'bg-[#0E758B] text-white'}
