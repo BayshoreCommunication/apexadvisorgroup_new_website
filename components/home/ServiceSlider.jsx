@@ -6,10 +6,11 @@ import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
 import { Pagination, Autoplay } from 'swiper/modules';
 import Image from 'next/image';
+import { sliderData } from '@/config/sliderData';
 
 export default function ServiceSlider() {
   return (
-    <div className='flex justify-center items-center bg-gray-100 py-10'>
+    <div className='flex justify-center items-center py-10'>
       <Swiper
         spaceBetween={30}
         pagination={{
@@ -36,24 +37,21 @@ export default function ServiceSlider() {
           },
         }}
       >
-        {Array.from({ length: 9 }).map((_, index) => (
+        {sliderData?.map((el, index) => (
           <SwiperSlide key={index}>
-            <div className='flex justify-center items-center bg-slate-50 rounded-lg h-[350px] mb-10 p-5 shadow-md'>
+            <div className='flex justify-center items-start rounded-lg h-[350px] mb-10 p-5 shadow-md bg-slate-50'>
               <div>
                 <Image
                   width={45}
                   height={45}
-                  src={'/image/resicon.png'}
-                  alt='about img'
-                  className=''
+                  src={`/image/${el.image}`}
+                  alt={el.image}
                 />
                 <h2 className='text-stone-900 font-bold text-2xl mt-5 mb-2 text-left'>
-                  Our Services
+                  {el.titt}
                 </h2>
                 <p className='mb-4 text-md text-stone-900 text-left mt-2'>
-                  Introducing our top-rated service that offers expert solutions
-                  for all your needs. Our team of professionals provide
-                  efficient and reliable
+                  {el.detail}
                 </p>
               </div>
             </div>
