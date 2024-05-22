@@ -1,9 +1,108 @@
-import React from "react";
+import MotionEffect from '@/components/motion/MotionEffect';
+import PageHeroSection from '@/components/shared/PageHeroSection';
+import SectionLayout from '@/components/shared/SectionLayout';
+import GetAllPostData from '@/lib/GetAllPostData';
+import Image from 'next/image';
+import Link from 'next/link';
+import parse from 'html-react-parser';
+import SecondaryButton from '@/components/shared/SecondaryButton';
 
-const page = () => {
+const page = async () => {
+  const blogPostData = await GetAllPostData();
+
+  const postDate = (date) => {
+    const formattedDate = new Date(date).toLocaleDateString('en-US', {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+    });
+    return formattedDate;
+  };
+
   return (
     <div>
-      <h1>blog</h1>
+      <PageHeroSection
+        heading={'Blogs'}
+        subheading={'By Apex Advisor Group Inc'}
+        image={'/image/blog-image.jpg'}
+        alt={'About Us Image'}
+        width={1000}
+        height={657}
+      />
+      <SectionLayout>
+        <div className='flex items-start justify-center gap-12'>
+          <div className='w-[75%]'>
+            {blogPostData?.data
+              ?.filter((pub, no) => pub.published === true)
+              ?.map((blogs, index) => (
+                <div className='mb-14'>
+                  <Link href={`/blog/${blogs?.slug}`}>
+                    <div>
+                      <MotionEffect effect='fade-right' duration='2000'>
+                        <Image
+                          width={1800}
+                          height={300}
+                          src={blogs?.featuredImage?.image?.url}
+                          alt={blogs?.featuredImage?.altText}
+                          className='bg-center bg-cover'
+                        />
+
+                        <p className='text-[1rem] text-black text-left italic mt-2'>
+                          {postDate(blogs?.createdAt)}
+                        </p>
+                        <h2 className='text-2xl tracking-normal font-bold text-[#1B2639] text-left mb-4 mt-3 '>
+                          {blogs?.title}
+                        </h2>
+                        <div className='font-normal text-[1rem] text-black mb-8 line-clamp-6'>
+                          {parse(blogs?.body)}
+                        </div>
+                        <div className='flex justify-center md:justify-start'>
+                          <button
+                            type='button'
+                            class='text-white bg-[#1B2639] hover:bg-[#162030] font-medium  text-lg px-4 py-2 me-2 mb-2 focus:outline-none rounded-md'
+                          >
+                            Read More
+                          </button>
+                          {/* <button
+                          type="button"
+                          class="text-white bg-[#1B2639] hover:bg-[#162030] focus:ring-4 focus:ring-blue-300 font-medium  text-lg px-4 py-2 me-2 mb-2 focus:outline-none rounded-md"
+                        >
+                          Research
+                        </button> */}
+                        </div>
+                      </MotionEffect>
+                    </div>
+                  </Link>
+                </div>
+              ))}
+          </div>
+          <div className='w-[25%] '>
+            <div className='bg-[#EEF6F8] p-6 '>
+              <div className="bg-[url('/image/contact-banner.jpg')] bg-cover bg-center w-[100%] h-[500px] flex items-center justify-center">
+                <div>
+                  <h2
+                    className={`text-stone-50 font-bold text-3xl mt-5 mb-4 text-center`}
+                  >
+                    Need Consultacy Help?
+                  </h2>
+
+                  <p className='mb-4 text-lg text-stone-200 text-center max-w-[780px] mt-4 mx-4 mb-4'>
+                    We are here to give you 24/7 hours services.
+                  </p>
+                  <div className='flex items-start justify-center'>
+                    <SecondaryButton
+                      title={'Contact Us'}
+                      link={'/'}
+                      style={'bg-[#0E758B] text-white'}
+                      radius={'sm'}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </SectionLayout>
     </div>
   );
 };
