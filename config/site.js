@@ -10,12 +10,24 @@ export const SITECONFIG = {
       slug: '/',
     },
     {
+      title: 'About',
+      slug: '/about',
+    },
+    {
       title: 'Services',
       slug: '/services',
     },
     {
-      title: 'About Us',
-      slug: '/about-us',
+      title: 'Services Area',
+      slug: '/services-area',
+    },
+    {
+      title: 'Blog',
+      slug: '/blog',
+    },
+    {
+      title: 'Contact',
+      slug: '/contact',
     },
   ],
 
