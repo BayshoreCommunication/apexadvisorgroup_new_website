@@ -19,7 +19,7 @@ const ScondayButton = ({
       radius={radius}
       size={size}
       variant={variant}
-      className={`${style} shadow-lg font-medium text-lg px-10 py-4 mb-2`}
+      className={`${style} shadow-lg font-medium text-lg px-5 py-4 mb-2`}
       onClick={() => router.push(link)}
     >
       {title}

@@ -6,30 +6,44 @@ import CardMotion from '../motion/CardMotion';
 
 function TestimonialSection() {
   return (
-    <SectionLayout img="bg-[url('/image/homebanner3.png')] bg-cover bg-center bg-fixed">
+    <SectionLayout img="bg-[url('/image/homebanner3.png')] bg-cover bg-center">
       <div className=''>
-        <div className='grid grid-cols-1 md:grid-cols-2 items-center justify-center md:justify-start'>
+        <div className='grid grid-cols-1 md:grid-cols-2 items-center justify-center md:justify-start gap-16'>
           <div className=''>
             <h2
-              className={`text-stone-900 md:text-stone-50 font-bold text-3xl mt-5 mb-4 text-center md:text-left`}
+              className={`text-stone-900 font-bold text-3xl mt-5 mb-4 text-center md:text-left`}
             >
               Investing in You: Your Trusted Partner for a Brighter Financial
               Tomorrow
             </h2>
 
-            <p className='mb-4 text-lg text-stone-900 md:text-stone-50 text-center md:text-left mt-6'>
+            <p className='mb-4 text-lg text-stone-900 text-center md:text-left mt-6'>
               Boasting over a decade of experience, we handle everything from
               personal returns, non-profit & multi-state to tricky corporate tax
-              matters. We walk you through tax planning, wealth management, and
-              retirement services, ensuring you hit your financial targets. By
-              cutting down on your tax bill and pumping up your savings, we make
-              sure you keep more of your cash We help you build, grow, and
+              matters.
+              <br /> We walk you through tax planning, wealth management, and
+              retirement services, ensuring you hit your financial targets.{' '}
+              <br />
+              By cutting down on your tax bill and pumping up your savings, we
+              make sure you keep more of your cash We help you build, grow, and
               maintain your wealth through personalized strategies and financial
-              planning solutions We're all about being the best. We're plugged
-              into the community, stay on top of tax law changes, and keep on
-              learning. You benefit from a team that's always growing and
-              improving to serve you better.
+              planning solutions We're all about being the best. <br /> We're
+              plugged into the community, stay on top of tax law changes, and
+              keep on learning. <br />
+              You benefit from a team that's always growing and improving to
+              serve you better.
             </p>
+          </div>
+          <div>
+            <div className='video-container'>
+              <iframe
+                src={`https://www.youtube.com/embed/R65ByIK9M8g?si=gswu9LsX3OO0SoOv`}
+                frameBorder='0'
+                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                allowFullScreen
+                title='YouTube video player'
+              ></iframe>
+            </div>
           </div>
         </div>
       </div>
