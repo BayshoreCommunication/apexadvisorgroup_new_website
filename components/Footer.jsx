@@ -11,7 +11,7 @@ import {
 import { FaXTwitter } from "react-icons/fa6";
 import MotionEffect from "./motion/MotionEffect";
 import { SITECONFIG } from "@/config/site";
-import ScondayButton from "./shared/ScondayButton";
+import ScondayButton from "./shared/SecondaryButton";
 
 const Footer = () => {
   return (

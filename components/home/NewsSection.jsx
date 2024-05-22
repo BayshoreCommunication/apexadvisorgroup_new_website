@@ -7,7 +7,7 @@ import MotionEffect from "../motion/MotionEffect";
 import { Mulish, Bitter } from "next/font/google";
 import { Card, CardBody, CardFooter, Image } from "@nextui-org/react";
 import BlackButton from "../shared/BlackButton";
-import ScondayButton from "../shared/ScondayButton";
+import ScondayButton from "../shared/SecondaryButton";
 import GetAllPostData from "@/lib/GetAllPostData";
 import Link from "next/link";
 
@@ -25,7 +25,6 @@ const NewsSection = async () => {
     });
     return formattedDate;
   };
-
 
   return (
     <SectionLayout bg="bg-slate-50 ">
@@ -93,8 +92,7 @@ const NewsSection = async () => {
           <div className="gap-4 grid grid-cols-1 sm:grid-cols-3 mt-0 md:mt-12">
             {blogPostData?.data
               ?.filter((pub, no) => pub.published === true && no < 3)
-              ?.map((blogs, index) =>
-
+              ?.map((blogs, index) => (
                 <Link href={`/blog/${blogs?.slug}`}>
                   <Card
                     shadow="sm"
@@ -102,7 +100,6 @@ const NewsSection = async () => {
                     key={index}
                     isPressable
                     onPress={() => console.log("item pressed")}
-
                   >
                     <CardBody className=" p-0">
                       <Image
@@ -118,11 +115,13 @@ const NewsSection = async () => {
                       <h2 className="text-default-500 text-lg font-bold line-clamp-1">
                         {blogs?.title}
                       </h2>
-                      <p className="text-default-500 block">{postDate(blogs?.createdAt)}</p>
+                      <p className="text-default-500 block">
+                        {postDate(blogs?.createdAt)}
+                      </p>
                     </CardFooter>
                   </Card>
                 </Link>
-              )}
+              ))}
           </div>
         </CardMotion>
 
@@ -148,8 +147,8 @@ const NewsSection = async () => {
             />
           </div>
         </CardMotion>
-      </div >
-    </SectionLayout >
+      </div>
+    </SectionLayout>
   );
 };
 

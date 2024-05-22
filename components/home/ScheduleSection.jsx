@@ -7,7 +7,7 @@ import ImageMotion from "../motion/ImageMotion";
 import MotionEffect from "../motion/MotionEffect";
 import { Mulish, Bitter } from "next/font/google";
 import BlackButton from "../shared/BlackButton";
-import ScondayButton from "../shared/ScondayButton";
+import ScondayButton from "../shared/SecondaryButton";
 import VideoPlayer from "../shared/Video/VideoPlayer";
 
 const bitter = Bitter({ subsets: ["latin"] });

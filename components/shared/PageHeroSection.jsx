@@ -18,11 +18,11 @@ const PageHeroSection = ({
     <section className="bg-[#11869912] overflow-hidden">
       <MotionEffect effect={"fade-up"} duration={"2000"}>
         <div className="lg:flex gap-10 items-center ">
-          <div className="p-10 lg:ps-[15%] w-full lg:max-w-[46%] text-center lg:text-start">
+          <div className="p-10 lg:py-0 lg:pe-0 lg:ps-[11%] w-full lg:max-w-[50%] text-center lg:text-start">
             <h2 className="text-4xl font-semibold mb-4 ">{heading}</h2>
             <h4 className="text-2xl font-medium mb-4 ">{subheading}</h4>
-            <p className="text-lg  my-3 ">{paragraphOne}</p>
-            <p className="text-lg   ">{paragraphTwo}</p>
+            <p className="text-base my-3 ">{paragraphOne}</p>
+            <p className="text-base  ">{paragraphTwo}</p>
           </div>
           <div className="w-full hidden lg:block">
             <Image

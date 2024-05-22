@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 import { Mulish, Bitter } from "next/font/google";
 import BlackButton from "../shared/BlackButton";
 import RevealMotion from "../motion/RevealMotion";
-import ScondayButton from "../shared/ScondayButton";
+import ScondayButton from "../shared/SecondaryButton";
 import { Suspense } from "react";
 import VideoPlayer from "../shared/Video/VideoPlayer";
 

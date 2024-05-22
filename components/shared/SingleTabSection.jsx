@@ -1,29 +1,29 @@
-'use client';
-import React, { useEffect, useState } from 'react';
+"use client";
+import React, { useEffect, useState } from "react";
 import {
   Tabs,
   TabsHeader,
   TabsBody,
   Tab,
   TabPanel,
-} from '@material-tailwind/react';
-import parse from 'html-react-parser';
-import Image from 'next/image';
-import { Mulish, Bitter } from 'next/font/google';
-import BlackButton from './BlackButton';
-import MotionEffect from '../motion/MotionEffect';
-import CardMotion from '../motion/CardMotion';
-import ScondayButton from './ScondayButton';
-import ServicesButton from './ServicesButton';
+} from "@material-tailwind/react";
+import parse from "html-react-parser";
+import Image from "next/image";
+import { Mulish, Bitter } from "next/font/google";
+import BlackButton from "./BlackButton";
+import MotionEffect from "../motion/MotionEffect";
+import CardMotion from "../motion/CardMotion";
+import ScondayButton from "./SecondaryButton";
+import ServicesButton from "./ServicesButton";
 
-const bitter = Bitter({ subsets: ['latin'] });
-const mulish = Mulish({ subsets: ['latin'] });
+const bitter = Bitter({ subsets: ["latin"] });
+const mulish = Mulish({ subsets: ["latin"] });
 
 export function SingleTabSection({ tabsData }) {
-  const [activeTab, setActiveTab] = React.useState('2');
+  const [activeTab, setActiveTab] = React.useState("2");
 
   return (
-    <Tabs value='2'>
+    <Tabs value="2">
       <CardMotion
         whileInView={{
           opacity: 1,
@@ -40,19 +40,19 @@ export function SingleTabSection({ tabsData }) {
         <TabsHeader
           className={`p-1 rounded-full bg-[#F4F4F4] md:p-1 flex items-center justify-center `}
           indicatorProps={{
-            className: 'bg-[#1B2639] shadow-none rounded-full',
+            className: "bg-[#1B2639] shadow-none rounded-full",
           }}
         >
           {tabsData?.map(({ label, value }) => (
             <Tab
               key={value}
               value={value}
-              className='md:p-2 p-2 !text-center '
+              className="md:p-2 p-2 !text-center "
               onClick={() => setActiveTab(value)}
             >
-              <div className='flex items-center gap-x-6 gap-y-2 md:flex-col md:justify-center 2xl:flex-row'>
+              <div className="flex items-center gap-x-6 gap-y-2 md:flex-col md:justify-center 2xl:flex-row">
                 <div
-                  className={`py-2 sm:text-lg text-xs text-gray-750 ${bitter.className} ${activeTab === value ? 'text-gray-50 duration-1000' : ''}`}
+                  className={`py-2 sm:text-lg text-xs text-gray-750 ${bitter.className} ${activeTab === value ? "text-gray-50 duration-1000" : ""}`}
                 >
                   {parse(label)}
                 </div>
@@ -74,33 +74,33 @@ export function SingleTabSection({ tabsData }) {
           y: 100,
         }}
       >
-        <TabsBody className='p-0 m-0'>
+        <TabsBody className="p-0 m-0">
           {tabsData?.map(({ label, content, value, slug, img }) => (
-            <TabPanel key={value} value={value} className='p-0 m-0'>
-              <div className='flex flex-col-reverse md:flex-row gap-5 items-center mt-0 md:mt-14'>
-                <div className='w-[100%] md:w-[75%]'>
+            <TabPanel key={value} value={value} className="p-0 m-0">
+              <div className="flex flex-col-reverse md:flex-row gap-5 items-center mt-0 md:mt-14">
+                <div className="w-[100%] md:w-[75%]">
                   <p
                     className={`mb-4 text-lg text-stone-950 text-center md:text-left ${mulish.className}`}
                   >
                     {content}
                   </p>
-                  <div className='flex justify-center mt-8 md:justify-start'>
+                  <div className="flex justify-center mt-8 md:justify-start">
                     <ServicesButton
-                      title={'Learn more'}
+                      title={"Learn more"}
                       link={slug}
-                      style={'bg-[#1B2639] text-white'}
-                      radius={'sm'}
+                      style={"bg-[#1B2639] text-white"}
+                      radius={"sm"}
                     />
                   </div>
                 </div>
 
-                <div className='w-[100%]'>
-                  <div className='flex justify-center items-center mt-8 md:mt-0'>
+                <div className="w-[100%]">
+                  <div className="flex justify-center items-center mt-8 md:mt-0">
                     <Image
                       width={1000}
                       height={400}
                       src={img}
-                      alt='about img'
+                      alt="about img"
                     />
                   </div>
                 </div>

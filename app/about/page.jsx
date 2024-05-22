@@ -1,6 +1,8 @@
 import PageHeroSection from "@/components/shared/PageHeroSection";
 import React from "react";
 import aboutUsPage from "../../public/image/about-us-page.jpg";
+import GroupMembers from "@/components/about/GroupMembers";
+import Consultation from "@/components/about/Consultation";
 
 const page = () => {
   return (
@@ -19,6 +21,8 @@ const page = () => {
         width={1000}
         height={657}
       />
+      <GroupMembers />
+      <Consultation />
     </div>
   );
 };
