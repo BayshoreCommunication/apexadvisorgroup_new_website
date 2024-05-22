@@ -23,7 +23,7 @@ const MainNavbar = () => {
     <Navbar
       shouldHideOnScroll
       maxWidth='2xl'
-      className='flex  bg-white bg-cover my-8'
+      className='flex  bg-white bg-cover md:my-8 my-2'
     >
       <NavbarContent className='md:hidden ml-0' justify='start'>
         <NavbarMenuToggle className='text-slate-900 ml-0' />
@@ -31,7 +31,7 @@ const MainNavbar = () => {
 
       <NavbarContent className=' md:hidden' justify='end'>
         <Image
-          width={280}
+          width={100}
           height={130}
           src={'/image/apex-logo.png'}
           alt='apex-logo'
@@ -54,20 +54,18 @@ const MainNavbar = () => {
             />
           </Link>
         </NavbarItem>
-        <NavbarItem>
-          {SITECONFIG?.mainNav?.left?.map((nav, index) => {
-            return (
-              <NavbarItem key={index}>
-                <Link
-                  href={nav.slug}
-                  className={`flex text-slate-900 font-semibold text-lg hover:border-b-2 hover:border-solid hover:border-black ${pathname === nav.slug ? 'border-b-2 border-solid border-black' : ''}`}
-                >
-                  {nav.title}
-                </Link>
-              </NavbarItem>
-            );
-          })}
-        </NavbarItem>
+        {SITECONFIG?.navMenuItem?.map((nav, index) => {
+          return (
+            <NavbarItem key={index}>
+              <Link
+                href={nav.slug}
+                className={`flex text-slate-900 font-semibold text-lg hover:border-b-2 hover:border-solid hover:border-black ${pathname === nav.slug ? 'border-b-2 border-solid border-black' : ''}`}
+              >
+                {nav.title}
+              </Link>
+            </NavbarItem>
+          );
+        })}
       </NavbarContent>
       <NavbarContent
         className='justify-end items-end hidden gap-10 md:flex'
@@ -109,19 +107,19 @@ const MainNavbar = () => {
           </div>
         </div>
       </NavbarContent>
-      {/* <NavbarMenu className="ml-0">
-        {SITECONFIG?.mobileNav?.map((nav, index) => (
-          <NavbarMenuItem key={`${nav}-${index}`} className="list-none">
+      <NavbarMenu className='ml-0'>
+        {SITECONFIG?.navMenuItem?.map((nav, index) => (
+          <NavbarMenuItem key={`${nav}-${index}`} className='list-none'>
             <Link
-              className={`text-slate-900 font-semibold text-lg hover:border-b-2 hover:border-solid hover:border-black list-none ${pathname === nav.slug ? "border-b-2 border-solid border-black" : ""}`}
+              className={`text-slate-900 font-semibold text-lg hover:border-b-2 hover:border-solid hover:border-black list-none ${pathname === nav.slug ? 'border-b-2 border-solid border-black' : ''}`}
               href={nav.slug}
-              size="lg"
+              size='lg'
             >
               {nav.title}
             </Link>
           </NavbarMenuItem>
         ))}
-      </NavbarMenu> */}
+      </NavbarMenu>
     </Navbar>
   );
 };
