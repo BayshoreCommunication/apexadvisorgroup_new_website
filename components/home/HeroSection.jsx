@@ -1,9 +1,6 @@
-"use client";
-import SectionLayout from "../shared/SectionLayout";
-import { motion } from "framer-motion";
-import { Bitter } from "next/font/google";
-
-const bitter = Bitter({ subsets: ["latin"] });
+'use client';
+import SectionLayout from '../shared/SectionLayout';
+import { motion } from 'framer-motion';
 
 const HeroSection = () => {
   const visible = { opacity: 1, y: 0, transition: { duration: 0.5 } };
@@ -13,37 +10,21 @@ const HeroSection = () => {
     visible,
   };
 
-  const text = "Foundation of Justice is Good Faith".split(" ");
+  const text = '40+ YEARS OF COMBINED EXPERIENCE'.split(' ');
 
   return (
     <motion.div
-      initial="hidden"
-      animate="visible"
+      initial='hidden'
+      animate='visible'
       exit={{ opacity: 0, transition: { duration: 1 } }}
       variants={{ visible: { transition: { staggerChildren: 0.3 } } }}
     >
-      <div className="bg-[url('/assets/home/trip-low-hero-bg.jpg')] bg-cover bg-center bg-fixed">
+      <div className="bg-[url('/image/homebanner.png')] bg-cover bg-center bg-fixed">
         <SectionLayout>
-          <div className="grid grid-cols-1 md:grid-cols-3 items-center my-4 md:my-28">
-            <div className="col-span-2">
-              <motion.h2
-                variants={{
-                  hidden: { opacity: 0, y: -20 },
-                  visible,
-                }}
-                className="text-red-700 font-black text-2xl md:text-3xl"
-              >
-                Giving You Advices That Matters
-              </motion.h2>
-              <motion.hr
-                variants={{
-                  hidden: { opacity: 0, y: -20 },
-                  visible,
-                }}
-                class="h-[2px] my-2 bg-red-700 border-0 w-20"
-              ></motion.hr>
+          <div className='grid grid-cols-1 md:grid-cols-3 items-center my-4 md:my-28'>
+            <div className='col-span-2'>
               <h1
-                className={`text-[50px] md:text-[100px] font-[800] text-white md:text-left leading-tight tracking-normal ${bitter.className}`}
+                className={`text-[50px] md:text-[100px] font-[800] text-white text-center md:text-left leading-tight tracking-normal `}
               >
                 {text.map((el, i) => (
                   <motion.span
@@ -55,33 +36,26 @@ const HeroSection = () => {
                     }}
                     key={i}
                   >
-                    {el}{" "}
+                    {el}{' '}
                   </motion.span>
                 ))}
               </h1>
               <motion.p
                 variants={itemVariants}
-                className="text-white text-sm md:text-base max-w-[450px]"
+                className='text-white text-sm md:text-base max-w-[450px] text-center md:text-left mt-3'
               >
-                Malesuada felis facilisis diam sed volutpat sociis nibh enim
-                arcu Ac diam eget faucibus pulvinar nunc porttitor sit. Quam.
+                in the tax, accounting, insurance and financial services
+                industry.
               </motion.p>
               <motion.div
                 variants={itemVariants}
-                className="mt-8 flex justify-center md:justify-start"
+                className='mt-8 flex justify-center md:justify-start'
               >
-                <a
-                  type="button"
-                  class="text-white bg-red-700 hover:bg-red-800 font-medium text-base md:text-lg px-3 md:px-8 py-2.5 me-3 md:me-6 mb-2 uppercase"
-                  href="/appointment"
-                >
-                  Consultation
-                </a>
                 <button
-                  type="button"
-                  class="text-white bg-none hover:bg-red-800 font-medium text-base md:text-lg px-3 md:px-8 py-2.5 me-0 md:me-6 mb-2 border border-white "
+                  type='button'
+                  class='text-white bg-none hover:bg-[#0E758B] font-medium text-base md:text-lxl px-6 md:px-8 py-2.5 me-0 md:me-6 mb-2 border border-white '
                 >
-                  (863)-599-6735
+                  GET IN TOUCH
                 </button>
               </motion.div>
             </div>

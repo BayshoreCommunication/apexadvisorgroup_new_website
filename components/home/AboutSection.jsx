@@ -1,67 +1,58 @@
-"use client";
-import Image from "next/image";
-import React from "react";
-import SectionLayout from "../shared/SectionLayout";
-import CardMotion from "../motion/CardMotion";
-import ImageMotion from "../motion/ImageMotion";
-import MotionEffect from "../motion/MotionEffect";
-import { motion } from "framer-motion";
-import { Mulish, Bitter } from "next/font/google";
-import BlackButton from "../shared/BlackButton";
-import RevealMotion from "../motion/RevealMotion";
-import ScondayButton from "../shared/ScondayButton";
-import { Suspense } from "react";
-import VideoPlayer from "../shared/Video/VideoPlayer";
-
-const bitter = Bitter({ subsets: ["latin"] });
-const mulish = Mulish({ subsets: ["latin"] });
+'use client';
+import Image from 'next/image';
+import React from 'react';
+import SectionLayout from '../shared/SectionLayout';
+import CardMotion from '../motion/CardMotion';
+import ImageMotion from '../motion/ImageMotion';
+import MotionEffect from '../motion/MotionEffect';
+import { motion } from 'framer-motion';
+import { Mulish, Bitter } from 'next/font/google';
+import BlackButton from '../shared/BlackButton';
+import RevealMotion from '../motion/RevealMotion';
+import ScondayButton from '../shared/ScondayButton';
+import { Suspense } from 'react';
+import VideoPlayer from '../shared/Video/VideoPlayer';
 
 const AboutSection = () => {
   return (
-    <SectionLayout bg="bg-slate-50 ">
-      <div className="space-y-14">
-        <div className="flex flex-col-reverse md:flex-row gap-8 items-center">
-          <MotionEffect effect="fade-right" duration="2000">
-            <div className="">
-              <h2 className="text-stone-950 font-bold text-base">About</h2>
-              <hr class="h-[2px] my-0 bg-stone-950 border-0 w-4"></hr>
+    <SectionLayout bg='bg-slate-50 '>
+      <div className='space-y-14'>
+        <div className='flex items-center justify-center'>
+          <MotionEffect effect='fade-right' duration='2000'>
+            <div className=''>
               <h2
-                className={`text-stone-950 font-bold text-5xl mt-5 mb-4 text-center md:text-left ${bitter.className}`}
+                className={`text-stone-950 font-bold text-5xl mt-5 mb-4 text-center `}
               >
-                About Us
+                Apex Advisor Group Inc
               </h2>
+              <h4 className='mb-4 text-lg text-stone-950 font-bold text-center'>
+                Accounting Firm In Tampa, Florida
+              </h4>
 
-              <p className="mb-4 text-lg text-stone-950 text-center md:text-left">
-                Accumsan volutpat ocurreret id nam, solet numquam accommodare
-                quo et. Et vidit choro aliquid pro, ad inani eirmod vituperata
-                duo. Ut ludus vulputate qui, movartem accom modare eos no, vix
-                error percipitur.
+              <p className='mb-4 text-lg text-stone-950 text-center'>
+                Bookkeeping, Payroll, Tax Preparation, Credit Repair &
+                Counseling We here at Apex Advisor Group Inc are a team of
+                highly qualified professionals that have over 40+ years of
+                combined experience in the tax, accounting, insurance and
+                financial services industry. From personal tax returns and
+                financial planning to corporate formations and accounting
+                services, you can be confident that Apex Advisor Group Inc is
+                the right choice for you, your family and your business.
               </p>
-              <p className="mb-4 text-lg text-stone-950 text-center md:text-left">
-                Nunc, blandit libero, blandit nunc diam rhoncus viverra. Et nec
-                tellus nulla erisque ultricies massa sagittis dictum malesuada.
-                Urna id velit, quis morbi nibh duis massa odio. Iaculis massa
-                duis sit tellus adipiscing. Cursus amet
+              <p className='mb-4 text-lg text-stone-950 text-center'>
+                Our Tax Accountants serve clients across{' '}
+                <strong>
+                  Tampa, Brandon, Riverview, Sun City, Ruskin, Plant City,
+                  Wesley Chapel, Lithia{' '}
+                </strong>
+                and the surrounding areas.
               </p>
-              <div className="flex justify-center mt-8 md:justify-start">
-                <ScondayButton
-                  title={"READ MORE"}
-                  link={"/about-us"}
-                  style={"bg-[#1B2639] text-white"}
-                  radius={"sm"}
-                />
-              </div>
+              <p className='mb-4 text-lg text-stone-950 text-center'>
+                <strong>Contact Apex Advisor Group Inc</strong> - Tax
+                Preparation & Accounting Firm in Tampa, Florida.
+              </p>
             </div>
           </MotionEffect>
-          <div className="w-[100%]">
-            <MotionEffect effect="fade-left" duration="2000">
-              <div className="flex justify-center items-center">
-                <Suspense fallback={<p>Loading video...</p>}>
-                  <VideoPlayer src={"/assets/video/trip-law.mp4"} />
-                </Suspense>
-              </div>
-            </MotionEffect>
-          </div>
         </div>
       </div>
     </SectionLayout>
