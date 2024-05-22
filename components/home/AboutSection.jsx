@@ -18,7 +18,6 @@ const AboutSection = () => {
     <SectionLayout bg='bg-slate-50 '>
       <div className='space-y-14'>
         <div className='flex items-center justify-center'>
-          <MotionEffect effect='fade-right' duration='2000'>
             <div className=''>
               <h2
                 className={`text-stone-950 font-bold text-5xl mt-5 mb-4 text-center `}
