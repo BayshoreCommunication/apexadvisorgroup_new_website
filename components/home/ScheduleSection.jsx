@@ -5,32 +5,17 @@ import SectionLayout from "../shared/SectionLayout";
 import CardMotion from "../motion/CardMotion";
 import ImageMotion from "../motion/ImageMotion";
 import MotionEffect from "../motion/MotionEffect";
-import { Mulish, Bitter } from "next/font/google";
 import BlackButton from "../shared/BlackButton";
 import SecondaryButton from "../shared/SecondaryButton";
 import VideoPlayer from "../shared/Video/VideoPlayer";
 
-const bitter = Bitter({ subsets: ["latin"] });
-const mulish = Mulish({ subsets: ["latin"] });
 
 const ScheduleSection = () => {
   return (
     <SectionLayout bg="bg-[#F1F5FA] ">
       <div className="space-y-14">
         <div className="flex flex-col-reverse md:flex-row gap-8 items-center">
-          <CardMotion
-            whileInView={{
-              opacity: 1,
-              x: 0,
-              transition: {
-                duration: 1.1,
-              },
-            }}
-            initial={{
-              opacity: 0,
-              x: -100,
-            }}
-          >
+
             <div className="">
               <h2
                 className={`text-stone-950 font-bold text-4xl mt-5 mb-0.5 text-center md:text-left ${bitter.className}`}
@@ -56,21 +41,9 @@ const ScheduleSection = () => {
                 />
               </div>
             </div>
-          </CardMotion>
+
           <div className="w-[100%]">
-            <CardMotion
-              whileInView={{
-                opacity: 1,
-                x: 0,
-                transition: {
-                  duration: 1.1,
-                },
-              }}
-              initial={{
-                opacity: 0,
-                x: 100,
-              }}
-            >
+          
               <div className="flex justify-center items-center">
                 <div>
                   <Suspense fallback={<p>Loading video...</p>}>
@@ -78,7 +51,6 @@ const ScheduleSection = () => {
                   </Suspense>
                 </div>
               </div>
-            </CardMotion>
           </div>
         </div>
       </div>
