@@ -1,9 +1,15 @@
-import React from 'react';
+import AboutSection from '@/components/home/AboutSection';
+import HeroSection from '@/components/home/HeroSection';
+import ServiceSection from '@/components/home/ServiceSection';
+import TestimonialSection from '@/components/home/TestimonialSection';
 
 export default function Home() {
   return (
     <main className='w-full'>
-      <div className='bg-gray-800 py-28'>demo</div>
+      <HeroSection />
+      <AboutSection />
+      <ServiceSection />
+      <TestimonialSection />
     </main>
   );
 }
