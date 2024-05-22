@@ -7,7 +7,7 @@ import MotionEffect from "../motion/MotionEffect";
 import { Mulish, Bitter } from "next/font/google";
 import { Card, CardBody, CardFooter, Image } from "@nextui-org/react";
 import BlackButton from "../shared/BlackButton";
-import SecondaryButton from "../shared/SecondaryButton";
+import ScondayButton from "../shared/ScondayButton";
 import GetAllPostData from "@/lib/GetAllPostData";
 import Link from "next/link";
 
@@ -71,7 +71,7 @@ const BlogSection = async () => {
                     <h2 className="text-default-500 text-lg font-bold line-clamp-1 mb-2">
                       {blogs?.title}
                     </h2>
-                    <SecondaryButton
+                    <ScondayButton
                       title={"Read More"}
                       href={`/blog/${blogs?.slug}`}
                       style={"bg-[#0E758B] text-white"}

@@ -1,8 +1,4 @@
-import PageHeroSection from "@/components/shared/PageHeroSection";
 import React from "react";
-import ServicePage from "../../public/image/services.jpg";
-import Services from "@/components/services/Services";
-import Consultation from "@/components/shared/Consultation";
 
 const page = () => {
   return (
