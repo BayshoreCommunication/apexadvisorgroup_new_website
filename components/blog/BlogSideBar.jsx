@@ -36,12 +36,12 @@ const BlogSideBar = async () => {
             Our Services
           </h2>
           <div className='flex flex-col gap-y-2'>
-            {serviceData?.map((blogs, index) => (
+            {serviceData?.map((service, index) => (
               <Link
-                href={`/blog/${blogs?.slug}`}
+                href={`/services/${service?.slug}`}
                 className='bg-slate-200 text-slate-900 p-4 hover:bg-[#0B7788] hover:text-white rounded-md'
               >
-                {blogs?.navTitle}
+                {service?.navTitle}
               </Link>
             ))}
           </div>
