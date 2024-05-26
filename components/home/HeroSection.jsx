@@ -20,7 +20,7 @@ const HeroSection = () => {
       exit={{ opacity: 0, transition: { duration: 1 } }}
       variants={{ visible: { transition: { staggerChildren: 0.3 } } }}
     >
-      <div className="bg-[url('/image/homebanner.png')] bg-cover bg-center bg-fixed">
+      <div className="bg-[url('/image/homebanner.png')] bg-cover bg-left-bottom md:bg-center bg-fixed">
         <SectionLayout>
           <div className='grid grid-cols-1 md:grid-cols-3 items-center my-4 md:my-28'>
             <div className='col-span-2'>
