@@ -5,7 +5,7 @@ import PageHeroSection from '@/components/shared/PageHeroSection';
 
 const page = () => {
   return (
-    <div>
+    <div className='mt-0 md:mt-[130px]'>
       <PageHeroSection
         heading={'Book An Appointment'}
         subheading={'By Apex Advisor Group Inc'}

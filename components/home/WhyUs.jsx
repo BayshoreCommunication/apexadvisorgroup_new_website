@@ -32,7 +32,7 @@ const WhyUs = async () => {
 
         <div className='gap-6 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-0 md:mt-4'>
           <MotionEffect effect='fade-up' duration='2000'>
-            <div className=''>
+            <div className='transition-transform duration-300 hover:scale-105'>
               <Image
                 width='300'
                 height='200'
@@ -44,7 +44,7 @@ const WhyUs = async () => {
           </MotionEffect>
 
           <MotionEffect effect='fade-up' duration='2000'>
-            <div className=''>
+            <div className='transition-transform duration-300 hover:scale-105'>
               <Image
                 width='300'
                 height='200'
@@ -56,7 +56,7 @@ const WhyUs = async () => {
           </MotionEffect>
 
           <MotionEffect effect='fade-up' duration='2000'>
-            <div className=''>
+            <div className='transition-transform duration-300 hover:scale-105'>
               <Image
                 width='300'
                 height='200'

@@ -30,9 +30,9 @@ const AboutUs = async () => {
           </div>
         </div>
 
-        <div className='flex mt-0 md:mt-8 items-center justify-center gap-2 md:gap-8 mx-4'>
+        <div className='flex  mt-0 md:mt-8 items-center justify-center gap-2 md:gap-8 mx-4'>
           <MotionEffect effect='fade-up' duration='2000'>
-            <div className='w-[150px] h-[150px rounded-full]'>
+            <div className='max-w-[150px] max-h-[150px] min-w-[50px] min-h-[50px] rounded-full transition-transform duration-300 hover:scale-105'>
               <Image
                 width='150'
                 height='150'
@@ -44,7 +44,7 @@ const AboutUs = async () => {
           </MotionEffect>
 
           <MotionEffect effect='fade-up' duration='2000'>
-            <div className='w-[150px] h-[150px rounded-full]'>
+            <div className='max-w-[150px] max-h-[150px] min-w-[50px] min-h-[50px] rounded-full transition-transform duration-300 hover:scale-105'>
               <Image
                 width='150'
                 height='150'
@@ -56,7 +56,7 @@ const AboutUs = async () => {
           </MotionEffect>
 
           <MotionEffect effect='fade-up' duration='2000'>
-            <div className='w-[150px] h-[150px rounded-full]'>
+            <div className='max-w-[150px] max-h-[150px] min-w-[50px] min-h-[50px] rounded-full transition-transform duration-300 hover:scale-105'>
               <Image
                 width='150'
                 height='150'
@@ -68,7 +68,7 @@ const AboutUs = async () => {
           </MotionEffect>
 
           <MotionEffect effect='fade-up' duration='2000'>
-            <div className='w-[150px] h-[150px rounded-full]'>
+            <div className='max-w-[150px] max-h-[150px] min-w-[50px] min-h-[50px]rounded-full transition-transform duration-300 hover:scale-105'>
               <Image
                 width='150'
                 height='150'
@@ -80,7 +80,7 @@ const AboutUs = async () => {
           </MotionEffect>
 
           <MotionEffect effect='fade-up' duration='2000'>
-            <div className='w-[150px] h-[150px rounded-full]'>
+            <div className='max-w-[150px] max-h-[150px] min-w-[50px] min-h-[50px] rounded-full transition-transform duration-300 hover:scale-105'>
               <Image
                 width='150'
                 height='150'

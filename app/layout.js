@@ -8,10 +8,10 @@ import Head from 'next/head';
 const lora = Lora({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Apex Advisor Group Inc | Tax Pro',
+  title: 'Apex Advisor Group Inc | Tax Preparation, Accounting Firm Tamp',
   description:
-    'Apex Advisor focuses exclusively on the practice of the immigration law of The United States. Attorney Hardam Tripathi has a broad experience of practicing U.S.',
-  metadataBase: new URL('https://trip-law-new-website.vercel.app'),
+    'Apex Advisor Group Inc is a team of highly qualified professionals that have over 40+ years of combined experience in the tax, accounting, & financial services industry.',
+  metadataBase: new URL('https://www.apexadvisorgroup.com/'),
   alternates: {
     canonical: '/',
     languages: {

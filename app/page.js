@@ -9,7 +9,7 @@ import WhyUs from '@/components/home/WhyUs';
 
 export default function Home() {
   return (
-    <main className='w-full'>
+    <main className='w-full mt-0 md:mt-[130px]'>
       <HeroSection />
       <AboutSection />
       <ServiceSection />

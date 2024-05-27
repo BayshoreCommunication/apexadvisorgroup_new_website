@@ -10,7 +10,7 @@ import { sliderData } from '@/config/sliderData';
 
 export default function ServiceSlider() {
   return (
-    <div className='flex justify-center items-center py-10'>
+    <div className='flex justify-center items-center py-10 mx-0 md:mx-10'>
       <Swiper
         spaceBetween={30}
         pagination={{
@@ -39,7 +39,7 @@ export default function ServiceSlider() {
       >
         {sliderData?.map((el, index) => (
           <SwiperSlide key={index}>
-            <div className='flex justify-center items-start rounded-lg h-[350px] mb-10 p-5 shadow-md bg-slate-50'>
+            <div className='flex justify-center items-start rounded-lg min-h-[360px] mb-10 p-5 shadow-md bg-slate-50'>
               <div>
                 <Image
                   width={45}

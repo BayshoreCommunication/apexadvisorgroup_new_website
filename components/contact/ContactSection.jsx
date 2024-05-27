@@ -17,6 +17,7 @@ const ContactSection = () => {
 
   const SendMail = (e) => {
     e.preventDefault();
+    console.log('check', emailForm);
     send('service_zwnokrn', 'template_kz85het', emailForm, 'D2XgZB_GRuQIbbOL8')
       .then((response) => {
         console.log('response', response);
@@ -76,7 +77,7 @@ const ContactSection = () => {
         </div>
         {/* contact-form  */}
         <div class='w-full flex-1'>
-          <form>
+          <form onSubmit={SendMail}>
             <div class='flex flex-col lg:flex-row w-full gap-4 mb-4'>
               <div class='w-full'>
                 <p className='text-lg font-semibold mb-2'>First Name *</p>
@@ -84,7 +85,13 @@ const ContactSection = () => {
                   className='p-2 border-1 border-[#0b7788] w-full'
                   type='text'
                   placeholder='Enter your first name.'
-                  value=''
+                  value={emailForm.fname}
+                  onChange={(event) => {
+                    setEmailForm({
+                      ...emailForm,
+                      fname: event.target.value,
+                    });
+                  }}
                 />
               </div>
               <div class='w-full'>
@@ -93,7 +100,13 @@ const ContactSection = () => {
                   className='p-2 border-1 border-[#0b7788] w-full'
                   type='text'
                   placeholder='Enter your last name.'
-                  value=''
+                  value={emailForm.lname}
+                  onChange={(event) => {
+                    setEmailForm({
+                      ...emailForm,
+                      lname: event.target.value,
+                    });
+                  }}
                 />
               </div>
             </div>
@@ -103,7 +116,12 @@ const ContactSection = () => {
                 className='p-2 border-1 border-[#0b7788] w-full'
                 type='text'
                 placeholder='Enter your email.'
-                value=''
+                onChange={(event) => {
+                  setEmailForm({
+                    ...emailForm,
+                    email: event.target.value,
+                  });
+                }}
               />
             </div>
             <div className='mb-4'>
@@ -112,7 +130,13 @@ const ContactSection = () => {
                 className='p-2 border-1 border-[#0b7788] w-full'
                 type='text'
                 placeholder='Enter your phone number.'
-                value=''
+                value={emailForm.phone}
+                onChange={(event) => {
+                  setEmailForm({
+                    ...emailForm,
+                    phone: event.target.value,
+                  });
+                }}
               />
             </div>
             <div className='mb-4'>
@@ -123,7 +147,13 @@ const ContactSection = () => {
                 className='p-2 border-1 border-[#0b7788] w-full'
                 type='text'
                 placeholder='Enter organization name.'
-                value=''
+                value={emailForm.organization}
+                onChange={(event) => {
+                  setEmailForm({
+                    ...emailForm,
+                    organization: event.target.value,
+                  });
+                }}
               />
             </div>
             <div className='mb-4'>
@@ -133,14 +163,21 @@ const ContactSection = () => {
                 type='text'
                 placeholder='Enter message.'
                 rows='7'
+                value={emailForm.message}
+                onChange={(event) => {
+                  setEmailForm({
+                    ...emailForm,
+                    message: event.target.value,
+                  });
+                }}
               ></textarea>
             </div>
-            <SecondaryButton
-              title={'Send'}
-              link={'/contact'}
-              style={'bg-[#0E758B] text-white p-2'}
-              radius={'sm'}
-            />
+            <button
+              type='submit'
+              class='text-white bg-[#0B7788] hover:bg-[#085c69] font-medium rounded-lg text-md px-6 py-2.5 me-2 mb-2 '
+            >
+              Send
+            </button>
           </form>
         </div>
       </div>

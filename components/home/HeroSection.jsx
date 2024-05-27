@@ -53,6 +53,7 @@ const HeroSection = () => {
                 className='mt-8 flex justify-center md:justify-start'
               >
                 <Link
+                  id='view-all-btn'
                   href={'/contact'}
                   type='button'
                   class='text-white bg-none hover:bg-[#0E758B] font-medium text-base md:text-lxl px-6 md:px-8 py-2.5 me-0 md:me-6 mb-2 border border-white '

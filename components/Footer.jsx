@@ -20,7 +20,7 @@ const Footer = () => {
         <div className='mx-auto w-full max-w-screen-2xl py-6 lg:py-8'>
           <div className='md:flex md:justify-center'>
             <div className='grid grid-cols-1 gap-8 sm:gap-6 md:grid-cols-4 '>
-              <div className='flex-1 mb-6 md:mb-0  mx-auto '>
+              <div className='flex-1 mb-6 md:mb-0 mx-auto md:mx-0'>
                 <Link href='/' className='flex items-center cursor-pointer'>
                   <Image
                     width={220}

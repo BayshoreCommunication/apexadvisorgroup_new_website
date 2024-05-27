@@ -36,7 +36,8 @@ const ContactApex = async () => {
                   height='300'
                   src={'/image/getintouch.png'}
                   alt={'carlos-rosario'}
-                  className=''
+                  className='mb-4'
+                  id='getintouch'
                 />
               </div>
               <div className='mt-[-15px]'>
@@ -46,6 +47,7 @@ const ContactApex = async () => {
                   src={'/image/getintouchround.png'}
                   alt={'carlos-rosario'}
                   className=''
+                  id='getintouchround'
                 />
               </div>
             </div>

@@ -72,7 +72,7 @@ const Services = () => {
                 width={270}
                 height={270}
                 className='w-full'
-              ></Image>
+              />
             </div>
           </div>
         </MotionEffect>

@@ -3,6 +3,7 @@ import SectionLayout from '../shared/SectionLayout';
 import { Mulish, Bitter } from 'next/font/google';
 import ServiceSlider from './ServiceSlider';
 import MotionEffect from '../motion/MotionEffect';
+import Link from 'next/link';
 
 const ServiceSection = () => {
   const serviceData = [
@@ -66,12 +67,14 @@ const ServiceSection = () => {
                 service in the industry!
               </p>
               <div className='flex justify-center md:justify-start'>
-                <button
+                <Link
+                  href={'/services'}
+                  id='view-all-btn'
                   type='button'
                   class='text-stone-900 md:text-stone-50 bg-none hover:bg-[#0E758B] font-medium text-base md:text-lxl px-6 md:px-8 py-2.5 me-0 md:me-6 mb-2 mt-5 border border-stone-900 md:border-white'
                 >
-                  GET IN TOUCH
-                </button>
+                  VIEW ALL
+                </Link>
               </div>
             </div>
           </MotionEffect>

@@ -41,14 +41,14 @@ const BlogSection = async () => {
           </div>
         </div>
 
-        <div className='gap-4 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-0 md:mt-4'>
+        <div className='gap-6 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-0 md:mt-4'>
           {blogPostData?.data
             ?.filter((pub, no) => pub.published === true && no < 3)
             ?.map((blogs, index) => (
               <Link href={`/blog/${blogs?.slug}`}>
                 <div
                   key={index}
-                  className='bg-slate-50 border rounded-lg shadow-lg p-5 '
+                  className='bg-slate-50 border rounded-lg shadow-lg p-5 transition-transform duration-300 hover:scale-105'
                 >
                   <div className=' p-0'>
                     <Image

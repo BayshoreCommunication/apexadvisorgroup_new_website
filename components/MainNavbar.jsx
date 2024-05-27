@@ -31,9 +31,9 @@ const MainNavbar = () => {
 
   return (
     <Navbar
-      shouldHideOnScroll
+      // shouldHideOnScroll
       maxWidth='2xl'
-      className='flex  bg-white bg-cover md:my-8 my-2'
+      className='flex bg-[#FFFFFF] bg-cover md:py-8 shadow-md fixed top-0 left-0'
     >
       <NavbarContent className='md:hidden ml-0' justify='start'>
         <NavbarMenuToggle className='text-slate-900 ml-0' />
@@ -96,12 +96,12 @@ const MainNavbar = () => {
                         </svg>
                       </span>
                     </div>
-                    <div className='absolute hidden group-hover:block bg-white shadow-lg rounded p-6'>
+                    <div className='absolute hidden group-hover:block bg-white shadow-lg rounded p-6 max-h-[400px] overflow-y-scroll'>
                       <ul className='py-2 '>
                         {serviceData?.map((el, index) => (
                           <li>
                             <Link
-                              href={`services/${el.slug}`}
+                              href={`/services/${el.slug}`}
                               className={`py-2 flex text-slate-900 font-semibold text-lg hover:border-b-2 hover:border-solid hover:border-black ${pathname === el.slug ? 'border-b-2 border-solid border-[#0B7788] text-[#0B7788]' : ''}`}
                             >
                               {el.navTitle}
@@ -169,13 +169,61 @@ const MainNavbar = () => {
       <NavbarMenu className='ml-0'>
         {SITECONFIG?.navMenuItem?.map((nav, index) => (
           <NavbarMenuItem key={`${nav}-${index}`} className='list-none'>
-            <Link
-              className={`text-slate-900 font-semibold text-lg hover:border-b-2 hover:border-solid hover:border-black list-none ${pathname === nav.slug ? 'border-b-2 border-solid border-black' : ''}`}
-              href={nav.slug}
-              size='lg'
-            >
-              {nav.title}
-            </Link>
+            {nav.title === 'Services' ? (
+              <div
+                className='relative inline-block'
+                onMouseEnter={toggleDropdown}
+                onMouseLeave={toggleDropdown}
+              >
+                <div className='group'>
+                  <div className='flex items-center gap-1'>
+                    <Link
+                      className={`text-slate-900 font-semibold text-lg hover:border-b-2 hover:border-solid hover:border-black list-none ${pathname === nav.slug ? 'border-b-2 border-solid border-black' : ''}`}
+                      href={nav.slug}
+                      size='lg'
+                    >
+                      Services
+                    </Link>
+                    <span>
+                      <svg
+                        xmlns='http://www.w3.org/2000/svg'
+                        viewBox='0 0 24 24'
+                        fill='currentColor'
+                        className={`size-4 font-extrabold transform transition-transform duration-200 ${isDropdownVisible ? 'rotate-0' : 'rotate-180'}`}
+                      >
+                        <path
+                          fillRule='evenodd'
+                          d='M11.47 7.72a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 1 1-1.06 1.06L12 9.31l-6.97 6.97a.75.75 0 0 1-1.06-1.06l7.5-7.5Z'
+                          clipRule='evenodd'
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                  <div className='absolute hidden group-hover:block bg-white shadow-lg rounded p-6 z-50 w-[300px] max-h-[400px] overflow-y-scroll'>
+                    <ul className='py-2 '>
+                      {serviceData?.map((el, index) => (
+                        <li>
+                          <Link
+                            href={`/services/${el.slug}`}
+                            className={`py-2 flex text-slate-900 font-semibold text-lg hover:border-b-2 hover:border-solid hover:border-black ${pathname === el.slug ? 'border-b-2 border-solid border-[#0B7788] text-[#0B7788]' : ''}`}
+                          >
+                            {el.navTitle}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            ) : (
+              <Link
+                className={`text-slate-900 font-semibold text-lg hover:border-b-2 hover:border-solid hover:border-black list-none ${pathname === nav.slug ? 'border-b-2 border-solid border-black' : ''}`}
+                href={nav.slug}
+                size='lg'
+              >
+                {nav.title}
+              </Link>
+            )}
           </NavbarMenuItem>
         ))}
       </NavbarMenu>
