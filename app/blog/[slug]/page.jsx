@@ -77,7 +77,7 @@ const page = async ({ params }) => {
         />
         <SectionLayout>
           <div className='flex items-start justify-center gap-12'>
-            <div className='w-[75%]'>
+            <div className='w-[92%] md:w-[75%]'>
               {blogDetails?.map((blogs, index) => (
                 <div className='mb-14'>
                   <div>
@@ -102,7 +102,7 @@ const page = async ({ params }) => {
                 </div>
               ))}
             </div>
-            <div className='w-[25%] '>
+            <div className='hidden lg:block w-[0%] md:w-[25%]'>
               <BlogSideBar />
             </div>
           </div>

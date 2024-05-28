@@ -176,3 +176,14 @@ h1 {
   animation: getintouchroundMove 1875ms forwards infinite;
 }
 
+
+[data-youtube-video] {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+[data-youtube-video] iframe {
+  max-width: 100%;
+}
+
