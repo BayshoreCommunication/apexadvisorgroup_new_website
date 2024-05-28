@@ -65,7 +65,7 @@ const page = async ({ params }) => {
         />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
       </Head>
-      <div className='mt-0 md:mt-[130px]'>
+      <div className='mt-10 md:mt-[130px]'>
         <style>{css}</style>
         <PageHeroSection
           heading={blogDetails[0].title}
@@ -77,7 +77,7 @@ const page = async ({ params }) => {
         />
         <SectionLayout>
           <div className='flex items-start justify-center gap-12'>
-            <div className='w-[92%] md:w-[75%]'>
+            <div className='w-[96%] md:w-[75%]'>
               {blogDetails?.map((blogs, index) => (
                 <div className='mb-14'>
                   <div>

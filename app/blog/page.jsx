@@ -31,7 +31,7 @@ const page = async () => {
         />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
       </Head>
-      <div className='mt-0 md:mt-[130px]'>
+      <div className='mt-10 md:mt-[130px]'>
         <PageHeroSection
           heading={'Blogs'}
           subheading={'By Apex Advisor Group Inc'}
@@ -42,7 +42,7 @@ const page = async () => {
         />
         <SectionLayout>
           <div className='flex items-start justify-center gap-12'>
-            <div className='w-[92%] md:w-[75%]'>
+            <div className='w-[96%] md:w-[75%]'>
               {blogPostData?.data
                 ?.filter((pub, no) => pub.published === true)
                 ?.map((blogs, index) => (
