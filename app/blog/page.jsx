@@ -5,7 +5,6 @@ import GetAllPostData from '@/lib/GetAllPostData';
 import Image from 'next/image';
 import Link from 'next/link';
 import parse from 'html-react-parser';
-import SecondaryButton from '@/components/shared/SecondaryButton';
 import BlogSideBar from '@/components/blog/BlogSideBar';
 import Head from 'next/head';
 
@@ -74,12 +73,6 @@ const page = async () => {
                             >
                               Read More
                             </button>
-                            {/* <button
-                          type="button"
-                          class="text-white bg-[#1B2639] hover:bg-[#162030] focus:ring-4 focus:ring-blue-300 font-medium  text-lg px-4 py-2 me-2 mb-2 focus:outline-none rounded-md"
-                        >
-                          Research
-                        </button> */}
                           </div>
                         </MotionEffect>
                       </div>

@@ -36,60 +36,56 @@ const page = () => {
               ?.filter((data, index) => index < 6)
               ?.map((el, index) => (
                 <>
-                  {index % 2 === 1 ? (
-                    <MotionEffect effect={'fade-up'} duration={'2000'}>
-                      <div className='flex-col-reverse flex lg:flex-row gap-6 pb-10 border-b-1 mb-10'>
-                        <div>
-                          <h1 className='text-[32px] font-bold mb-4'>
-                            {el?.cardTitle}
-                          </h1>
-                          <p className='text-base mb-2'>{el?.cardDescOne}</p>
-                          <p className='text-base mb-4'>{el?.cardDescTwo}</p>
-                          <SecondaryButton
-                            title={'Read More'}
-                            link={`/services/${el.slug}`}
-                            style={'bg-[#0E758B] text-white'}
-                            radius={'sm'}
-                          />
-                        </div>
-                        <div className='lg:max-w-[23%] w-full hover:brightness-75 hover:scale-105 duration-700 mb-6 lg:mb-0'>
-                          <Image
-                            src={`/image/${el.cardImage}`}
-                            alt='carlos rosario'
-                            width={270}
-                            height={270}
-                            className='w-full'
-                          />
-                        </div>
+                  {index % 2 === 0 ? (
+                    <div className='flex-col-reverse flex lg:flex-row gap-6 pb-10 border-b-1 mb-10'>
+                      <div>
+                        <h1 className='text-[32px] font-bold mb-4'>
+                          {el?.cardTitle}
+                        </h1>
+                        <p className='text-base mb-2'>{el?.cardDescOne}</p>
+                        <p className='text-base mb-4'>{el?.cardDescTwo}</p>
+                        <SecondaryButton
+                          title={'Read More'}
+                          link={`/services/${el.slug}`}
+                          style={'bg-[#0E758B] text-white'}
+                          radius={'sm'}
+                        />
                       </div>
-                    </MotionEffect>
+                      <div className='lg:max-w-[23%] w-full hover:brightness-75 hover:scale-105 duration-700 mb-6 lg:mb-0'>
+                        <Image
+                          src={`/image/${el.cardImage}`}
+                          alt='carlos rosario'
+                          width={270}
+                          height={270}
+                          className='w-full'
+                        />
+                      </div>
+                    </div>
                   ) : (
-                    <MotionEffect effect={'fade-up'} duration={'2000'}>
-                      <div className='flex-col flex lg:flex-row gap-6 pb-10 border-b-2 mb-10'>
-                        <div className='lg:max-w-[23%] w-full hover:brightness-75 hover:scale-105 duration-700 mb-6 lg:mb-0'>
-                          <Image
-                            src={`/image/${el.cardImage}`}
-                            alt='carlos rosario'
-                            width={270}
-                            height={270}
-                            className='w-full'
-                          />
-                        </div>
-                        <div>
-                          <h1 className='text-[32px] font-bold mb-4'>
-                            {el?.cardTitle}
-                          </h1>
-                          <p className='text-base mb-2'>{el?.cardDescOne}</p>
-                          <p className='text-base mb-4'>{el?.cardDescTwo}</p>
-                          <SecondaryButton
-                            title={'Read More'}
-                            link={`/services/${el.slug}`}
-                            style={'bg-[#0E758B] text-white'}
-                            radius={'sm'}
-                          />
-                        </div>
+                    <div className='flex-col flex lg:flex-row gap-6 pb-10 border-b-2 mb-10'>
+                      <div className='lg:max-w-[23%] w-full hover:brightness-75 hover:scale-105 duration-700 mb-6 lg:mb-0'>
+                        <Image
+                          src={`/image/${el.cardImage}`}
+                          alt='carlos rosario'
+                          width={270}
+                          height={270}
+                          className='w-full'
+                        />
                       </div>
-                    </MotionEffect>
+                      <div>
+                        <h1 className='text-[32px] font-bold mb-4'>
+                          {el?.cardTitle}
+                        </h1>
+                        <p className='text-base mb-2'>{el?.cardDescOne}</p>
+                        <p className='text-base mb-4'>{el?.cardDescTwo}</p>
+                        <SecondaryButton
+                          title={'Read More'}
+                          link={`/services/${el.slug}`}
+                          style={'bg-[#0E758B] text-white'}
+                          radius={'sm'}
+                        />
+                      </div>
+                    </div>
                   )}
                 </>
               ))}
