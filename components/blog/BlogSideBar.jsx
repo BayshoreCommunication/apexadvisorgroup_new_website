@@ -7,7 +7,7 @@ import { serviceData } from '@/config/servicesData';
 const BlogSideBar = async () => {
   const blogPostData = await GetAllPostData();
   return (
-    <div className=''>
+    <div>
       <div className='bg-[#EEF6F8] p-6'>
         <div className="bg-[url('/image/contact-banner.jpg')] bg-cover bg-center w-[100%] h-[500px] flex items-center justify-center">
           <div>
