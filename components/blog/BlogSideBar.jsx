@@ -1,3 +1,4 @@
+import React from 'react';
 import GetAllPostData from '@/lib/GetAllPostData';
 import SecondaryButton from '../shared/SecondaryButton';
 import Link from 'next/link';

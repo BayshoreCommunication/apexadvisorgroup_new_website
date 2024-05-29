@@ -1,19 +1,17 @@
 'use client';
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-const MotionEffect = ({ children, effect, duration }) => {
+const MotionEffect = ({ children, effect, duration, delay }) => {
   useEffect(() => {
     AOS.init();
     AOS.refresh();
   }, []);
 
   return (
-    <div>
-      <div data-aos={effect} data-aos-duration={duration}>
-        {children}
-      </div>
+    <div data-aos={effect} data-aos-duration={duration} data-aos-delay={0}>
+      {children}
     </div>
   );
 };

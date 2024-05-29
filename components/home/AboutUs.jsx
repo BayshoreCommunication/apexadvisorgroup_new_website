@@ -1,4 +1,4 @@
-
+import React from "react";
 import SectionLayout from '../shared/SectionLayout';
 import Image from 'next/image';
 import MotionEffect from '../motion/MotionEffect';

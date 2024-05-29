@@ -1,3 +1,5 @@
+import React from 'react';
+
 const MapSection = () => {
   return (
     <div className='overflow-hidden'>
