@@ -1,49 +1,11 @@
 import React from 'react';
 import SectionLayout from '../shared/SectionLayout';
-import { Mulish, Bitter } from 'next/font/google';
 import ServiceSlider from './ServiceSlider';
 import MotionEffect from '../motion/MotionEffect';
 import Link from 'next/link';
 
 const ServiceSection = () => {
-  const serviceData = [
-    {
-      icon: '/assets/home/icon/waivers.png',
-      bg: "bg-[url('/assets/home/waivertwo.png')]",
-      title: 'Waivers',
-      dec: 'Lorem tristique netus hac idellus orci bibendum aenean pellentesque pellentesque Habitant lorem.',
-    },
-    {
-      icon: '/assets/home/icon/e2-treaty-visas.png',
-      bg: "bg-[url('/assets/home/e2-employees.png')]",
-      title: 'E2 Treaty Visas',
-      dec: 'Lorem tristique netus hac idellus orci bibendum aenean pellentesque pellentesque Habitant lorem.',
-    },
-    {
-      icon: '/assets/home/icon/citizenship.png',
-      bg: "bg-[url('/assets/home/waviersone.png')]",
-      title: 'Citizenship',
-      dec: 'Lorem tristique netus hac idellus orci bibendum aenean pellentesque pellentesque Habitant lorem.',
-    },
-    {
-      icon: '/assets/home/icon/naturalization-citizenship.png',
-      bg: "bg-[url('/assets/home/citizenshipbg.png')]",
-      title: 'Naturalization & Citizenship',
-      dec: 'Lorem tristique netus hac idellus orci bibendum aenean pellentesque pellentesque Habitant lorem.',
-    },
-    {
-      icon: '/assets/home/icon/asylum.png',
-      bg: "bg-[url('/assets/home/waivertwo.png')]",
-      title: 'Asylum',
-      dec: 'Lorem tristique netus hac idellus orci bibendum aenean pellentesque pellentesque Habitant lorem.',
-    },
-    {
-      icon: '/assets/home/icon/green-card.png',
-      bg: "bg-[url('/assets/home/e2-tready-visas.png')]",
-      title: 'Green Card',
-      dec: 'Lorem tristique netus hac idellus orci bibendum aenean pellentesque pellentesque Habitant lorem.',
-    },
-  ];
+
   return (
     <SectionLayout img="bg-[url('/image/homebanner2.png')] bg-cover md:bg-center bg-left bg-fixed">
       <div className=''>

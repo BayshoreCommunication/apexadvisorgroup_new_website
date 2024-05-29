@@ -1,15 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import {
-  FaFacebookF,
-  FaTiktok,
-  FaInstagram,
-  FaLinkedinIn,
-  FaYoutube,
-} from 'react-icons/fa';
-import { FaXTwitter } from 'react-icons/fa6';
-import MotionEffect from './motion/MotionEffect';
 import { SITECONFIG } from '@/config/site';
 import SecondaryButton from './shared/SecondaryButton';
 

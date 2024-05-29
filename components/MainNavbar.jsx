@@ -2,18 +2,12 @@
 import React, { useState } from 'react';
 import {
   Navbar,
-  NavbarBrand,
   NavbarContent,
   NavbarItem,
   Link,
-  Button,
   NavbarMenu,
   NavbarMenuItem,
   NavbarMenuToggle,
-  Dropdown,
-  DropdownTrigger,
-  DropdownMenu,
-  DropdownItem,
 } from '@nextui-org/react';
 import { usePathname } from 'next/navigation';
 import { SITECONFIG } from '@/config/site';

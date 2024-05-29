@@ -1,7 +1,6 @@
 'use client';
 import React, { useState } from 'react';
 import SectionLayout from '../shared/SectionLayout';
-import SecondaryButton from '../shared/SecondaryButton';
 import { send } from 'emailjs-com';
 import Swal from 'sweetalert2';
 

@@ -1,5 +1,4 @@
 import React from "react";
-import SectionLayout from "./SectionLayout";
 import SecondaryButton from "./SecondaryButton";
 
 const Consultation = () => {
