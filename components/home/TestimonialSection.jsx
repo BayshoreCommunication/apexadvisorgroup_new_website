@@ -17,19 +17,22 @@ function TestimonialSection() {
               </h2>
 
               <p className='mb-4 text-lg text-stone-900 text-center md:text-left mt-6'>
-                {`Boasting over a decade of experience, we handle everything from
+                {` Boasting over a decade of experience, we handle everything from
                 personal returns, non-profit & multi-state to tricky corporate
-                tax matters.
-                <br /> We walk you through tax planning, wealth management, and
-                retirement services, ensuring you hit your financial targets.{' '}
+                tax matters.`}
                 <br />
-                By cutting down on your tax bill and pumping up your savings, we
+                {`We walk you through tax planning, wealth management, and
+                retirement services, ensuring you hit your financial targets.`}
+                <br />
+                {` By cutting down on your tax bill and pumping up your savings, we
                 make sure you keep more of your cash We help you build, grow,
                 and maintain your wealth through personalized strategies and
-                financial planning solutions We're all about being the best.{' '}
-                <br /> We're plugged into the community, stay on top of tax law
-                changes, and keep on learning. <br />
-                You benefit from a team that's always growing and improving to
+                financial planning solutions We're all about being the best.`}
+                <br />
+                {`We're plugged into the community, stay on top of tax law
+                changes, and keep on learning. `}
+                <br />
+                {` You benefit from a team that's always growing and improving to
                 serve you better.`}
               </p>
             </div>
