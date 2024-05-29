@@ -13,12 +13,6 @@ const HeroSection = () => {
   };
 
   const text = '40+ YEARS OF COMBINED EXPERIENCE'.split(' ');
-  const placeholderText = [
-    {
-      type: 'heading1',
-      text: `10X Tax Pro Expertise in Scaling`,
-    },
-  ];
 
   return (
     <div className='relative '>

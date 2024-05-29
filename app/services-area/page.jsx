@@ -4,6 +4,7 @@ import PageHeroSection from '@/components/shared/PageHeroSection';
 import React from 'react';
 import ServiceArea from '../../public/image/services-area.jpg';
 import Head from 'next/head';
+import MotionEffect from '@/components/motion/MotionEffect';
 
 const page = () => {
   return (
@@ -24,7 +25,10 @@ const page = () => {
           width={1000}
           height={657}
         />
-        <ServicesArea />
+        <MotionEffect effect='fade-up' duration='2000'>
+          <ServicesArea />
+        </MotionEffect>
+
         <Consultation />
       </div>
     </>
