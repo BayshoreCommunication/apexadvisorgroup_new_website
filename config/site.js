@@ -1,9 +1,4 @@
 export const SITECONFIG = {
-  siteMetadata: {
-    title: 'Trip Law',
-    description: 'Trip Law',
-  },
-  siteLogo: { url: '/assets/site-logo/10x-tax-pro.png' },
   navMenuItem: [
     {
       title: 'Home',
