@@ -87,7 +87,10 @@ const page = async ({ params }) => {
                     <div className='p-8'>
                       <div className='flex flex-col md:flex-row items-start gap-x-10'>
                         {subEl?.cards?.map((subCard, index) => (
-                          <div className='bg-[#EEF6F8] p-6 flex-1 w-[100%] min-h-[40px] md:min-h-[540px]'>
+                          <div
+                            key={index}
+                            className='bg-[#EEF6F8] p-6 flex-1 w-[100%] min-h-[40px] md:min-h-[540px]'
+                          >
                             <h3 className='text-black text-left text-2xl font-semibold mb-2'>
                               {subCard?.heading}
                             </h3>

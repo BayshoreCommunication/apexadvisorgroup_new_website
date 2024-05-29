@@ -93,7 +93,7 @@ const MainNavbar = () => {
                     <div className='absolute hidden group-hover:block bg-white shadow-lg rounded p-6 max-h-[400px] overflow-y-scroll'>
                       <ul className='py-2 '>
                         {serviceData?.map((el, index) => (
-                          <li>
+                          <li key={index}>
                             <Link
                               href={`/services/${el.slug}`}
                               className={`py-2 flex text-slate-900 font-semibold text-lg hover:border-b-2 hover:border-solid hover:border-black ${pathname === el.slug ? 'border-b-2 border-solid border-[#0B7788] text-[#0B7788]' : ''}`}
@@ -196,7 +196,7 @@ const MainNavbar = () => {
                   <div className='absolute hidden group-hover:block bg-white shadow-lg rounded p-6 z-50 w-[300px] max-h-[400px] overflow-y-scroll'>
                     <ul className='py-2 '>
                       {serviceData?.map((el, index) => (
-                        <li>
+                        <li key={index}>
                           <Link
                             href={`/services/${el.slug}`}
                             className={`py-2 flex text-slate-900 font-semibold text-lg hover:border-b-2 hover:border-solid hover:border-black ${pathname === el.slug ? 'border-b-2 border-solid border-[#0B7788] text-[#0B7788]' : ''}`}

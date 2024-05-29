@@ -79,7 +79,7 @@ const page = async ({ params }) => {
           <div className='flex items-start justify-center gap-12'>
             <div className='w-[100%] md:w-[75%]'>
               {blogDetails?.map((blogs, index) => (
-                <div className='mb-14'>
+                <div key={index} className='mb-14'>
                   <div>
                     <MotionEffect effect='fade-right' duration='2000'>
                       <Image

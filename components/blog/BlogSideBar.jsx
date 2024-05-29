@@ -41,6 +41,7 @@ const BlogSideBar = async () => {
               ?.filter((data, index) => index <= 6)
               ?.map((service, index) => (
                 <Link
+                  key={index}
                   href={`/services/${service?.slug}`}
                   className='bg-slate-200 text-slate-900 p-4 hover:bg-[#0B7788] hover:text-white rounded-md'
                 >
@@ -60,6 +61,7 @@ const BlogSideBar = async () => {
               ?.filter((pub, no) => pub.published === true)
               ?.map((blogs, index) => (
                 <Link
+                  key={index}
                   href={`/blog/${blogs?.slug}`}
                   className='bg-slate-200 text-slate-900 p-4 hover:bg-[#0B7788] hover:text-white rounded-md'
                 >

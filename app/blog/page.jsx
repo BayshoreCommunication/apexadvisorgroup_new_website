@@ -46,7 +46,7 @@ const page = async () => {
               {blogPostData?.data
                 ?.filter((pub, no) => pub.published === true)
                 ?.map((blogs, index) => (
-                  <div className='mb-14'>
+                  <div key={index} className='mb-14'>
                     <Link href={`/blog/${blogs?.slug}`}>
                       <div>
                         <MotionEffect effect='fade-right' duration='2000'>

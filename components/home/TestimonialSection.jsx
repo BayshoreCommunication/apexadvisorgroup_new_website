@@ -17,7 +17,7 @@ function TestimonialSection() {
               </h2>
 
               <p className='mb-4 text-lg text-stone-900 text-center md:text-left mt-6'>
-                Boasting over a decade of experience, we handle everything from
+                {`Boasting over a decade of experience, we handle everything from
                 personal returns, non-profit & multi-state to tricky corporate
                 tax matters.
                 <br /> We walk you through tax planning, wealth management, and
@@ -30,7 +30,7 @@ function TestimonialSection() {
                 <br /> We're plugged into the community, stay on top of tax law
                 changes, and keep on learning. <br />
                 You benefit from a team that's always growing and improving to
-                serve you better.
+                serve you better.`}
               </p>
             </div>
           </MotionEffect>

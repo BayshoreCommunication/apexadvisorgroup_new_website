@@ -1,4 +1,10 @@
+const withTM = require('next-transpile-modules')(['some-module']); // Only include necessary modules
+
 const nextConfig = {
+  webpack: (config) => {
+    // Add custom configurations if necessary
+    return config;
+  },
   images: {
     remotePatterns: [
       {
@@ -19,6 +25,12 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'res.cloudinary.com',
+        port: '',
+      },
+
+      {
+        protocol: 'https',
+        hostname: 'example.com',
         port: '',
       },
     ],
