@@ -43,7 +43,7 @@ const BlogSection = async () => {
 
         <div className='gap-6 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-0 md:mt-4'>
           {blogPostData?.data
-            ?.filter((pub, no) => pub.published === true && no < 3)
+            ?.filter((pub, no) => pub.published === true && no <= 2)
             ?.map((blogs, index) => (
               <Link href={`/blog/${blogs?.slug}`}>
                 <div

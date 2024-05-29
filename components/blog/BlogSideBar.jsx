@@ -37,7 +37,7 @@ const BlogSideBar = async () => {
           </h2>
           <div className='flex flex-col gap-y-2'>
             {serviceData
-              ?.filter((data, index) => index < 7)
+              ?.filter((data, index) => index <= 6)
               ?.map((service, index) => (
                 <Link
                   href={`/services/${service?.slug}`}
