@@ -1,8 +1,7 @@
-"use client";
-import React, { useEffect, useRef } from "react";
-import { motion, useInView, useAnimation } from "framer-motion";
-import AOS from "aos";
-import "aos/dist/aos.css";
+'use client';
+import React, { useEffect, useRef } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const MotionEffect = ({ children, effect, duration }) => {
   useEffect(() => {

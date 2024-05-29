@@ -22,7 +22,7 @@ const BlogSideBar = async () => {
             <div className='flex items-start justify-center'>
               <SecondaryButton
                 title={'Contact Us'}
-                link={'/'}
+                link={'/contact'}
                 style={'bg-[#0E758B] text-white'}
                 radius={'sm'}
               />

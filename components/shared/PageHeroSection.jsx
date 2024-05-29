@@ -15,7 +15,7 @@ const PageHeroSection = ({
   height,
 }) => {
   return (
-    <section className='bg-[#11869912] overflow-hidden'>
+    <section className='bg-[#11869912] overflow-hidden mt-[62px] md:mt-[130px]'>
       <div className='lg:flex gap-10 items-start '>
         <div className='p-6  lg:pe-0 xl:ps-[11%] w-full lg:max-w-[50%] text-center lg:text-start'>
           <MotionEffect effect={'fade-right'} duration={'2000'}>
