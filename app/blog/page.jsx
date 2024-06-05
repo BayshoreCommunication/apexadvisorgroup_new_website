@@ -40,8 +40,8 @@ const page = async () => {
           height={657}
         />
         <SectionLayout>
-          <div className='flex items-start justify-center gap-12'>
-            <div className='w-[92%] md:w-[75%]'>
+          <div className='flex items-start justify-center gap-12 relative'>
+            <div className='w-[92%] md:w-[75%] '>
               {blogPostData?.data
                 ?.filter((pub, no) => pub.published === true)
                 ?.map((blogs, index) => (

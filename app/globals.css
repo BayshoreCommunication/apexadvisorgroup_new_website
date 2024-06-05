@@ -134,11 +134,11 @@ h1 {
   background-repeat: no-repeat;
   transition: 0.4s;
 }
+
 #view-all-btn:hover {
   background-size: 100% 100%;
   color: #154665;
 }
-
 
 
 @keyframes getintouchMove {

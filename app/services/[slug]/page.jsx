@@ -1,7 +1,4 @@
-import MotionEffect from '@/components/motion/MotionEffect';
 import PageHeroSection from '@/components/shared/PageHeroSection';
-import SectionLayout from '@/components/shared/SectionLayout';
-import BlogSideBar from '@/components/blog/BlogSideBar';
 import { serviceData } from '@/config/servicesData';
 import Image from 'next/image';
 import Consultation from '@/components/shared/Consultation';
@@ -37,24 +34,25 @@ const page = async ({ params }) => {
           {serviceDatas?.map((el, index) => (
             <div className='' key={index}>
               <SectionLayoutBlog>
-                <div className='flex flex-col-reverse md:flex-row gap-x-12 items-center mb-4 mt-12'>
-                  <div className='w-65%'>
+                <div className='flex flex-col-reverse md:flex-row gap-x-12 items-center mb-0 md:mb-4 mt-12'>
+                  <div className='w-full md:w-2/3'>
                     <h3 className='text-black text-left text-2xl font-semibold mb-2'>
                       {el?.mainHeading}
                     </h3>
-
-                    <p className='font-normal text-[1rem] text-black mb-8 '>
+                    <p className='font-normal text-[1rem] text-black mb-8'>
                       {el?.mainDescription}
                     </p>
                   </div>
-                  <div className='w-35%'>
-                    <Image
-                      width={1800}
-                      height={300}
-                      src={`/image/${el?.mainImage}`}
-                      alt={'blog-image'}
-                      className='bg-center bg-cover'
-                    />
+                  <div className='w-full md:w-1/3 mb-6 md:mb-0'>
+                    <div className='w-full'>
+                      <Image
+                        width={600}
+                        height={300}
+                        src={`/image/${el?.mainImage}`}
+                        alt={'blog-image'}
+                        className='object-cover w-full h-full'
+                      />
+                    </div>
                   </div>
                 </div>
               </SectionLayoutBlog>
@@ -62,16 +60,39 @@ const page = async ({ params }) => {
               {el?.detailSections?.map((subEl, index) => (
                 <div key={index}>
                   <SectionLayoutBlog>
+                    <div className='flex flex-col-reverse md:flex-row gap-x-12 items-center mb-4 md:mt-12 mt-2'>
+                      <div className='w-full md:w-1/3'>
+                        <div className='w-full'>
+                          <Image
+                            width={600}
+                            height={300}
+                            src={`/image/${subEl?.image}`}
+                            alt={'blog-image'}
+                            className='object-cover w-full h-full'
+                          />
+                        </div>
+                      </div>
+                      <div className='w-full md:w-2/3'>
+                        <h3 className='text-black text-left text-2xl font-semibold mb-2'>
+                          {subEl?.heading}
+                        </h3>
+                        <p className='font-normal text-[1rem] text-black mb-8'>
+                          {subEl?.paragraph}
+                        </p>
+                      </div>
+                    </div>
                     {/* <hr class='w-full border-t border-gray-500' /> */}
-                    <div className='flex flex-col md:flex-row gap-x-0 md:gap-x-12 items-center mb-2 p-6 '>
+                    {/* <div className='flex flex-col md:flex-row gap-x-0 md:gap-x-12 items-center mb-2 p-6 '>
                       <div className='w-35%'>
-                        <Image
-                          width={1800}
-                          height={300}
-                          src={`/image/${subEl?.image}`}
-                          alt={'blog-image'}
-                          className='bg-center bg-cover'
-                        />
+                        <div className='w-full'>
+                          <Image
+                            width={1800}
+                            height={300}
+                            src={`/image/${subEl?.image}`}
+                            alt={'blog-image'}
+                            className='bg-center bg-cover'
+                          />
+                        </div>
                       </div>
                       <div className='w-65%'>
                         <h3 className='text-black text-left text-2xl font-semibold mb-2'>
@@ -82,20 +103,19 @@ const page = async ({ params }) => {
                           {subEl?.paragraph}
                         </p>
                       </div>
-                    </div>
+                    </div> */}
 
-                    <div className='p-8'>
-                      <div className='flex flex-col md:flex-row items-start gap-x-10'>
+                    <div className='mt-10 mb-6 md:mb-0'>
+                      <div className='flex flex-col md:flex-row items-stretch gap-10'>
                         {subEl?.cards?.map((subCard, index) => (
                           <div
                             key={index}
-                            className='bg-[#EEF6F8] p-6 flex-1 w-[100%] min-h-[40px] md:min-h-[540px]'
+                            className='bg-[#EEF6F8] p-6 flex-1 flex flex-col'
                           >
                             <h3 className='text-black text-left text-2xl font-semibold mb-2'>
                               {subCard?.heading}
                             </h3>
-
-                            <p className='font-normal text-[1rem] text-black mb-0 '>
+                            <p className='font-normal text-[1rem] text-black mb-0'>
                               {subCard?.paragraph}
                             </p>
                           </div>
@@ -108,7 +128,9 @@ const page = async ({ params }) => {
             </div>
           ))}
         </div>
-        <Consultation />
+        <div className='mt-8'>
+          <Consultation />
+        </div>
       </div>
     </>
   );

@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import MotionEffect from '@/components/motion/MotionEffect';
 import SectionLayout from '@/components/shared/SectionLayout';
 import SecondaryButton from '@/components/shared/SecondaryButton';
 import { serviceData } from '@/config/servicesData';
