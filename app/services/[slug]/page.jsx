@@ -116,7 +116,10 @@ const page = async ({ params }) => {
                       <MotionEffect effect='fade-up' duration='2000'>
                         <div className='flex flex-col md:flex-row items-stretch gap-10'>
                           {subEl?.cards?.map((subCard, index) => (
-                            <div className='bg-[#EEF6F8] p-6 flex-1 flex flex-col'>
+                            <div
+                              className='bg-[#EEF6F8] p-6 flex-1 flex flex-col'
+                              key={index}
+                            >
                               <h3 className='text-black text-left text-2xl font-semibold mb-2'>
                                 {subCard?.heading}
                               </h3>
