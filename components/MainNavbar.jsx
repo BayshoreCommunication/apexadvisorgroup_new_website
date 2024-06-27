@@ -4,7 +4,6 @@ import {
   Navbar,
   NavbarContent,
   NavbarItem,
-  Link,
   NavbarMenu,
   NavbarMenuItem,
   NavbarMenuToggle,
@@ -14,6 +13,7 @@ import { SITECONFIG } from '@/config/site';
 import Image from 'next/image';
 import SecondaryButton from './shared/SecondaryButton';
 import { serviceData } from '@/config/servicesData';
+import Link from 'next/link';
 
 const MainNavbar = () => {
   const pathname = usePathname();

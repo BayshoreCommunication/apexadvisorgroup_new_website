@@ -29,7 +29,7 @@ const page = () => {
           image={aboutUsPage}
           alt={'About Us Image'}
           width={1000}
-          height={657}
+          height={750}
         />
         <GroupMembers />
         <Consultation />
