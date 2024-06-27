@@ -18,9 +18,9 @@ const PageHeroSection = ({
       <div className='lg:flex gap-10 items-start '>
         <div className='p-6 lg:pe-0 lg:ps-[5%] 2xl:ps-[10%] w-full lg:max-w-[50%] text-center lg:text-start'>
           <MotionEffect effect={'fade-right'} duration={'2000'}>
-            <h1 className='text-4xl font-semibold mb-4 '>{heading}</h1>
-            <h4 className='text-2xl font-medium mb-2 '>{subheading}</h4>
-            <p className='text-sm my-2 '>{paragraphOne}</p>
+            <h1 className='text-4xl font-semibold mb-3 '>{heading}</h1>
+            <h4 className='text-2xl font-medium mb-1 '>{subheading}</h4>
+            <p className='text-sm my-1 '>{paragraphOne}</p>
             <p className='text-sm  '>{paragraphTwo}</p>
           </MotionEffect>
         </div>
