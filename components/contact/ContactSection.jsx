@@ -122,9 +122,7 @@ const ContactSection = () => {
                   </div>
                 </div>
               </div>
-            </MotionEffect>
 
-            <MotionEffect effect='fade-up' duration='2000'>
               <div className='mb-4'>
                 <p className='text-lg font-semibold mb-2'>Email *</p>
                 <input
@@ -139,9 +137,7 @@ const ContactSection = () => {
                   }}
                 />
               </div>
-            </MotionEffect>
 
-            <MotionEffect effect='fade-up' duration='2000'>
               <div className='mb-4'>
                 <p className='text-lg font-semibold mb-2'>Phone *</p>
                 <input
@@ -157,9 +153,7 @@ const ContactSection = () => {
                   }}
                 />
               </div>
-            </MotionEffect>
 
-            <MotionEffect effect='fade-up' duration='2000'>
               <div className='mb-4'>
                 <p className='text-lg font-semibold mb-2'>
                   Your Organization (if any)
@@ -177,9 +171,7 @@ const ContactSection = () => {
                   }}
                 />
               </div>
-            </MotionEffect>
 
-            <MotionEffect effect='fade-up' duration='2000'>
               <div className='mb-4'>
                 <p className='text-lg font-semibold mb-2'>Message *</p>
                 <textarea
@@ -196,9 +188,6 @@ const ContactSection = () => {
                   }}
                 ></textarea>
               </div>
-            </MotionEffect>
-
-            <MotionEffect effect='fade-up' duration='2000'>
               <button
                 type='submit'
                 class='text-white bg-[#0B7788] hover:bg-[#085c69] font-medium rounded-lg text-md px-6 py-2.5 me-2 mb-2 '
