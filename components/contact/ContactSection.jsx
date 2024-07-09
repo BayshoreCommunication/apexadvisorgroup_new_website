@@ -62,20 +62,14 @@ const ContactSection = () => {
               <h3 className='text-2xl font-semibold mb-2'>Address:</h3>
               <p>1211 TECH BLVD, SUITE 120, TAMPA, FL 33619</p>
             </div>
-          </MotionEffect>
-          <MotionEffect effect='fade-up' duration='2000'>
             <div className='mb-5'>
               <h3 className='text-2xl font-semibold mb-2'>Phone:</h3>
               <a href='tel:(813) 678-2400'>(813) 678-2400</a>
             </div>
-          </MotionEffect>
-          <MotionEffect effect='fade-up' duration='2000'>
             <div className='mb-5'>
               <h3 className='text-2xl font-semibold mb-2'>Email:</h3>
               <a href='mailto: info@apexadvisor.pro'>info@apexadvisor.pro</a>
             </div>
-          </MotionEffect>
-          <MotionEffect effect='fade-up' duration='2000'>
             <div className='mb-5'>
               <h3 className='text-2xl font-semibold mb-2'>By Appointments:</h3>
               <p className='mb-2'>MON - FRI - 09:00 AM - 05:00 PM</p>
