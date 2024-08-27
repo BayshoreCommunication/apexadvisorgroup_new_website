@@ -1,6 +1,7 @@
 import { Lora } from 'next/font/google';
-import { Providers } from './providers';
+import { Providers } from '../providers';
 import './globals.css';
+
 const lora = Lora({ subsets: ['latin'] });
 
 export const metadata = {
@@ -23,11 +24,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang='en'>
       <body className={lora.className}>
-        <Providers>
-          <div className='overflow-x-hidden text-black bg-white'>
-            {children}
-          </div>
-        </Providers>
+        <Providers>{children}</Providers>
       </body>
     </html>
   );

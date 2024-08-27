@@ -35,7 +35,7 @@ const HeroSection = () => {
           variants={{ visible: { transition: { staggerChildren: 0.3 } } }}
         >
           <SectionLayout>
-            <div className='grid grid-cols-1 md:grid-cols-3 items-center mt-28 md:mt-16'>
+            <div className='grid items-center grid-cols-1 md:grid-cols-3 mt-28 md:mt-16'>
               <div className='col-span-2'>
                 <h1 className='text-[50px] md:text-[100px] font-[800] text-white text-center md:text-left leading-tight tracking-normal'>
                   {text.map((el, i) => (
@@ -60,7 +60,7 @@ const HeroSection = () => {
                   industry.
                 </motion.p>
                 <motion.div
-                  className='mt-8 flex justify-center md:justify-start'
+                  className='flex justify-center mt-8 md:justify-start'
                   variants={itemVariants}
                 >
                   <Link

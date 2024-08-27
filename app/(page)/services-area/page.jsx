@@ -2,7 +2,7 @@ import ServicesArea from '@/components/servicesArea/ServicesArea';
 import Consultation from '@/components/shared/Consultation';
 import PageHeroSection from '@/components/shared/PageHeroSection';
 import React from 'react';
-import ServiceArea from '../../public/image/services-area.jpg';
+import ServiceArea from '../../../public/image/services-area.jpg';
 import Head from 'next/head';
 import MotionEffect from '@/components/motion/MotionEffect';
 

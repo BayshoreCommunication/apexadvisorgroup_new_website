@@ -1,9 +1,9 @@
-import PageHeroSection from '@/components/shared/PageHeroSection';
 import React from 'react';
-import aboutUsPage from '../../public/image/about-us-page.jpg';
+import aboutUsPage from '../../../public/image/about-us-page.jpg';
 import GroupMembers from '@/components/about/GroupMembers';
 import Consultation from '@/components/shared/Consultation';
 import Head from 'next/head';
+import PageHeroSection from '@/components/shared/PageHeroSection';
 
 const page = () => {
   return (

@@ -1,6 +1,6 @@
 import PageHeroSection from '@/components/shared/PageHeroSection';
 import React from 'react';
-import ContactPageImg from '../../public/image/contact.jpg';
+import ContactPageImg from '../../../public/image/contact.jpg';
 import MapSection from '@/components/contact/MapSection';
 import ContactSection from '@/components/contact/ContactSection';
 import Head from 'next/head';
