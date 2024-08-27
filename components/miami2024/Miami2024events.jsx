@@ -1,5 +1,6 @@
 'use client';
-import SectionLayout from '../shared/SectionLayout';
+
+import SectionLayout from '@/components/shared/SectionLayout';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 
@@ -25,20 +26,11 @@ const Miami2024events = () => {
           rel='preload'
         />
 
-        <motion.div
-          className='absolute inset-0 z-20 flex items-center'
-          initial='hidden'
-          animate='visible'
-          exit={{ opacity: 0, transition: { duration: 1 } }}
-          variants={{ visible: { transition: { staggerChildren: 0.3 } } }}
-        >
+        <div className='absolute inset-0 z-20 flex items-center '>
           <SectionLayout>
             <div className='grid items-center grid-cols-1 text-center md:grid-cols-3 md:text-left'>
-              <div className='flex justify-center col-span-2 md:justify-start'>
-                <motion.div
-                  variants={itemVariants}
-                  className='flex justify-center mx-0 md:justify-start '
-                >
+              <div className='col-span-2'>
+                <div className='flex justify-center mx-0 md:justify-start '>
                   <Image
                     src='/image/apex-advisor.png'
                     alt='2024'
@@ -46,17 +38,11 @@ const Miami2024events = () => {
                     height={270}
                     className='w-[180px] h-auto'
                   />
-                </motion.div>
-                <motion.p
-                  variants={itemVariants}
-                  className='text-white text-sm md:text-base max-w-[450px] mt-3'
-                >
+                </div>
+                <p className='text-white text-sm md:text-base max-w-[450px] mt-3'>
                   06 - March. 2024 to 07 - March. 2024
-                </motion.p>
-                <motion.div
-                  variants={itemVariants}
-                  className='flex items-end mt-4 gap-x-3'
-                >
+                </p>
+                <div className='flex items-end mt-4 gap-x-3'>
                   <h1 className='text-[50px] md:text-[100px] font-extrabold text-white leading-tight tracking-normal'>
                     TAX
                   </h1>
@@ -70,24 +56,18 @@ const Miami2024events = () => {
                   <p className='text-[16px] md:text-[40px] font-extrabold text-white leading-tight tracking-normal mb-[10px] md:mb-[20px]'>
                     THE BUSINESS SHOW 2024
                   </p>
-                </motion.div>
-                <motion.p
-                  variants={itemVariants}
-                  className='text-[50px] md:text-[100px] font-extrabold text-white leading-tight tracking-normal'
-                >
+                </div>
+                <p className='text-[50px] md:text-[100px] font-extrabold text-white leading-tight tracking-normal mt-4'>
                   CONFERENCE
-                </motion.p>
-                <motion.p
-                  variants={itemVariants}
-                  className='text-white text-sm md:text-base max-w-[450px] mt-3'
-                >
+                </p>
+                <p className='text-white text-sm md:text-base max-w-[450px] mt-3'>
                   Miami Beach Convention Center Booth 905, 1901 Convention Ctr
                   Dr, Miami Beach, FL 33139
-                </motion.p>
+                </p>
               </div>
             </div>
           </SectionLayout>
-        </motion.div>
+        </div>
       </div>
     </div>
   );

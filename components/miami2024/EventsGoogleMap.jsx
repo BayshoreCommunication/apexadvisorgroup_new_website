@@ -69,7 +69,7 @@ const EventsGoogleMap = () => {
             >
               LOCATION
             </label>
-            <h1 className='mt-2 text-2xl font-semibold leading-normal text-white'>
+            <h1 className='mt-2 text-lg font-semibold leading-normal text-white md:text-2xl'>
               Miami Beach Convention Center Booth 905 1901 Convention Ctr Dr,
               <br />
               Miami Beach, FL 33139
