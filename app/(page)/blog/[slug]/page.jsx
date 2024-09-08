@@ -55,10 +55,13 @@ export async function generateMetadata({ params }) {
 
   return {
     title: blogDetails?.title,
-    description: description[0]?.props?.children || blogDetails?.excerpt,
+    description:
+      description[0]?.props?.children?.props?.children || blogDetails?.excerpt,
     openGraph: {
       title: blogDetails?.title,
-      description: description[0]?.props?.children || blogDetails?.excerpt,
+      description:
+        description[0]?.props?.children?.props?.children ||
+        blogDetails?.excerpt,
       images: [blogDetails?.featuredImage?.image?.url],
       url: `https://www.apexadvisorgroup.com/blog/${blogDetails?.slug}`,
       type: 'article',
