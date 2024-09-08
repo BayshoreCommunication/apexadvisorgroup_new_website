@@ -3,9 +3,7 @@ import PageHeroSection from '@/components/shared/PageHeroSection';
 import SectionLayout from '@/components/shared/SectionLayout';
 import GetAllPostData from '@/lib/GetAllPostData';
 import Image from 'next/image';
-import Link from 'next/link';
 import parse from 'html-react-parser';
-import SecondaryButton from '@/components/shared/SecondaryButton';
 import BlogSideBar from '@/components/blog/BlogSideBar';
 import Head from 'next/head';
 
@@ -38,6 +36,36 @@ nav{
 }
 
 `;
+
+export async function generateMetadata({ params }) {
+  const blogPostData = await GetAllPostData();
+
+  const blogDetails = blogPostData?.data?.find(
+    (blogs) => blogs.slug === params.slug,
+  );
+
+  if (!blogDetails) {
+    return {
+      title: 'Blog not found',
+      description: 'No blog post available.',
+    };
+  }
+
+  let description = parse(blogDetails?.body);
+
+  return {
+    title: blogDetails?.title,
+    description: description[0]?.props?.children || blogDetails?.excerpt,
+    openGraph: {
+      title: blogDetails?.title,
+      description: description[0]?.props?.children || blogDetails?.excerpt,
+      images: [blogDetails?.featuredImage?.image?.url],
+      url: `https://www.apexadvisorgroup.com/blog/${blogDetails?.slug}`,
+      type: 'article',
+      site_name: 'Apex Advisor Group Inc',
+    },
+  };
+}
 
 const page = async ({ params }) => {
   const blogPostData = await GetAllPostData();
