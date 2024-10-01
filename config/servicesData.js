@@ -1,9 +1,9 @@
 export const serviceData = [
   {
-    cardImage: 'tax-preparation-services/Tax-Preparation-Services-(Main).jpg',
-    cardTitle: 'Tax Preparation Services',
+    cardImage: "tax-preparation-services/Tax-Preparation-Services-(Main).jpg",
+    cardTitle: "Tax Preparation Services",
     cardDescOne: `Tax preparation done right. Guaranteed. Millions of taxpayers miss out on getting a larger refund each year because they didn’t take advantage of all the credits and deductions that are available to them.`,
-    cardDescTwo: '',
+    cardDescTwo: "",
 
     slug: `tax-preparation-services-tampa-fl`,
     navTitle: `Tax Preparation`,
@@ -193,11 +193,11 @@ export const serviceData = [
     ],
   },
   {
-    cardImage: 'accounting-services/Accounting-Services-(Main-Image).jpg',
-    cardTitle: 'Accounting Services',
+    cardImage: "accounting-services/Accounting-Services-(Main-Image).jpg",
+    cardTitle: "Accounting Services",
     cardDescOne:
-      'Apex Advisor Group is an experienced accounting team that looks forward to the opportunity to help you manage your business financials. We will work with you to establish short- and long-term strategies for growth and profitability.',
-    cardDescTwo: '',
+      "Apex Advisor Group is an experienced accounting team that looks forward to the opportunity to help you manage your business financials. We will work with you to establish short- and long-term strategies for growth and profitability.",
+    cardDescTwo: "",
     slug: `accounting-services-tampa-fl`,
     navTitle: `Accounting`,
     title: `Apex Accounting Services Tampa Florida - Apex Advisor Group Inc`,
@@ -432,11 +432,11 @@ export const serviceData = [
   },
   {
     cardImage:
-      'tax-resolution-services/Tax-Resolution-Services-(Main-Image).jpg',
-    cardTitle: 'Tax Resolution Services',
+      "tax-resolution-services/Tax-Resolution-Services-(Main-Image).jpg",
+    cardTitle: "Tax Resolution Services",
     cardDescOne:
-      'Apex Advisor assists you with your tax issues, including IRS audits, back taxes, and liens. Our tax resolution experts will help you to create a personalized plan that suits your needs and goals. We offer comprehensive support to navigate the complexities of tax laws and regulations. Our services also include negotiating with the IRS on your behalf to reduce penalties and interest. We ensure that you achieve the best possible outcome for your financial situation.',
-    cardDescTwo: '',
+      "Apex Advisor assists you with your tax issues, including IRS audits, back taxes, and liens. Our tax resolution experts will help you to create a personalized plan that suits your needs and goals. We offer comprehensive support to navigate the complexities of tax laws and regulations. Our services also include negotiating with the IRS on your behalf to reduce penalties and interest. We ensure that you achieve the best possible outcome for your financial situation.",
+    cardDescTwo: "",
     slug: `tax-resolution-services-tampa-fl`,
     navTitle: `Tax Resolution`,
     title: `Apex Tax Resolution Services Tampa Florida - Apex Advisor Group Inc`,
@@ -685,11 +685,11 @@ export const serviceData = [
     ],
   },
   {
-    cardImage: 'tax-planning/tax-planning.jpg',
-    cardTitle: 'Tax Planning Services',
+    cardImage: "tax-planning/tax-planning.jpg",
+    cardTitle: "Tax Planning Services",
     cardDescOne:
-      'Let Apex Advisor Group recommend optimal tax saving strategies that will grow and preserve your assets, reduce and/or eliminate taxable events, and go beyond tax compliance and proactively structure your wealth wisely.',
-    cardDescTwo: '',
+      "Let Apex Advisor Group recommend optimal tax saving strategies that will grow and preserve your assets, reduce and/or eliminate taxable events, and go beyond tax compliance and proactively structure your wealth wisely.",
+    cardDescTwo: "",
     slug: `tax-planning-services-tampa-fl`,
     navTitle: `Tax Planning`,
     title: `Apex Tax Planning Services Tampa Florida - Apex Advisor Group Inc`,
@@ -965,11 +965,11 @@ export const serviceData = [
     ],
   },
   {
-    cardImage: 'credit-repair-and-counseling/credit-repair.jpg',
-    cardTitle: 'Credit Repair & Counseling',
+    cardImage: "credit-repair-and-counseling/credit-repair.jpg",
+    cardTitle: "Credit Repair & Counseling",
     cardDescOne: `Our team of credit experts will take a deep dive into your credit report, analyzing any errors or areas for improvement. They'll then guide you through personalized credit counseling, helping you understand your financial situation and set achievable goals. Finally, Apex Advisor will work with you to craft a debt management plan that tackles your outstanding balances and gets you back on track to a healthier financial future.
     `,
-    cardDescTwo: '',
+    cardDescTwo: "",
     slug: `credit-repair-counseling-services-tampa-fl`,
     navTitle: `Credit Repair & Counseling`,
     title: `Apex Credit Repair & Counseling Services Tampa Florida - Apex Advisor Group Inc`,
@@ -1204,242 +1204,242 @@ export const serviceData = [
       },
     ],
   },
-  {
-    cardImage: 'insurance/insurance.jpg',
-    cardTitle: 'Insurance',
-    cardDescOne:
-      'As a registered tax preparer, Carlos Muñoz specializes in his client’s financial well being. He uses his decade long experience to minimize taxes, and therefore obtaining the best financial result for his clients. Carlos also takes pride in his transparency and honesty. As an active member in the Tampa business community he is growing his business by providing the best, most accurate and fastest service possible. You can find him available year round at Apex Advisors for your peace of mind.',
-    cardDescTwo: '',
-    slug: `insurance-services-tampa-fl`,
-    navTitle: `Insurance`,
-    title: `Insurance Services Tampa Florida`,
-    meta: `Apex Advisor offers personalized insurance plans that protect your life and health. Our team of insurance experts will work with you to find the right coverage for your needs and budget.`,
+  //   {
+  //     cardImage: "insurance/insurance.jpg",
+  //     cardTitle: "Insurance",
+  //     cardDescOne:
+  //       "As a registered tax preparer, Carlos Muñoz specializes in his client’s financial well being. He uses his decade long experience to minimize taxes, and therefore obtaining the best financial result for his clients. Carlos also takes pride in his transparency and honesty. As an active member in the Tampa business community he is growing his business by providing the best, most accurate and fastest service possible. You can find him available year round at Apex Advisors for your peace of mind.",
+  //     cardDescTwo: "",
+  //     slug: `insurance-services-tampa-fl`,
+  //     navTitle: `Insurance`,
+  //     title: `Insurance Services Tampa Florida`,
+  //     meta: `Apex Advisor offers personalized insurance plans that protect your life and health. Our team of insurance experts will work with you to find the right coverage for your needs and budget.`,
 
-    topBarImage: `insurance/insurance-services.jpg`,
-    topBarTitle: `Insurance Service`,
-    topBarDescription: `Apex Advisor improves your credit and finances. Our credit experts will analyze your credit report, provide you with counseling, and create a debt management plan.`,
+  //     topBarImage: `insurance/insurance-services.jpg`,
+  //     topBarTitle: `Insurance Service`,
+  //     topBarDescription: `Apex Advisor improves your credit and finances. Our credit experts will analyze your credit report, provide you with counseling, and create a debt management plan.`,
 
-    mainImage: `insurance/insurance-services-2.jpg`,
-    mainHeading: `Apex Advisors: Insure Your Future with Smart and Strategic Insurance Planning for Financial Security`,
-    mainDescription: `Apex Advisors, your trusted partner in safeguarding what matters most. In a world filled with uncertainties, having the right insurance coverage is vital for protecting individuals and businesses from unexpected risks and losses. From property insurance that shields your assets against fire, theft, and natural disasters to liability insurance that safeguards your business from legal claims, we've got you covered.`,
-    detailSections: [
-      {
-        heading: `Property Insurance`,
-        paragraph: `Property insurance is a must-have when it comes to safeguarding your most valuable assets, such as your home, buildings, and contents. We provide comprehensive property insurance coverage that protects you against a variety of risks such as damage from fire, theft, and catastrophic events. Our tailored policies cover both residential and commercial properties, ensuring you have adequate coverage. Benefit from personalized service and expert advice, giving you confidence that your assets are well-protected in any situation.`,
-        image: `insurance/property-insurance.jpg`,
-        cards: [
-          {
-            heading: `Coverage for Physical Assets: Home, Buildings, and Contents`,
-            paragraph: [
-              `Your home and buildings are more than just structures; they hold significant value and memories. Our property insurance policies encompass coverage for the physical assets you hold dear. Whether you own a house, condominium, or commercial property, our insurance plans are designed to shield these assets against unforeseen events. With comprehensive protection, your home, buildings, and valuable contents are safeguarded against potential risks and financial losses. We offer additional coverage for high-value items like jewelry, art, and antiques, ensuring all your treasured belongings are protected. 
-              `,
-            ],
-          },
-          {
-            heading: `Protection Against Fire, Theft, and Natural Disasters`,
-            paragraph: [
-              `One of the primary concerns for property owners is the potential damage caused by fire, theft, or natural disasters. Our property insurance provides robust protection, giving you peace of mind in the face of such risks. In the unfortunate event of a fire, our coverage helps you rebuild and replace damaged or destroyed property. If your property falls victim to theft, our policies offer financial compensation for the stolen items. Additionally, our insurance plans provide coverage against unpredictable natural disasters like floods, earthquakes, and hurricanes.
-              `,
-            ],
-          },
-          {
-            heading: `Tailored Residential and Commercial Property Policies`,
-            paragraph: [
-              `We know that residential and commercial properties have distinct insurance needs. That's why our property insurance policies are tailored to suit your specific requirements, whether you are a homeowner or a business owner. For residential properties, we offer comprehensive coverage that includes protection for your dwelling, personal belongings, and liability. Our policies consider factors such as the size of your home, its location, and the value of your possessions. For commercial properties, we offer coverage for your physical assets, equipment, and inventory, ensuring your business is protected against potential financial losses.
-              `,
-            ],
-          },
-        ],
-      },
-      {
-        heading: 'Liability Insurance',
-        paragraph: `When running a business, protecting yourself from unexpected legal claims and financial obligations is crucial. Liability insurance provides a safety net, ensuring that you can navigate potential risks with confidence. We offer a range of liability insurance solutions designed to safeguard your business interests.  Our policies cover various needs, including general liability, professional liability, and product liability. Let us help you find the right coverage to protect your business from potential financial losses.`,
-        image: `insurance/liability-insurance.jpg`,
-        cards: [
-          {
-            heading:
-              'Safeguarding Against Legal Claims and Financial Obligations',
-            paragraph: [
-              `Liability insurance acts as a shield against the unforeseen. It helps protect individuals and businesses from legal claims and the financial burdens that may arise from them. By having liability coverage in place, you can mitigate the potential risks and focus on growing your business without the constant worry of legal disputes.`,
-            ],
-          },
-          {
-            heading: 'General Liability Insurance for Businesses',
-            paragraph: [
-              `General liability insurance is the foundation of any business's liability protection. It covers a broad spectrum of risks and provides coverage for bodily injury, property damage, and personal injury claims. Whether it's a slip and fall incident at your premises or damage caused by your products or services, general liability insurance steps in to protect your business.`,
-            ],
-          },
-          {
-            heading: 'Professional Liability Insurance (Errors and Omissions)',
-            paragraph: [
-              `Professional liability insurance, also known as errors and omissions (E&O) insurance, is essential for businesses that provide professional services or advice. It offers protection in cases where clients allege negligence, errors, or omissions in your professional duties. Professional liability insurance not only covers legal defense costs but also helps mitigate potential damages and settlements.`,
-            ],
-          },
-          {
-            heading: 'Product Liability Insurance: Ensuring Product Safety',
-            paragraph: [
-              `For businesses involved in manufacturing, distributing, or selling products, product liability insurance is crucial. It provides coverage in the event that a product you produce or distribute causes harm or injury to a consumer. Product liability insurance protects your business from potential legal claims, medical expenses, and compensation for damages, ensuring the safety of your customers and the reputation of your brand.`,
-            ],
-          },
-        ],
-      },
-      {
-        heading: 'Disability Insurance',
-        paragraph: `Disability insurance is an important part of financial planning since it provides income replacement and stability for people who are unable to work due to a disability. Apex Advisors feels the importance of safeguarding your financial stability in the face of unforeseen events. Our disability insurance products provide comprehensive coverage, ensuring that you have the support you need during difficult times. Let us help you secure your financial future with the right disability insurance plan, so you can focus on recovery without worrying about income loss.`,
-        image: `insurance/disability-insurance.jpg`,
-        cards: [
-          {
-            heading: 'Income Replacement for Individuals Facing Disability',
-            paragraph: [
-              `When a disability prevents you from working, disability insurance steps in to provide a source of income. It replaces a portion of your lost earnings, helping you maintain financial stability and meet your daily living expenses. Disability insurance provides a crucial safety net, ensuring that you can focus on your recovery without worrying about the financial impact of not being able to work.`,
-            ],
-          },
-          {
-            heading: 'Coverage for Work Related Injuries or Illnesses',
-            paragraph: [
-              `Disability insurance not only covers disabilities resulting from work-related injuries but also provides protection in the event of disabilities caused by illnesses. Whether you experience a disabling accident on the job or are diagnosed with a medical condition that renders you unable to work, our policies provide the necessary coverage and financial support. In the unfortunate event of a disability, our coverage helps bridge the gap until you are able to return to work or reach retirement age.`,
-            ],
-          },
-          {
-            heading:
-              'Tailored Policies for Different Professions and Income Levels',
-            paragraph: [
-              `We recognize that disability insurance needs vary depending on your profession and income level. Our policies are tailored to accommodate different professions, taking into account the specific risks and challenges associated with each occupation. We understand that individuals in high-risk occupations may require more comprehensive coverage, and our policies reflect this understanding. Whether you work in an office environment or engage in physically demanding work, we can provide disability insurance solutions that suit your profession and income level.`,
-            ],
-          },
-        ],
-      },
-      {
-        heading: 'Business Insurance',
-        paragraph: `Business insurance protects firms against a wide range of hazards, including property damage, theft, liability claims, business interruptions, and employee injuries. It protects commercial real estate, buildings, equipment, and inventories while maintaining company continuity and financial stability. Liability insurance protects you from legal claims and financial obligations caused by injuries or losses. Professional liability insurance shields companies from allegations of negligence or errors in professional services. With our comprehensive business insurance solutions, you can focus on growing your business with confidence, knowing that you're protected against potential risks and liabilities.`,
-        image: `insurance/business-insurance.jpg`,
-        cards: [
-          {
-            heading: 'Protection Against Various Risks Faced by Businesses',
-            paragraph: [
-              `Business insurance acts as a safety net, guarding your company against various risks that can threaten its stability. From unforeseen events such as property damage, theft, and liability claims to business interruptions and employee injuries, having the appropriate coverage in place is essential for your peace of mind. Our business insurance policies offer comprehensive protection, tailored to meet the specific needs of your industry and business operations. Additionally, our expert advisors provide ongoing support, helping you adapt your coverage as your business grows and evolves, ensuring continuous protection against emerging risks.
-              `,
-            ],
-          },
-          {
-            heading: 'Property and Asset Coverage for Business Owners',
-            paragraph: [
-              `Protecting your physical assets and property is crucial for business continuity. Our business insurance provides coverage for your commercial property, buildings, equipment, and inventory. Whether it's damage caused by fire, natural disasters, or theft, our policies help safeguard your assets, ensuring that you can recover and resume operations without significant financial strain. We assess the value of your assets and offer comprehensive property coverage to protect your investment. Furthermore, our policies can include coverage for loss of income due to property damage, helping you maintain cash flow during recovery periods.
-              `,
-            ],
-          },
-          {
-            heading: 'Liability Insurance and Professional Liability Solutions',
-            paragraph: [
-              `Liability insurance is essential for businesses, as it protects against legal claims and financial obligations resulting from injuries or damages caused to others. Our business insurance solutions include general liability insurance, which provides coverage for bodily injury, property damage, and personal injury claims. Additionally, we offer professional liability insurance, also known as errors and omissions (E&O) insurance, which protects businesses against claims of negligence, errors, or omissions in the professional services they provide. Our policies are designed to address industry-specific risks, ensuring that your business is protected from potential lawsuits and financial losses. 
-              `,
-            ],
-          },
-          {
-            heading:
-              "Business Interruption Insurance and Worker's Compensation",
-            paragraph: [
-              `Unexpected events can disrupt your business operations and cause financial losses. Business interruption insurance provides coverage for lost income, ongoing expenses, and relocation costs, ensuring minimal disruption to your business. Our policies often include provisions for extra expenses to expedite recovery. Worker's compensation insurance is another vital component of business insurance, providing coverage for employees who suffer work-related injuries or illnesses. It offers medical benefits, wage replacement, and rehabilitation services. By having worker's compensation insurance, you protect your employees and your business from potential lawsuits and financial liabilities arising from workplace injuries.
-              `,
-            ],
-          },
-        ],
-      },
-      {
-        heading: 'Travel Insurance',
-        paragraph: `When embarking on domestic or international travel, having travel insurance provides peace of mind, knowing that you are protected against unexpected events and potential financial losses. Our travel insurance plans offer comprehensive coverage, encompassing trip cancellation, medical expenses, lost belongings, and emergency assistance services. Additionally, our policies include coverage for travel delays, missed connections, and emergency medical evacuations, ensuring you are safeguarded against a wide range of travel disruptions. With our 24/7 customer support, help is always available no matter where you are.`,
-        image: `insurance/travel-insurance.jpg`,
-        cards: [
-          {
-            heading: 'Domestic and International Travel',
-            paragraph: [
-              `Traveling can be an exciting adventure, but it also comes with inherent risks. Whether you're planning a vacation, business trip, or study abroad program, having travel insurance is crucial to safeguard your investment and well-being. Our travel insurance plans provide peace of mind, allowing you to focus on enjoying your journey, knowing that you have protection in case of unforeseen events. With coverage for trip cancellations, medical emergencies, lost belongings, and travel delays, our comprehensive policies ensure you are prepared for any travel disruptions. Additionally, our experienced team offers personalized assistance to handle any unexpected situations efficiently.`,
-            ],
-          },
-          {
-            heading:
-              'Coverage for Trip Cancellation, Medical Expenses, and Lost Belongings',
-            paragraph: [
-              `Our travel insurance covers trip cancellation or interruption, reimbursing non-refundable expenses due to illness, injury, or unforeseen events, minimizing financial loss. Medical emergencies during your trip are also covered, including treatments, hospitalization, emergency evacuation, and repatriation of remains, ensuring access to quality healthcare services. Additionally, lost or stolen belongings are accounted for with coverage for replacement or reimbursement of personal items, like baggage and valuables, reducing stress during your journey. Plus, our dedicated claims team is available around the clock to assist you in case of emergencies, providing support and guidance throughout your travel experience.
+  //     mainImage: `insurance/insurance-services-2.jpg`,
+  //     mainHeading: `Apex Advisors: Insure Your Future with Smart and Strategic Insurance Planning for Financial Security`,
+  //     mainDescription: `Apex Advisors, your trusted partner in safeguarding what matters most. In a world filled with uncertainties, having the right insurance coverage is vital for protecting individuals and businesses from unexpected risks and losses. From property insurance that shields your assets against fire, theft, and natural disasters to liability insurance that safeguards your business from legal claims, we've got you covered.`,
+  //     detailSections: [
+  //       {
+  //         heading: `Property Insurance`,
+  //         paragraph: `Property insurance is a must-have when it comes to safeguarding your most valuable assets, such as your home, buildings, and contents. We provide comprehensive property insurance coverage that protects you against a variety of risks such as damage from fire, theft, and catastrophic events. Our tailored policies cover both residential and commercial properties, ensuring you have adequate coverage. Benefit from personalized service and expert advice, giving you confidence that your assets are well-protected in any situation.`,
+  //         image: `insurance/property-insurance.jpg`,
+  //         cards: [
+  //           {
+  //             heading: `Coverage for Physical Assets: Home, Buildings, and Contents`,
+  //             paragraph: [
+  //               `Your home and buildings are more than just structures; they hold significant value and memories. Our property insurance policies encompass coverage for the physical assets you hold dear. Whether you own a house, condominium, or commercial property, our insurance plans are designed to shield these assets against unforeseen events. With comprehensive protection, your home, buildings, and valuable contents are safeguarded against potential risks and financial losses. We offer additional coverage for high-value items like jewelry, art, and antiques, ensuring all your treasured belongings are protected.
+  //               `,
+  //             ],
+  //           },
+  //           {
+  //             heading: `Protection Against Fire, Theft, and Natural Disasters`,
+  //             paragraph: [
+  //               `One of the primary concerns for property owners is the potential damage caused by fire, theft, or natural disasters. Our property insurance provides robust protection, giving you peace of mind in the face of such risks. In the unfortunate event of a fire, our coverage helps you rebuild and replace damaged or destroyed property. If your property falls victim to theft, our policies offer financial compensation for the stolen items. Additionally, our insurance plans provide coverage against unpredictable natural disasters like floods, earthquakes, and hurricanes.
+  //               `,
+  //             ],
+  //           },
+  //           {
+  //             heading: `Tailored Residential and Commercial Property Policies`,
+  //             paragraph: [
+  //               `We know that residential and commercial properties have distinct insurance needs. That's why our property insurance policies are tailored to suit your specific requirements, whether you are a homeowner or a business owner. For residential properties, we offer comprehensive coverage that includes protection for your dwelling, personal belongings, and liability. Our policies consider factors such as the size of your home, its location, and the value of your possessions. For commercial properties, we offer coverage for your physical assets, equipment, and inventory, ensuring your business is protected against potential financial losses.
+  //               `,
+  //             ],
+  //           },
+  //         ],
+  //       },
+  //       {
+  //         heading: "Liability Insurance",
+  //         paragraph: `When running a business, protecting yourself from unexpected legal claims and financial obligations is crucial. Liability insurance provides a safety net, ensuring that you can navigate potential risks with confidence. We offer a range of liability insurance solutions designed to safeguard your business interests.  Our policies cover various needs, including general liability, professional liability, and product liability. Let us help you find the right coverage to protect your business from potential financial losses.`,
+  //         image: `insurance/liability-insurance.jpg`,
+  //         cards: [
+  //           {
+  //             heading:
+  //               "Safeguarding Against Legal Claims and Financial Obligations",
+  //             paragraph: [
+  //               `Liability insurance acts as a shield against the unforeseen. It helps protect individuals and businesses from legal claims and the financial burdens that may arise from them. By having liability coverage in place, you can mitigate the potential risks and focus on growing your business without the constant worry of legal disputes.`,
+  //             ],
+  //           },
+  //           {
+  //             heading: "General Liability Insurance for Businesses",
+  //             paragraph: [
+  //               `General liability insurance is the foundation of any business's liability protection. It covers a broad spectrum of risks and provides coverage for bodily injury, property damage, and personal injury claims. Whether it's a slip and fall incident at your premises or damage caused by your products or services, general liability insurance steps in to protect your business.`,
+  //             ],
+  //           },
+  //           {
+  //             heading: "Professional Liability Insurance (Errors and Omissions)",
+  //             paragraph: [
+  //               `Professional liability insurance, also known as errors and omissions (E&O) insurance, is essential for businesses that provide professional services or advice. It offers protection in cases where clients allege negligence, errors, or omissions in your professional duties. Professional liability insurance not only covers legal defense costs but also helps mitigate potential damages and settlements.`,
+  //             ],
+  //           },
+  //           {
+  //             heading: "Product Liability Insurance: Ensuring Product Safety",
+  //             paragraph: [
+  //               `For businesses involved in manufacturing, distributing, or selling products, product liability insurance is crucial. It provides coverage in the event that a product you produce or distribute causes harm or injury to a consumer. Product liability insurance protects your business from potential legal claims, medical expenses, and compensation for damages, ensuring the safety of your customers and the reputation of your brand.`,
+  //             ],
+  //           },
+  //         ],
+  //       },
+  //       {
+  //         heading: "Disability Insurance",
+  //         paragraph: `Disability insurance is an important part of financial planning since it provides income replacement and stability for people who are unable to work due to a disability. Apex Advisors feels the importance of safeguarding your financial stability in the face of unforeseen events. Our disability insurance products provide comprehensive coverage, ensuring that you have the support you need during difficult times. Let us help you secure your financial future with the right disability insurance plan, so you can focus on recovery without worrying about income loss.`,
+  //         image: `insurance/disability-insurance.jpg`,
+  //         cards: [
+  //           {
+  //             heading: "Income Replacement for Individuals Facing Disability",
+  //             paragraph: [
+  //               `When a disability prevents you from working, disability insurance steps in to provide a source of income. It replaces a portion of your lost earnings, helping you maintain financial stability and meet your daily living expenses. Disability insurance provides a crucial safety net, ensuring that you can focus on your recovery without worrying about the financial impact of not being able to work.`,
+  //             ],
+  //           },
+  //           {
+  //             heading: "Coverage for Work Related Injuries or Illnesses",
+  //             paragraph: [
+  //               `Disability insurance not only covers disabilities resulting from work-related injuries but also provides protection in the event of disabilities caused by illnesses. Whether you experience a disabling accident on the job or are diagnosed with a medical condition that renders you unable to work, our policies provide the necessary coverage and financial support. In the unfortunate event of a disability, our coverage helps bridge the gap until you are able to return to work or reach retirement age.`,
+  //             ],
+  //           },
+  //           {
+  //             heading:
+  //               "Tailored Policies for Different Professions and Income Levels",
+  //             paragraph: [
+  //               `We recognize that disability insurance needs vary depending on your profession and income level. Our policies are tailored to accommodate different professions, taking into account the specific risks and challenges associated with each occupation. We understand that individuals in high-risk occupations may require more comprehensive coverage, and our policies reflect this understanding. Whether you work in an office environment or engage in physically demanding work, we can provide disability insurance solutions that suit your profession and income level.`,
+  //             ],
+  //           },
+  //         ],
+  //       },
+  //       {
+  //         heading: "Business Insurance",
+  //         paragraph: `Business insurance protects firms against a wide range of hazards, including property damage, theft, liability claims, business interruptions, and employee injuries. It protects commercial real estate, buildings, equipment, and inventories while maintaining company continuity and financial stability. Liability insurance protects you from legal claims and financial obligations caused by injuries or losses. Professional liability insurance shields companies from allegations of negligence or errors in professional services. With our comprehensive business insurance solutions, you can focus on growing your business with confidence, knowing that you're protected against potential risks and liabilities.`,
+  //         image: `insurance/business-insurance.jpg`,
+  //         cards: [
+  //           {
+  //             heading: "Protection Against Various Risks Faced by Businesses",
+  //             paragraph: [
+  //               `Business insurance acts as a safety net, guarding your company against various risks that can threaten its stability. From unforeseen events such as property damage, theft, and liability claims to business interruptions and employee injuries, having the appropriate coverage in place is essential for your peace of mind. Our business insurance policies offer comprehensive protection, tailored to meet the specific needs of your industry and business operations. Additionally, our expert advisors provide ongoing support, helping you adapt your coverage as your business grows and evolves, ensuring continuous protection against emerging risks.
+  //               `,
+  //             ],
+  //           },
+  //           {
+  //             heading: "Property and Asset Coverage for Business Owners",
+  //             paragraph: [
+  //               `Protecting your physical assets and property is crucial for business continuity. Our business insurance provides coverage for your commercial property, buildings, equipment, and inventory. Whether it's damage caused by fire, natural disasters, or theft, our policies help safeguard your assets, ensuring that you can recover and resume operations without significant financial strain. We assess the value of your assets and offer comprehensive property coverage to protect your investment. Furthermore, our policies can include coverage for loss of income due to property damage, helping you maintain cash flow during recovery periods.
+  //               `,
+  //             ],
+  //           },
+  //           {
+  //             heading: "Liability Insurance and Professional Liability Solutions",
+  //             paragraph: [
+  //               `Liability insurance is essential for businesses, as it protects against legal claims and financial obligations resulting from injuries or damages caused to others. Our business insurance solutions include general liability insurance, which provides coverage for bodily injury, property damage, and personal injury claims. Additionally, we offer professional liability insurance, also known as errors and omissions (E&O) insurance, which protects businesses against claims of negligence, errors, or omissions in the professional services they provide. Our policies are designed to address industry-specific risks, ensuring that your business is protected from potential lawsuits and financial losses.
+  //               `,
+  //             ],
+  //           },
+  //           {
+  //             heading:
+  //               "Business Interruption Insurance and Worker's Compensation",
+  //             paragraph: [
+  //               `Unexpected events can disrupt your business operations and cause financial losses. Business interruption insurance provides coverage for lost income, ongoing expenses, and relocation costs, ensuring minimal disruption to your business. Our policies often include provisions for extra expenses to expedite recovery. Worker's compensation insurance is another vital component of business insurance, providing coverage for employees who suffer work-related injuries or illnesses. It offers medical benefits, wage replacement, and rehabilitation services. By having worker's compensation insurance, you protect your employees and your business from potential lawsuits and financial liabilities arising from workplace injuries.
+  //               `,
+  //             ],
+  //           },
+  //         ],
+  //       },
+  //       {
+  //         heading: "Travel Insurance",
+  //         paragraph: `When embarking on domestic or international travel, having travel insurance provides peace of mind, knowing that you are protected against unexpected events and potential financial losses. Our travel insurance plans offer comprehensive coverage, encompassing trip cancellation, medical expenses, lost belongings, and emergency assistance services. Additionally, our policies include coverage for travel delays, missed connections, and emergency medical evacuations, ensuring you are safeguarded against a wide range of travel disruptions. With our 24/7 customer support, help is always available no matter where you are.`,
+  //         image: `insurance/travel-insurance.jpg`,
+  //         cards: [
+  //           {
+  //             heading: "Domestic and International Travel",
+  //             paragraph: [
+  //               `Traveling can be an exciting adventure, but it also comes with inherent risks. Whether you're planning a vacation, business trip, or study abroad program, having travel insurance is crucial to safeguard your investment and well-being. Our travel insurance plans provide peace of mind, allowing you to focus on enjoying your journey, knowing that you have protection in case of unforeseen events. With coverage for trip cancellations, medical emergencies, lost belongings, and travel delays, our comprehensive policies ensure you are prepared for any travel disruptions. Additionally, our experienced team offers personalized assistance to handle any unexpected situations efficiently.`,
+  //             ],
+  //           },
+  //           {
+  //             heading:
+  //               "Coverage for Trip Cancellation, Medical Expenses, and Lost Belongings",
+  //             paragraph: [
+  //               `Our travel insurance covers trip cancellation or interruption, reimbursing non-refundable expenses due to illness, injury, or unforeseen events, minimizing financial loss. Medical emergencies during your trip are also covered, including treatments, hospitalization, emergency evacuation, and repatriation of remains, ensuring access to quality healthcare services. Additionally, lost or stolen belongings are accounted for with coverage for replacement or reimbursement of personal items, like baggage and valuables, reducing stress during your journey. Plus, our dedicated claims team is available around the clock to assist you in case of emergencies, providing support and guidance throughout your travel experience.
 
-              `,
-            ],
-          },
-          {
-            heading: 'Emergency Assistance and Evacuation Services',
-            paragraph: [
-              `Traveling to unfamiliar destinations can pose unforeseen challenges. Our travel insurance plans include emergency assistance services to provide you with support and guidance in times of need. This may include access to a 24/7 emergency hotline, where our experienced team can assist you with medical referrals, travel information, and language translation services. In more critical situations, such as natural disasters or political unrest, our travel insurance offers emergency evacuation services. This ensures that you can be transported to a safe location or returned to your home country, providing you with peace of mind during uncertain circumstances.
+  //               `,
+  //             ],
+  //           },
+  //           {
+  //             heading: "Emergency Assistance and Evacuation Services",
+  //             paragraph: [
+  //               `Traveling to unfamiliar destinations can pose unforeseen challenges. Our travel insurance plans include emergency assistance services to provide you with support and guidance in times of need. This may include access to a 24/7 emergency hotline, where our experienced team can assist you with medical referrals, travel information, and language translation services. In more critical situations, such as natural disasters or political unrest, our travel insurance offers emergency evacuation services. This ensures that you can be transported to a safe location or returned to your home country, providing you with peace of mind during uncertain circumstances.
 
-              `,
-            ],
-          },
-        ],
-      },
-      {
-        heading: 'Cyber Insurance',
-        paragraph: `In today's interconnected world, protecting your business from cyber threats and data breaches is of paramount importance. Cyber insurance provides essential coverage against cybersecurity risks, helping safeguard your business from potential financial losses and reputational damage. Our policies include coverage for expenses related to data recovery, legal fees, and regulatory fines. Additionally, we offer proactive risk management services to help identify vulnerabilities, mitigate potential cyber risks, and enhance your overall cybersecurity posture, ensuring comprehensive protection for your business assets.`,
-        image: `insurance/cyber-insurance.jpg`,
-        cards: [
-          {
-            heading: 'Protection Against Cybersecurity Risks and Data Breaches',
-            paragraph: [
-              `Cyber insurance acts as a vital shield against the growing threat of cyber attacks and data breaches. It provides coverage for the financial losses and liabilities that can result from these incidents. Our cyber insurance policies offer protection against a range of risks, including data breaches, unauthorized access, hacking, malware attacks, and ransomware.`,
-            ],
-          },
-          {
-            heading:
-              'Coverage for Data Recovery, Legal Fees, and Notification Expenses',
-            paragraph: [
-              `In the event of a cyber attack or data breach, the costs of data recovery, legal fees, and notification expenses can quickly escalate. Our cyber insurance coverage addresses these costs, providing financial support to help you recover and regain control. This includes expenses related to data recovery and restoration, forensic investigations, legal counsel, public relations, and mandatory notification requirements.`,
-            ],
-          },
-          {
-            heading: 'Customized Policies for Businesses of All Sizes',
-            paragraph: [
-              `Whether you're a small startup, a mid-sized company, or a large corporation, we offer customized cyber insurance policies tailored to your specific requirements. Our experienced team will assess your business's unique cyber risks, taking into account factors such as the industry you operate in, the sensitivity of your data, and your existing cybersecurity measures.`,
-              `This allows us to create a policy that provides the appropriate coverage for your organization.`,
-            ],
-          },
-        ],
-      },
-      {
-        heading: 'Specialty Insurance',
-        paragraph: `Different industries face distinct challenges, and our specialty insurance solutions are designed to address those specific needs. Whether you require coverage for maritime assets, aircraft ownership, or special events, we offer comprehensive solutions to safeguard your investments. Our specialized policies can also include coverage for niche risks like cyber liability, professional indemnity, or product recall, ensuring your business is protected against unique industry-related challenges. With our tailored approach, you can rest assured that your assets and operations are adequately covered, mitigating potential financial risks.
-`,
-        image: `insurance/specialty-insurance.jpg`,
-        cards: [
-          {
-            heading: 'Tailored Coverage for Unique Industries and Risks',
-            paragraph: [
-              `Specialty insurance is designed to provide coverage for industries and risks that require specialized attention. We work closely with businesses operating in unique sectors, such as marine, aviation, and event management, to understand their specific needs and offer tailored insurance solutions.`,
-              `Our expertise allows us to address the unique challenges and risks faced by these industries, ensuring that you have the appropriate coverage in place.`,
-            ],
-          },
-          {
-            heading: 'Marine Insurance: Protecting Maritime Assets',
-            paragraph: [
-              `Marine insurance provides protection for vessels, cargo, and other maritime assets. Whether you own a commercial shipping fleet, a pleasure craft, or operate a maritime business, our marine insurance policies are designed to cover the risks associated with maritime activities.`,
-              `This includes protection against vessel damage, cargo loss, liability claims, and environmental risks. With our comprehensive marine insurance, you can navigate the unpredictable waters with confidence.`,
-            ],
-          },
-          {
-            heading: 'Aviation Insurance: Coverage for Aircraft Owners',
-            paragraph: [
-              `For aircraft owners and operators, aviation insurance offers essential coverage for potential risks. Whether you own a single aircraft or manage a fleet, our aviation insurance policies provide protection against physical damage, liability claims, medical expenses, and aircraft-related accidents.`,
-              `We understand the unique risks associated with aviation and can customize coverage based on factors such as aircraft type, usage, and pilot experience. With our aviation insurance solutions, you can fly with peace of mind.`,
-            ],
-          },
-          {
-            heading: 'Event Insurance: Safeguarding Special Events',
-            paragraph: [
-              `Special events, such as weddings, concerts, conferences, or trade shows, require comprehensive insurance coverage to safeguard against potential risks. Event insurance provides protection against various liabilities, property damage, and unforeseen circumstances that can disrupt or impact the success of an event.`,
-              `Our policies cover aspects such as venue damage, cancellation or postponement, liability claims, and equipment loss or theft. With our event insurance, you can organize and enjoy your special occasion without the worry of unexpected setbacks.`,
-            ],
-          },
-        ],
-      },
-    ],
-  },
+  //               `,
+  //             ],
+  //           },
+  //         ],
+  //       },
+  //       {
+  //         heading: "Cyber Insurance",
+  //         paragraph: `In today's interconnected world, protecting your business from cyber threats and data breaches is of paramount importance. Cyber insurance provides essential coverage against cybersecurity risks, helping safeguard your business from potential financial losses and reputational damage. Our policies include coverage for expenses related to data recovery, legal fees, and regulatory fines. Additionally, we offer proactive risk management services to help identify vulnerabilities, mitigate potential cyber risks, and enhance your overall cybersecurity posture, ensuring comprehensive protection for your business assets.`,
+  //         image: `insurance/cyber-insurance.jpg`,
+  //         cards: [
+  //           {
+  //             heading: "Protection Against Cybersecurity Risks and Data Breaches",
+  //             paragraph: [
+  //               `Cyber insurance acts as a vital shield against the growing threat of cyber attacks and data breaches. It provides coverage for the financial losses and liabilities that can result from these incidents. Our cyber insurance policies offer protection against a range of risks, including data breaches, unauthorized access, hacking, malware attacks, and ransomware.`,
+  //             ],
+  //           },
+  //           {
+  //             heading:
+  //               "Coverage for Data Recovery, Legal Fees, and Notification Expenses",
+  //             paragraph: [
+  //               `In the event of a cyber attack or data breach, the costs of data recovery, legal fees, and notification expenses can quickly escalate. Our cyber insurance coverage addresses these costs, providing financial support to help you recover and regain control. This includes expenses related to data recovery and restoration, forensic investigations, legal counsel, public relations, and mandatory notification requirements.`,
+  //             ],
+  //           },
+  //           {
+  //             heading: "Customized Policies for Businesses of All Sizes",
+  //             paragraph: [
+  //               `Whether you're a small startup, a mid-sized company, or a large corporation, we offer customized cyber insurance policies tailored to your specific requirements. Our experienced team will assess your business's unique cyber risks, taking into account factors such as the industry you operate in, the sensitivity of your data, and your existing cybersecurity measures.`,
+  //               `This allows us to create a policy that provides the appropriate coverage for your organization.`,
+  //             ],
+  //           },
+  //         ],
+  //       },
+  //       {
+  //         heading: "Specialty Insurance",
+  //         paragraph: `Different industries face distinct challenges, and our specialty insurance solutions are designed to address those specific needs. Whether you require coverage for maritime assets, aircraft ownership, or special events, we offer comprehensive solutions to safeguard your investments. Our specialized policies can also include coverage for niche risks like cyber liability, professional indemnity, or product recall, ensuring your business is protected against unique industry-related challenges. With our tailored approach, you can rest assured that your assets and operations are adequately covered, mitigating potential financial risks.
+  // `,
+  //         image: `insurance/specialty-insurance.jpg`,
+  //         cards: [
+  //           {
+  //             heading: "Tailored Coverage for Unique Industries and Risks",
+  //             paragraph: [
+  //               `Specialty insurance is designed to provide coverage for industries and risks that require specialized attention. We work closely with businesses operating in unique sectors, such as marine, aviation, and event management, to understand their specific needs and offer tailored insurance solutions.`,
+  //               `Our expertise allows us to address the unique challenges and risks faced by these industries, ensuring that you have the appropriate coverage in place.`,
+  //             ],
+  //           },
+  //           {
+  //             heading: "Marine Insurance: Protecting Maritime Assets",
+  //             paragraph: [
+  //               `Marine insurance provides protection for vessels, cargo, and other maritime assets. Whether you own a commercial shipping fleet, a pleasure craft, or operate a maritime business, our marine insurance policies are designed to cover the risks associated with maritime activities.`,
+  //               `This includes protection against vessel damage, cargo loss, liability claims, and environmental risks. With our comprehensive marine insurance, you can navigate the unpredictable waters with confidence.`,
+  //             ],
+  //           },
+  //           {
+  //             heading: "Aviation Insurance: Coverage for Aircraft Owners",
+  //             paragraph: [
+  //               `For aircraft owners and operators, aviation insurance offers essential coverage for potential risks. Whether you own a single aircraft or manage a fleet, our aviation insurance policies provide protection against physical damage, liability claims, medical expenses, and aircraft-related accidents.`,
+  //               `We understand the unique risks associated with aviation and can customize coverage based on factors such as aircraft type, usage, and pilot experience. With our aviation insurance solutions, you can fly with peace of mind.`,
+  //             ],
+  //           },
+  //           {
+  //             heading: "Event Insurance: Safeguarding Special Events",
+  //             paragraph: [
+  //               `Special events, such as weddings, concerts, conferences, or trade shows, require comprehensive insurance coverage to safeguard against potential risks. Event insurance provides protection against various liabilities, property damage, and unforeseen circumstances that can disrupt or impact the success of an event.`,
+  //               `Our policies cover aspects such as venue damage, cancellation or postponement, liability claims, and equipment loss or theft. With our event insurance, you can organize and enjoy your special occasion without the worry of unexpected setbacks.`,
+  //             ],
+  //           },
+  //         ],
+  //       },
+  //     ],
+  //   },
   {
     slug: `bookkeeping-service-tampa-fl`,
     navTitle: `Bookkeeping`,
