@@ -56,8 +56,8 @@ const ContactSection = () => {
     <SectionLayout>
       <div className="flex flex-col lg:flex-row gap-6 items-center">
         {/* contact-address */}
-        <MotionEffect effect="fade-up" duration="2000">
-          <div class="w-full flex-1">
+        <div class="w-full flex-1">
+          <MotionEffect effect="fade-up" duration="2000">
             <div className="mb-5">
               <h3 className="text-2xl font-semibold mb-2">Address:</h3>
               <p>1211 TECH BLVD, SUITE 120, TAMPA, FL 33619</p>
@@ -75,8 +75,8 @@ const ContactSection = () => {
               <p className="mb-2">MON - FRI - 09:00 AM - 05:00 PM</p>
               <p>AFTER HOURS AND WEEKENDS - AVAILABLE BY EMAIL</p>
             </div>
-          </div>
-        </MotionEffect>
+          </MotionEffect>
+        </div>
         {/* contact-form  */}
         <div className="w-full flex-1">
           <form onSubmit={SendMail}>
