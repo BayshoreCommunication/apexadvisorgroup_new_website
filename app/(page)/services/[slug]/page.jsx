@@ -5,7 +5,7 @@ import Consultation from "@/components/shared/Consultation";
 import SectionLayoutBlog from "@/components/shared/SectionLayoutBlog";
 import Head from "next/head";
 import MotionEffect from "@/components/motion/MotionEffect";
-import { notFound } from "next/navigation";
+import { redirect } from "next/navigation";
 
 const page = async ({ params }) => {
   const serviceDatas = serviceData?.filter(
@@ -13,7 +13,7 @@ const page = async ({ params }) => {
   );
 
   if (!serviceDatas || serviceDatas.length === 0) {
-    notFound();
+    redirect("/");
   }
 
   return (
