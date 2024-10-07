@@ -5,17 +5,17 @@ import Consultation from '@/components/shared/Consultation';
 import Head from 'next/head';
 import PageHeroSection from '@/components/shared/PageHeroSection';
 
+
+export const metadata = {
+  title: "About - Apex Advisor Group Inc",
+  description:
+    "Tax Accountants at Apex Advisor Group Inc offer personal tax returns to clients across Tampa, Brandon, Riverview, Sun City &amp; Plant City.",
+};
+
 const page = () => {
   return (
     <>
-      <Head>
-        <title>About - Apex Advisor Group Inc</title>
-        <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <meta
-          name='description'
-          content='Tax Accountants at Apex Advisor Group Inc offer personal tax returns to clients across Tampa, Brandon, Riverview, Sun City &amp; Plant City.'
-        />
-      </Head>
+
       <div className='mt-0 md:mt-[130px]'>
         <PageHeroSection
           heading={'About Us'}

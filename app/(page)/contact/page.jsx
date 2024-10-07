@@ -5,17 +5,19 @@ import MapSection from '@/components/contact/MapSection';
 import ContactSection from '@/components/contact/ContactSection';
 import Head from 'next/head';
 
+
+export const metadata = {
+  title: "About - Apex Advisor",
+  description:
+    "Contact Apex Advisor Group Inc - Accounting &amp; Tax Preparation Firm in Tampa, Florida for Accounting, Tax Preparation, Tax Planning &amp; Tax Resolution Services.",
+};
+
+
+
 const page = () => {
   return (
     <>
-      <Head>
-        <title>About - Apex Advisor</title>
-        <meta
-          name='description'
-          content='Contact Apex Advisor Group Inc - Accounting &amp; Tax Preparation Firm in Tampa, Florida for Accounting, Tax Preparation, Tax Planning &amp; Tax Resolution Services.'
-        />
-        <meta name='viewport' content='width=device-width, initial-scale=1' />
-      </Head>
+      
       <div className='mt-0 md:mt-[130px]'>
         <PageHeroSection
           heading={'Contact Apex Advisor Group Inc'}
