@@ -7,9 +7,9 @@ import Head from 'next/head';
 
 
 export const metadata = {
-  title: "About - Apex Advisor",
+  title: "Contact Apex Advisor Group | Tampa's Trusted Tax & Financial Experts",
   description:
-    "Contact Apex Advisor Group Inc - Accounting &amp; Tax Preparation Firm in Tampa, Florida for Accounting, Tax Preparation, Tax Planning &amp; Tax Resolution Services.",
+    "Get in touch with Apex Advisor Group in Tampa, FL for expert tax, accounting, and financial services. Whether you need help with personal or business finances, our experienced team is here to assist. Call or visit us today for a consultation tailored to your financial needs.",
 };
 
 

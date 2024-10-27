@@ -8,9 +8,9 @@ import MotionEffect from '@/components/motion/MotionEffect';
 
 
 export const metadata = {
-  title: "Service Area - Apex Advisor",
+  title: "Service Areas | Tax, Accounting & Payroll Services Tampa",
   description:
-    "Apex Advisor Group Inc provides financial and tax services to clients in many areas. Our experienced team tailors high-quality services to meet your unique needs. Contact us to achieve your financial goals.",
+    " Apex Advisor Group provides tax preparation, accounting, payroll, credit repair, and financial services to individuals and businesses across Tampa and surrounding areas.",
 };
 
 const page = () => {

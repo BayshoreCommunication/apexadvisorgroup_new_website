@@ -7,9 +7,9 @@ import PageHeroSection from '@/components/shared/PageHeroSection';
 
 
 export const metadata = {
-  title: "About - Apex Advisor Group Inc",
+  title: "About Us | Tax Preparation & Accounting Services in Tampa",
   description:
-    "Tax Accountants at Apex Advisor Group Inc offer personal tax returns to clients across Tampa, Brandon, Riverview, Sun City &amp; Plant City.",
+    "Learn about Apex Advisor Group's 40+ years of experience in tax preparation, accounting, payroll, credit repair, and financial planning services in Tampa, Florida.",
 };
 
 const page = () => {

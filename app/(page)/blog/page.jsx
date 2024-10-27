@@ -9,7 +9,12 @@ import BlogSideBar from '@/components/blog/BlogSideBar';
 import Head from 'next/head';
 
 
-Tax Accountants at Apex Advisor Group Inc offer personal tax returns to clients across Tampa, Brandon, Riverview, Sun City &amp; Plant City.
+export const metadata = {
+  title: "Tax & Accounting Insights Blog | Apex Advisor Group Tampa",
+  description:
+    "Stay updated with expert tips on tax preparation, accounting, payroll, credit repair, and financial planning from Apex Advisor Group’s blog, serving Tampa and beyond.",
+};
+
 
 const page = async () => {
   const blogPostData = await GetAllPostData();
@@ -25,14 +30,6 @@ const page = async () => {
 
   return (
     <>
-      <Head>
-        <title>Blogs - Apex Advisor Group Inc</title>
-        <meta
-          name='description'
-          content='Read the blog posts by Apex Advisor Group Inc - Tampa Accounting Firm. Our Tax Accountants offer Tax Preparation Services to clients across Tampa, Brandon &amp; Riverview.'
-        />
-        <meta name='viewport' content='width=device-width, initial-scale=1' />
-      </Head>
       <div className='mt-10 md:mt-[130px]'>
         <PageHeroSection
           heading={'Blogs'}

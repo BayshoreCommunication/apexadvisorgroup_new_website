@@ -9,9 +9,9 @@ import WhyUs from '@/components/home/WhyUs';
 
 
 export const metadata = {
-  title: 'Apex Advisor Group Inc | Tax Preparation, Accounting Firm Tamp',
+  title: 'Trusted Accounting & Tax Services in Tampa | Apex Advisor Group',
   description:
-    'Apex Advisor Group Inc is a team of highly qualified professionals that have over 40+ years of combined experience in the tax, accounting, & financial services industry.',
+    'Apex Advisor Group offers expert tax preparation, accounting, payroll, credit repair, and insurance services in Tampa with over 40 years of experience.',
   metadataBase: new URL('https://www.apexadvisorgroup.com/'),
   alternates: {
     canonical: '/',
