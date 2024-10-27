@@ -24,7 +24,7 @@ const page = () => {
             'We here at Apex Advisor Group are a team of highly qualified professionals that have over 40+ years of combined experience in the tax, accounting, insurance and financial services industry.'
           }
           paragraphTwo={
-            'Putting the clients’ needs first has always been the Apex Advisor philosophy and has helped us create a reputation of honesty, integrity and trust with our clients and our community. We strive to increase financial literacy and awareness for all our clients and our community.'
+            'Putting the clients’ needs first has always been the Apex Advisor philosophy and has helped us create a reputation of honesty, integrity and trust with our clients and our community. We strive to increase financial literacy and awareness for all our clients and our community. '
           }
           image={aboutUsPage}
           alt={'About Us Image'}
