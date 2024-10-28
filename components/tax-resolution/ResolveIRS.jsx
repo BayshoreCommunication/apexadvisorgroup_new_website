@@ -27,9 +27,9 @@ const ResolveIRS = () => {
                 We{"'"}ll review your situation and discuss what kind of tax
                 help you need.
               </p> */}
-              <ol class="relative border-s-3 border-[#0E758B] dark:border-gray-700">
+              <ol class="relative ps-1 border-s-3 border-[#0E758B] dark:border-gray-700">
                 <li class="mb-10 ms-6 md:ms-12">
-                  <span class="absolute flex items-center justify-center w-6 h-6 bg-[#0E758B] rounded-full -start-3 ring-8 ring-[#0E758B] mt-2  "></span>
+                  <span class="absolute flex items-center justify-center w-6 h-6 bg-[#0E758B] rounded-full -start-3 ring-6 lg:ring-8 ring-[#0E758B] mt-2  -top-2"></span>
                   <h3 class="flex items-center mb-1 text-2xl lg:text-3xl font-semibold text-gray-900 dark:text-white">
                     FREE consultation
                   </h3>
@@ -40,7 +40,7 @@ const ResolveIRS = () => {
                   </p>
                 </li>
                 <li class="mb-10 ms-6 md:ms-12">
-                  <span class="absolute flex items-center justify-center w-6 h-6 bg-[#0E758B] rounded-full -start-3 ring-8 ring-[#0E758B] mt-2  "></span>
+                  <span class="absolute flex items-center justify-center w-6 h-6 bg-[#0E758B] rounded-full -start-3 ring-6 lg:ring-8 ring-[#0E758B] mt-2  "></span>
                   <h3 class="mb-1 text-2xl lg:text-3xl font-semibold text-gray-900 dark:text-white">
                     FREE IRS investigation
                   </h3>
@@ -51,7 +51,7 @@ const ResolveIRS = () => {
                   </p>
                 </li>
                 <li class="mb-10 ms-6 md:ms-12">
-                  <span class="absolute flex items-center justify-center w-6 h-6 bg-[#0E758B] rounded-full -start-3 ring-8 ring-[#0E758B] mt-2  "></span>
+                  <span class="absolute flex items-center justify-center w-6 h-6 bg-[#0E758B] rounded-full -start-3 ring-6 lg:ring-8 ring-[#0E758B] mt-2  "></span>
                   <h3 class="mb-1 text-2xl lg:text-3xl font-semibold text-gray-900 dark:text-white">
                     FREE personalized plan
                   </h3>
@@ -63,7 +63,7 @@ const ResolveIRS = () => {
                   </p>
                 </li>
                 <li class="ms-6 md:ms-12">
-                  <span class="absolute flex items-center justify-center w-6 h-6 bg-[#0E758B] rounded-full -start-3 ring-8 ring-[#0E758B] mt-2  "></span>
+                  <span class="absolute flex items-center justify-center w-6 h-6 bg-[#0E758B] rounded-full -start-3 ring-6 lg:ring-8 ring-[#0E758B] mt-2  "></span>
                   <h3 class="mb-1 text-2xl lg:text-3xl font-semibold text-gray-900 dark:text-white">
                     Get back on track
                   </h3>

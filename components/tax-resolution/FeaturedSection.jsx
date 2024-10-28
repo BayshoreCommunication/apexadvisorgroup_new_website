@@ -205,7 +205,7 @@ const FeaturedSection = () => {
           {featuredData.map((item, index) => (
             <div
               key={index}
-              className="group bg-[#EEF6F8] hover:bg-[#0E758B] flex flex-col gap-3 md:gap-5 justify-center items-center px-8 py-14 duration-300 rounded-2xl hover:-mb-6 relative"
+              className="group bg-[#EEF6F8] hover:bg-[#0E758B] flex flex-col gap-3 md:gap-5 justify-center items-center px-8 py-14 duration-300 rounded-2xl relative"
               onMouseEnter={() => setHoveredIndex(index)}
               onMouseLeave={() => setHoveredIndex(null)}
             >

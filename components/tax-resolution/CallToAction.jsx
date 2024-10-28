@@ -7,9 +7,9 @@ const CallToAction = () => {
   return (
     <div>
       <SectionLayout>
-        <div className="relative overflow-hidden bg-[#0E758B] py-10 px-10 lg:py-20 lg:px-20  rounded-2xl flex items-center gap-5 lg:gap-20 justify-between ">
-          <h3 className="text-3xl lg:text-5xl font-bold text-white">
-            Maximize Your Savings with Expert <br /> Tax Planning Services
+        <div className="relative overflow-hidden bg-[#0E758B] py-10 px-10 lg:py-20 lg:px-20  rounded-2xl flex flex-col lg:flex-row items-center gap-5 lg:gap-20 justify-between ">
+          <h3 className="text-2xl md:text-3xl lg:text-5xl font-bold text-white text-center lg:text-start">
+            Maximize Your Savings with Expert Tax Planning Services
           </h3>
           <Link
             href="/contact"
@@ -21,9 +21,10 @@ const CallToAction = () => {
           <Image
             src="/image/tax-resolution/shape.png"
             alt=""
-            width={1000}
-            height={600}
-            className="absolute"
+            // width={1000}
+            // height={600}
+            fill
+            className="absolute left-0 right-0 w-full"
           ></Image>
         </div>
       </SectionLayout>

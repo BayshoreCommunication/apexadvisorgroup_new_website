@@ -58,7 +58,7 @@ const FeaturedSection = () => {
                   height={60}
                 />
               </div>
-              <h4 className="text-2xl font-semibold duration-300 group-hover:text-white">
+              <h4 className="text-2xl font-semibold duration-300 group-hover:text-white text-center">
                 {item.title}
               </h4>
               <p className="text-center font-medium duration-300 group-hover:text-white ">
