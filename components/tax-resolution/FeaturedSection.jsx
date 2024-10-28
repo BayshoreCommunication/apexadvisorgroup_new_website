@@ -72,7 +72,7 @@
 //                 height={80}
 //               />
 //             </div>
-//             <h4 className="text-2xl font-semibold group-hover:text-white">
+//             <h4 className="text-2xl font-semibold duration-300 group-hover:text-white">
 //               Tax Service
 //             </h4>
 //           </div>
@@ -96,7 +96,7 @@
 //                 />
 //               </div>
 //             </div>
-//             <h4 className="text-2xl font-semibold group-hover:text-white">
+//             <h4 className="text-2xl font-semibold duration-300 group-hover:text-white">
 //               Accounting Service
 //             </h4>
 //           </div>
@@ -120,7 +120,7 @@
 //                 />
 //               </div>
 //             </div>
-//             <h4 className="text-2xl font-semibold group-hover:text-white">
+//             <h4 className="text-2xl font-semibold duration-300 group-hover:text-white">
 //               Insurance Service
 //             </h4>
 //           </div>
@@ -144,7 +144,7 @@
 //                 />
 //               </div>
 //             </div>
-//             <h4 className="text-2xl font-semibold group-hover:text-white">
+//             <h4 className="text-2xl font-semibold duration-300 group-hover:text-white">
 //               Financial Service
 //             </h4>
 //           </div>
@@ -217,7 +217,7 @@ const FeaturedSection = () => {
                   height={80}
                 />
               </div>
-              <h4 className="text-2xl font-semibold group-hover:text-white">
+              <h4 className="text-2xl font-semibold duration-300 group-hover:text-white">
                 {item.title}
               </h4>
             </div>

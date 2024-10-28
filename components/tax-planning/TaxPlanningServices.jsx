@@ -53,9 +53,9 @@ const servicesProcessData = [
   },
 ];
 
-const ServicesProcess = () => {
+const TaxPlanningServices = () => {
   return (
-    <div>
+    <div className="bg-[#EEF6F8]">
       <SectionLayout>
         <div className="w-full max-w-5xl text-center mx-auto mb-8">
           <h1 className="text-2xl md:text-4xl font-bold">
@@ -71,7 +71,7 @@ const ServicesProcess = () => {
           {servicesProcessData.map((service, index) => (
             <div
               key={index}
-              className="flex items-center gap-6  px-12 py-8 bg-[#EEF6F8] rounded-lg hover:shadow-md border duration-300"
+              className="flex items-center gap-6  px-12 py-8 bg-white rounded-lg hover:shadow-md border duration-300"
             >
               <div className="flex-shrink-0">
                 <Image
@@ -96,4 +96,4 @@ const ServicesProcess = () => {
   );
 };
 
-export default ServicesProcess;
+export default TaxPlanningServices;
