@@ -1,6 +1,7 @@
 import React from "react";
 import SectionLayout from "../shared/SectionLayout";
 import Image from "next/image";
+import ScrollMotionEffect from "../motion copy/ScrollMotionEffect";
 
 const servicesProcessData = [
   {
@@ -69,27 +70,28 @@ const TaxPlanningServices = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {servicesProcessData.map((service, index) => (
-            <div
-              key={index}
-              className="flex flex-col lg:flex-row items-center gap-6  px-12 py-8 bg-white rounded-lg hover:shadow-md border duration-300"
-            >
-              <div className="flex-shrink-0">
-                <Image
-                  src={service.icon}
-                  alt={service.title}
-                  width={80}
-                  height={80}
-                  className="object-contain"
-                />
-              </div>
-              <div>
-                <h3 className="text-xl font-semibold text-gray-800 text-center lg:text-start">
-                  {service.title}
-                </h3>
-                <p className="text-gray-600 mt-2  text-center lg:text-start">
-                  {service.description}
-                </p>
-              </div>
+            <div key={index}>
+              <ScrollMotionEffect effect="fade-up" duration="2000">
+                <div className="flex flex-col lg:flex-row items-center gap-6  px-12 py-8 bg-white rounded-lg hover:shadow-md border duration-300">
+                  <div className="flex-shrink-0">
+                    <Image
+                      src={service.icon}
+                      alt={service.title}
+                      width={80}
+                      height={80}
+                      className="object-contain"
+                    />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-semibold text-gray-800 text-center lg:text-start">
+                      {service.title}
+                    </h3>
+                    <p className="text-gray-600 mt-2  text-center lg:text-start">
+                      {service.description}
+                    </p>
+                  </div>
+                </div>
+              </ScrollMotionEffect>
             </div>
           ))}
         </div>

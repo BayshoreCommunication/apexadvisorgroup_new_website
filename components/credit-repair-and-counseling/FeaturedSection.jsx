@@ -2,13 +2,14 @@
 import React, { useState } from "react";
 import SectionLayout from "../shared/SectionLayout";
 import Image from "next/image";
+import ScrollMotionEffect from "../motion copy/ScrollMotionEffect";
 
 const featuredData = [
   {
     Image: "/image/tax-planning-page/no-money-down.png",
     WhiteImage: "/image/tax-planning-page/no-money-down-white.png",
     title: "No money down, no obligation",
-    desc: "Only pay if you like the personalized plan we develop for you. You always get to keep the plan and your full tax history.",
+    desc: "Only pay if you like the personalized plan we develop for you. You always get to keep your full tax history.",
   },
   {
     Image: "/image/tax-planning-page/IRS-check.png",
@@ -42,28 +43,33 @@ const FeaturedSection = () => {
             now!
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8 items-stretch">
           {featuredData.map((item, index) => (
-            <div
-              key={index}
-              className="group bg-[#EEF6F8] hover:bg-[#0E758B] flex flex-col gap-3 md:gap-5 justify-center items-center px-8 py-14 duration-300 rounded-2xl  "
-              onMouseEnter={() => setHoveredIndex(index)}
-              onMouseLeave={() => setHoveredIndex(null)}
-            >
-              <div className="p-8 rounded-full bg-[#0E758B] group-hover:bg-white duration-300">
-                <Image
-                  src={hoveredIndex === index ? item.Image : item.WhiteImage}
-                  alt={`${item.title} icon`}
-                  width={60}
-                  height={60}
-                />
-              </div>
-              <h4 className="text-2xl font-semibold duration-300 group-hover:text-white text-center">
-                {item.title}
-              </h4>
-              <p className="text-center font-medium duration-300 group-hover:text-white ">
-                {item.desc}
-              </p>
+            <div key={index}>
+              <ScrollMotionEffect effect="fade-up" duration="2000">
+                <div
+                  className="group bg-[#EEF6F8] hover:bg-[#0E758B] flex flex-col gap-3 md:gap-5 justify-center items-center px-8 py-14 duration-300 rounded-2xl "
+                  onMouseEnter={() => setHoveredIndex(index)}
+                  onMouseLeave={() => setHoveredIndex(null)}
+                >
+                  <div className="p-8 rounded-full bg-[#0E758B] group-hover:bg-white duration-300">
+                    <Image
+                      src={
+                        hoveredIndex === index ? item.Image : item.WhiteImage
+                      }
+                      alt={`${item.title} icon`}
+                      width={60}
+                      height={60}
+                    />
+                  </div>
+                  <h4 className="text-2xl font-semibold duration-300 group-hover:text-white text-center">
+                    {item.title}
+                  </h4>
+                  <p className="text-center font-medium duration-300 group-hover:text-white ">
+                    {item.desc}
+                  </p>
+                </div>
+              </ScrollMotionEffect>
             </div>
           ))}
         </div>

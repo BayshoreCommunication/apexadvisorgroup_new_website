@@ -159,6 +159,7 @@
 import React, { useState } from "react";
 import SectionLayout from "../shared/SectionLayout";
 import Image from "next/image";
+import ScrollMotionEffect from "../motion copy/ScrollMotionEffect";
 
 const featuredData = [
   {
@@ -201,25 +202,32 @@ const FeaturedSection = () => {
             exploring our blogs now!
           </p>
         </div>
+
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mt-8">
           {featuredData.map((item, index) => (
             <div
               key={index}
-              className="group bg-[#EEF6F8] hover:bg-[#0E758B] flex flex-col gap-3 md:gap-5 justify-center items-center px-8 py-14 duration-300 rounded-2xl relative"
+              className="group"
               onMouseEnter={() => setHoveredIndex(index)}
               onMouseLeave={() => setHoveredIndex(null)}
             >
-              <div>
-                <Image
-                  src={hoveredIndex === index ? item.WhiteImage : item.Image}
-                  alt={`${item.title} icon`}
-                  width={80}
-                  height={80}
-                />
-              </div>
-              <h4 className="text-2xl font-semibold duration-300 group-hover:text-white">
-                {item.title}
-              </h4>
+              <ScrollMotionEffect effect="fade-up" duration="1500">
+                <div className="bg-[#EEF6F8] hover:bg-[#0E758B] flex flex-col gap-3 md:gap-5 justify-center items-center px-8 py-14 duration-300 rounded-2xl ">
+                  <div>
+                    <Image
+                      src={
+                        hoveredIndex === index ? item.WhiteImage : item.Image
+                      }
+                      alt={`${item.title} icon`}
+                      width={80}
+                      height={80}
+                    />
+                  </div>
+                  <h4 className="text-2xl font-semibold duration-300 group-hover:text-white">
+                    {item.title}
+                  </h4>
+                </div>
+              </ScrollMotionEffect>
             </div>
           ))}
         </div>
