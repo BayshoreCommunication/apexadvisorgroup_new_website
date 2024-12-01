@@ -6,7 +6,7 @@ import ScrollMotionEffect from "../motion copy/ScrollMotionEffect";
 
 const ResolveIRS = () => {
   return (
-    <div className=" bg-[#EEF6F8]">
+    <div className=" bg-[#EEF6F8] py-2 md:py-8 ">
       <SectionLayout>
         <div>
           <div className="w-full max-w-5xl text-center mx-auto mb-8">

@@ -25,7 +25,7 @@ const CallToAction2 = () => {
       <div className="container w-full max-w-5xl text-center mx-auto">
         <ScrollMotionEffect effect="fade-up" duration="1000">
           <h1 className="text-2xl md:text-4xl font-bold">
-            Tax Planning Service to Build your Business More Profitable{" "}
+            Tax Resolution Service to Build your Business More Profitable
           </h1>
         </ScrollMotionEffect>
         <ScrollMotionEffect effect="fade-up" duration="1500">
@@ -39,9 +39,9 @@ const CallToAction2 = () => {
           <Link
             href="/contact"
             id="view-all-btn"
-            className="bg-[#0E758B] text-white  hover:text-[#0E758B] text-base md:text-xl px-6 md:px-10 py-3  border !border-[#0E758B] font-bold"
+            className="bg-[#0E758B] text-white  hover:text-[#0E758B] text-base md:text-xl px-6 md:px-10 py-3 uppercase  border !border-[#0E758B] font-bold "
           >
-            Book an Appointment
+            get tax help
           </Link>
         </ScrollMotionEffect>
       </div>

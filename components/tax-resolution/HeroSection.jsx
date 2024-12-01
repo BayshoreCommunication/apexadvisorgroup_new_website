@@ -8,7 +8,7 @@ import ScrollMotionEffect from "../motion copy/ScrollMotionEffect";
 const HeroSection = () => {
   return (
     <div
-      className="w-full  bg-cover bg-center"
+      className="w-full  bg-cover bg-center "
       style={{
         backgroundImage: `url('/image/tax-resolution/tax-resolution-bg.png')`,
       }}
@@ -25,8 +25,8 @@ const HeroSection = () => {
         /> */}
 
       <SectionLayout>
-        <div className="grid grid-cols-1 md:grid-cols-2">
-          <div>
+        <div className="min-h-[60vh] flex flex-col lg:flex-row justify-start items-start lg:items-center gap-4 md:gap-10 lg:20">
+          <div className="max-w-xl">
             <ScrollMotionEffect effect="fade-right" duration="1000">
               <Image
                 src="/image/tax-resolution/apex-white-logo.png"
@@ -38,28 +38,38 @@ const HeroSection = () => {
             </ScrollMotionEffect>
             <ScrollMotionEffect effect="fade-right" duration="1500">
               <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold text-white text-center md:text-left leading-tight tracking-normal mt-6">
-                Apex Tax Resolution Services Tampa Florida - Apex Advisor Group
-                Inc
+                Millions written off by the IRS each year— see if you qualify
               </h1>
             </ScrollMotionEffect>
-            <ScrollMotionEffect effect="fade-right" duration="2000">
+            {/* <ScrollMotionEffect effect="fade-right" duration="2000">
               <p className="text-white text-sm md:text-base text-center md:text-left mt-4 mb-8">
                 Apex Advisor assists you with your tax issues, including IRS
                 audits, back taxes, and liens. Our tax resolution experts will
                 help you to create a personalized plan that suits your needs and
                 goals.
               </p>
-            </ScrollMotionEffect>
+            </ScrollMotionEffect> */}
             <ScrollMotionEffect effect="fade-right" duration="2500">
-              <div className="flex justify-center mt-8 md:justify-start">
+              <div className="flex justify-center mt-8 md:mt-14 md:justify-start">
                 <Link
                   href="/contact"
                   id="view-all-btn"
-                  className="bg-white !text-[#0E758B] hover:bg-transparent hover:text-white text-base md:text-xl px-6 md:px-10 py-3  border border-white font-bold"
+                  className="bg-white !text-[#0E758B] hover:bg-transparent hover:text-white text-base md:text-xl px-6 md:px-10 py-3  border border-white  shadow-2xl uppercase font-bold"
                 >
-                  Book an Appointment
+                  Get Tax Help
                 </Link>
               </div>
+            </ScrollMotionEffect>
+          </div>
+          <div>
+            <ScrollMotionEffect effect="zoom-in" duration="2000">
+              <Image
+                src="/image/tax-resolution/estimated-tax-resolution.png"
+                alt=""
+                width={400}
+                height={200}
+                className="shadow-2xl"
+              ></Image>
             </ScrollMotionEffect>
           </div>
         </div>

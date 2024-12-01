@@ -68,33 +68,37 @@ const ServicesProcess = () => {
             you with valuable insights.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {servicesProcessData.map((service, index) => (
-            <div key={index} className="">
-              <ScrollMotionEffect effect="fade-up" duration="2000">
-                <div className="flex flex-col lg:flex-row justify-center lg:justify-start items-center gap-6  px-12 py-8 bg-[#EEF6F8] rounded-lg hover:shadow-md border duration-300">
-                  <div className="flex-shrink-0">
-                    <Image
-                      src={service.icon}
-                      alt={service.title}
-                      width={80}
-                      height={80}
-                      className="object-contain"
-                    />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-semibold text-gray-800 text-center lg:text-start">
-                      {service.title}
-                    </h3>
-                    <p className="text-gray-600 mt-2 text-center lg:text-start">
-                      {service.description}
-                    </p>
+        <ScrollMotionEffect effect="fade-up" duration="2000">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {servicesProcessData.map((service, index) => (
+              <div key={index}>
+                <div className=" flex h-full">
+                  <div className="flex flex-col lg:flex-row justify-center lg:justify-start items-stretch gap-6 px-12 py-8 bg-[#EEF6F8] rounded-lg hover:shadow-md border duration-300 h-full">
+                    {/* Icon Section */}
+                    <div className="flex-shrink-0 flex items-center justify-center">
+                      <Image
+                        src={service.icon}
+                        alt={service.title}
+                        width={80}
+                        height={80}
+                        className="object-contain"
+                      />
+                    </div>
+                    {/* Content Section */}
+                    <div className="flex flex-col  justify-center items-start flex-grow gap-2">
+                      <h3 className="text-xl md:text-2xl font-semibold text-gray-800 text-center lg:text-start">
+                        {service.title}
+                      </h3>
+                      <p className="text-gray-600 mt-2 text-center lg:text-start text-base md:text-lg">
+                        {service.description}
+                      </p>
+                    </div>
                   </div>
                 </div>
-              </ScrollMotionEffect>
-            </div>
-          ))}
-        </div>
+              </div>
+            ))}
+          </div>
+        </ScrollMotionEffect>
       </SectionLayout>
     </div>
   );
