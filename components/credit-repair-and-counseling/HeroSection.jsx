@@ -5,17 +5,18 @@ import Image from "next/image";
 import ScrollMotionEffect from "../motion copy/ScrollMotionEffect";
 
 const HeroSection = () => {
+  // backgroundImage: `url('/image/credit-repair-and-counseling-page/credit-repair-and-counseling-img.png')`,
   return (
     <div
-      className="w-full  bg-cover bg-center"
+      className="w-full  bg-cover bg-center "
       style={{
         backgroundImage: `url('/image/credit-repair-and-counseling-page/credit-repair-and-counseling-img.png')`,
       }}
     >
-      <div className="">
-        <SectionLayout>
-          <div>
-            <div className="lg:max-w-3xl bg-[rgba(15,118,140,0.81)] p-8 md:p-12 lg:p-20 rounded-2xl overflow-hidden">
+      <SectionLayout>
+        <div className="min-h-[55vh] flex flex-col lg:flex-row justify-center lg:justify-between items-center  lg:items-center gap-4 md:gap-10 lg:20">
+          <div className="w-full lg:w-1/2">
+            <div className="max-w-xl">
               <ScrollMotionEffect effect="fade-right" duration="1000">
                 <Image
                   src="/image/tax-resolution/apex-white-logo.png"
@@ -26,34 +27,38 @@ const HeroSection = () => {
                 />
               </ScrollMotionEffect>
               <ScrollMotionEffect effect="fade-right" duration="1500">
-                <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold text-white text-center md:text-left leading-tight tracking-normal mt-6">
-                  Apex Tax Resolution Services Tampa Florida - Apex Advisor
-                  Group Inc
+                <h1 className="text-2xl md:text-3xl lg:text-6xl font-bold text-white text-center md:text-left leading-tight tracking-normal mt-6">
+                  Elevate Your Credit,
                 </h1>
               </ScrollMotionEffect>
               <ScrollMotionEffect effect="fade-right" duration="2000">
-                <p className="text-white text-sm md:text-base text-center md:text-left mt-4 mb-8">
-                  Apex Advisor assists you with your tax issues, including IRS
-                  audits, back taxes, and liens. Our tax resolution experts will
-                  help you to create a personalized plan that suits your needs
-                  and goals.
-                </p>
+                <h1 className="text-2xl md:text-3xl lg:text-6xl font-bold text-white text-center md:text-left leading-tight tracking-normal mt-2 md:mt-4">
+                  Elevate Your Life.
+                </h1>
               </ScrollMotionEffect>
               <ScrollMotionEffect effect="fade-right" duration="2500">
-                <div className="flex justify-center mt-8 md:justify-start">
+                <p className="text-white text-base md:text-xl text-center md:text-left mt-4 mb-2 md:mb-8">
+                  {`My credit score has never been better since I applied. The
+                  negative items are gone, and I can finally get the things I've
+                  always wanted.`}
+                </p>
+              </ScrollMotionEffect>
+
+              <ScrollMotionEffect effect="fade-right" duration="3000">
+                <div className="pt-5 text-center md:text-start">
                   <Link
                     href="/contact"
                     id="view-all-btn"
-                    className="bg-white !text-[#0E758B] hover:bg-transparent hover:text-white text-base md:text-xl px-6 md:px-10 py-3  border border-white font-bold"
+                    className="bg-[#0E758B] text-white  hover:text-[#0E758B] text-base md:text-xl px-6 md:px-10 py-3 uppercase  border !border-[#0E758B] font-bold shadow-[0px_18px_30px_rgba(0,0,0,0.25)] w-full text-center"
                   >
-                    Book an Appointment
+                    Get Tax Help
                   </Link>
                 </div>
               </ScrollMotionEffect>
             </div>
           </div>
-        </SectionLayout>
-      </div>
+        </div>
+      </SectionLayout>
     </div>
   );
 };

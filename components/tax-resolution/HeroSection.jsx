@@ -50,11 +50,11 @@ const HeroSection = () => {
               </p>
             </ScrollMotionEffect> */}
             <ScrollMotionEffect effect="fade-right" duration="2500">
-              <div className="flex justify-center mt-8 md:mt-14 md:justify-start">
+              <div className="inline-flex justify-center mt-8 md:mt-14 md:justify-start">
                 <Link
                   href="/contact"
-                  id="view-all-btn"
-                  className="bg-white !text-[#0E758B] hover:bg-transparent hover:text-white text-base md:text-xl px-6 md:px-10 py-3  border border-white  shadow-2xl uppercase font-bold"
+                  id="white-btn"
+                  className="bg-white   hover:text-white text-base md:text-xl px-6 md:px-10 py-3 uppercase border border-[#0E758B] font-bold w-full text-center"
                 >
                   Get Tax Help
                 </Link>
