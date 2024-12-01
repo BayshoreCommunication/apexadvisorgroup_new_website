@@ -6,11 +6,16 @@ import ScrollMotionEffect from "../motion copy/ScrollMotionEffect";
 
 const HeaderSection = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 items-center h-full">
-      <div className="bg-[#0E758B]  h-full">
-        <div className="flex align-middle justify-center h-full">
-          <SectionLayout>
-            <div className="max-w-2xl mx-auto">
+    <div
+      className="w-full  bg-cover bg-center "
+      style={{
+        backgroundImage: `url('/image/tax-planning-page/tax-plan-hero-img.png')`,
+      }}
+    >
+      <SectionLayout>
+        <div className="min-h-[55vh] flex flex-col lg:flex-row justify-center lg:justify-between items-center  lg:items-center gap-4 md:gap-10 lg:20">
+          <div className="w-full lg:w-1/2">
+            <div className="max-w-xl">
               <ScrollMotionEffect effect="fade-right" duration="1000">
                 <Image
                   src="/image/tax-resolution/apex-white-logo.png"
@@ -21,49 +26,44 @@ const HeaderSection = () => {
                 />
               </ScrollMotionEffect>
               <ScrollMotionEffect effect="fade-right" duration="1500">
-                <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold text-white text-center md:text-left leading-tight tracking-normal mt-6">
-                  Apex Tax Resolution Services Tampa Florida - Apex Advisor
-                  Group Inc
+                <h1 className="text-2xl md:text-3xl lg:text-6xl font-bold text-white text-center md:text-left leading-tight tracking-normal mt-6">
+                  Tax Planning
                 </h1>
               </ScrollMotionEffect>
               <ScrollMotionEffect effect="fade-right" duration="2000">
-                <p className="text-white text-sm md:text-base text-center md:text-left mt-4 mb-8">
-                  Apex Advisor assists you with your tax issues, including IRS
-                  audits, back taxes, and liens. Our tax resolution experts will
-                  help you to create a personalized plan that suits your needs
-                  and goals.
+                <p className="text-white text-base md:text-xl text-center md:text-left mt-4 mb-8">
+                  A true financial plan maximizes tax efficiency through
+                  comprehensive strategies.
                 </p>
               </ScrollMotionEffect>
+
               <ScrollMotionEffect effect="fade-right" duration="2500">
-                <div className="flex justify-center mt-8 md:justify-start">
+                <div className="flex justify-center mt-8 md:mt-14 md:justify-start">
                   <Link
                     href="/contact"
                     id="view-all-btn"
-                    className="bg-white !text-[#0E758B] hover:bg-transparent hover:text-white text-base md:text-xl px-6 md:px-10 py-3  border border-white font-bold"
+                    className="bg-[#0E758B] text-white  hover:text-[#0E758B] text-base md:text-xl px-6 md:px-10 py-3 uppercase  border !border-[#0E758B] font-bold shadow-[0px_18px_30px_rgba(0,0,0,0.25)] w-full text-center"
                   >
-                    Book an Appointment
+                    Get Tax Help
                   </Link>
                 </div>
               </ScrollMotionEffect>
             </div>
-          </SectionLayout>
+          </div>
+          <div className="w-1/2 hidden lg:block">
+            <ScrollMotionEffect effect="fade-left" duration="2000">
+              <Image
+                src="/image/tax-planning-page/tax-summary.png"
+                alt=""
+                width={270}
+                height={480}
+                className="ms-auto"
+                style={{ filter: "drop-shadow(17px 26px 50px #000000)" }}
+              ></Image>
+            </ScrollMotionEffect>
+          </div>
         </div>
-      </div>
-      <div
-        className="w-full  bg-cover bg-center h-full"
-        style={{
-          backgroundImage: `url('/image/tax-planning-page/tax-plan-hero-img.png')`,
-        }}
-      >
-        <Image
-          src="/image/tax-planning-page/tax-plan-hero-img.png"
-          alt=""
-          width={1000}
-          height={800}
-          // fill
-          className="w-full md:hidden"
-        ></Image>
-      </div>
+      </SectionLayout>
     </div>
   );
 };

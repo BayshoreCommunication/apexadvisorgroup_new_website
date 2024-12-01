@@ -6,22 +6,22 @@ import ScrollMotionEffect from "../motion copy/ScrollMotionEffect";
 
 const featuredData = [
   {
-    Image: "/image/tax-planning-page/no-money-down.png",
-    WhiteImage: "/image/tax-planning-page/no-money-down-white.png",
-    title: "No money down, no obligation",
-    desc: "Only pay if you like the personalized plan we develop for you. You always get to keep your full tax history.",
+    Image: "/image/tax-planning-page/planning-money-1.png",
+    WhiteImage: "/image/tax-planning-page/planning-money.png",
+    title: "Tax planning impacts your entire financial plan",
+    desc: "Tax management plays a crucial role in every comprehensive financial plan and should be a consideration for every aspect within it.",
   },
   {
-    Image: "/image/tax-planning-page/IRS-check.png",
-    WhiteImage: "/image/tax-planning-page/IRS-check-white.png",
-    title: "FREE 35-point IRS Check",
-    desc: "We check your full tax history against a 35-point IRS checklist and identify all avenues for tax relief.",
+    Image: "/image/tax-planning-page/planning-my-money-1.png",
+    WhiteImage: "/image/tax-planning-page/planning-my-money.png",
+    title: "You could save money by paying less tax",
+    desc: "Tax management plays a crucial role in every comprehensive financial plan and should be a consideration for every aspect within it.",
   },
   {
-    Image: "/image/tax-planning-page/progress-promise.png",
-    WhiteImage: "/image/tax-planning-page/progress-promise-white.png",
-    title: "24-hour Progress Promise",
-    desc: "Once you authorize us, we immediately get to work with the IRS. You get an update within 24 hours.",
+    Image: "/image/tax-planning-page/planning-face-happy-1.png",
+    WhiteImage: "/image/tax-planning-page/planning-face-happy.png",
+    title: "You could reduce liabilities and protect your assets",
+    desc: "Good tax management can lessen an estate’s tax liabilities, as well as ensure you keep more of your investment growth.",
   },
 ];
 
@@ -33,35 +33,25 @@ const FeaturedSection = () => {
       <SectionLayout>
         <div className="w-full max-w-5xl text-center mx-auto">
           <h1 className="text-2xl md:text-4xl font-bold">
-            Rapid progress with no upfront costs
+            Why is tax planning important?
           </h1>
-          <p className="text-lg font-medium mt-3">
-            OUR COMMITMENT TO YOU Apex Advisor Group Inc&apos;s informative and
-            engaging blog posts. Our commitment is to provide you with valuable
-            insights to make informed decisions for your family and business,
-            ensuring your path to financial success. Start exploring our blogs
-            now!
-          </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8 items-stretch">
           {featuredData.map((item, index) => (
             <div key={index}>
               <ScrollMotionEffect effect="fade-up" duration="2000">
                 <div
-                  className="group bg-[#EEF6F8] hover:bg-[#0E758B] flex flex-col gap-3 md:gap-5 justify-center items-center px-8 py-14 duration-300 rounded-2xl "
+                  className="group shadow-[0px_4px_30px_rgba(0,0,0,0.1)] hover:bg-[#0E758B] flex flex-col gap-3 md:gap-5 justify-stretch items-center  px-8 py-10 duration-300 rounded-2xl"
                   onMouseEnter={() => setHoveredIndex(index)}
                   onMouseLeave={() => setHoveredIndex(null)}
                 >
-                  <div className="p-8 rounded-full bg-[#0E758B] group-hover:bg-white duration-300">
-                    <Image
-                      src={
-                        hoveredIndex === index ? item.Image : item.WhiteImage
-                      }
-                      alt={`${item.title} icon`}
-                      width={60}
-                      height={60}
-                    />
-                  </div>
+                  <Image
+                    src={hoveredIndex === index ? item.WhiteImage : item.Image}
+                    alt={`${item.title} icon`}
+                    width={60}
+                    height={60}
+                  />
+
                   <h4 className="text-2xl font-semibold duration-300 group-hover:text-white text-center">
                     {item.title}
                   </h4>

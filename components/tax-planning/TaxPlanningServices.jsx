@@ -56,16 +56,18 @@ const servicesProcessData = [
 
 const TaxPlanningServices = () => {
   return (
-    <div className="bg-[#EEF6F8]">
+    <div className="bg-white">
       <SectionLayout>
         <div className="w-full max-w-5xl text-center mx-auto mb-8">
           <h1 className="text-2xl md:text-4xl font-bold">
-            A clear path to resolve your IRS issues
+            Tax Planning Services
           </h1>
           <p className="text-lg font-medium mt-3">
-            Stay ahead of the curve with Apex Advisor Group Inc{"'"}s
-            informative and engaging blog posts. Our commitment is to provide
-            you with valuable insights.
+            {`Stay ahead of the curve with Apex Advisor Group Inc's informative
+            and engaging blog posts. Our commitment is to provide you with
+            valuable insights to make informed decisions for your family and
+            business, ensuring your path to financial success. Start exploring
+            our blogs now!`}
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

@@ -1,7 +1,8 @@
+import Footer from "@/components/Footer";
+import ClientTestimonials from "@/components/tax-planning/ClientTestimonials";
 import FeaturedSection from "@/components/tax-planning/FeaturedSection";
 import HeaderSection from "@/components/tax-planning/HeaderSection";
-import InitialConsultation from "@/components/tax-planning/InitialConsultation";
-import TaxBarChart from "@/components/tax-planning/TaxBarChart";
+import RealLifeProblems from "@/components/tax-planning/RealLifeProblems";
 import TaxPlanningServices from "@/components/tax-planning/TaxPlanningServices";
 import React from "react";
 
@@ -10,9 +11,10 @@ const page = () => {
     <div>
       <HeaderSection />
       <FeaturedSection />
+      <RealLifeProblems />
       <TaxPlanningServices />
-      <TaxBarChart />
-      <InitialConsultation />
+      <ClientTestimonials />
+      <Footer />
     </div>
   );
 };
