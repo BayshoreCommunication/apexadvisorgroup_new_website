@@ -12,8 +12,8 @@ const featuredData = [
     desc: "Free Confidential No obligation",
   },
   {
-    Image: "/image/tax-resolution/investigation.png",
-    WhiteImage: "/image/tax-resolution/investigation-white.png",
+    Image: "/image/tax-resolution/Investigation.png",
+    WhiteImage: "/image/tax-resolution/Investigation-white.png",
     title: "Step 2: Investigation",
     desc: "Initiate client protection Establish communication with IRS Review case resolution options",
   },
