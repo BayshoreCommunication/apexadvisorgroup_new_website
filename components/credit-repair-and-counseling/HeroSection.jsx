@@ -14,7 +14,7 @@ const HeroSection = () => {
       }}
     >
       <SectionLayout>
-        <div className="min-h-[55vh] flex flex-col lg:flex-row justify-center lg:justify-between items-center  lg:items-center gap-4 md:gap-10 lg:20">
+        <div className="h-fit md:min-h-[55vh] flex flex-col lg:flex-row justify-center lg:justify-between items-center  lg:items-center gap-8 md:gap-10 lg:20 py-6">
           <div className="w-full lg:w-1/2">
             <div className="max-w-xl">
               <ScrollMotionEffect effect="fade-right" duration="1000">
