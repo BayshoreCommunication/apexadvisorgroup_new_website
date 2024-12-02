@@ -38,7 +38,7 @@ const HeaderSection = () => {
               </ScrollMotionEffect>
 
               <ScrollMotionEffect effect="fade-right" duration="2500">
-                <div className="inline-flex justify-center mt-8 md:mt-14 md:justify-start">
+                <div className="pt-5 text-center md:text-start">
                   <Link
                     href="/contact"
                     id="view-all-btn"

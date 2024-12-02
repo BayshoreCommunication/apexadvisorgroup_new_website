@@ -50,7 +50,7 @@ const HeroSection = () => {
               </p>
             </ScrollMotionEffect> */}
             <ScrollMotionEffect effect="fade-right" duration="2500">
-              <div className="inline-flex justify-center mt-8 md:mt-14 md:justify-start text-center lg:text-start">
+              <div className="pt-5 text-center md:text-start">
                 <Link
                   href="/contact"
                   id="white-btn"

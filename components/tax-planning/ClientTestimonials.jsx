@@ -94,7 +94,7 @@ const ClientTestimonials = ({ className }) => {
         >
           {testimonialsData?.map((el, index) => (
             <SwiperSlide key={index}>
-              <div className="w-full text-stat flex flex-col justify-center items-start max-w-sm gap-4 lg:gap-6 py-10 mx-auto">
+              <div className="w-full text-start flex flex-col justify-center items-start max-w-sm gap-4 lg:gap-6 py-10 mx-auto px-6">
                 <div className="flex items-center gap-5 justify-start">
                   <div className="flex items-center gap-3">
                     <div>
