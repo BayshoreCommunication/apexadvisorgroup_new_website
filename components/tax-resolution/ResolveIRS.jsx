@@ -14,9 +14,8 @@ const ResolveIRS = () => {
               A clear path to resolve your IRS issues
             </h1>
             <p className="text-lg font-medium mt-3">
-              Stay ahead of the curve with Apex Advisor Group Inc{"'"}s
-              informative and engaging blog posts. Our commitment is to provide
-              you with valuable.
+              Resolve IRS issues efficiently with personalized guidance and
+              proven strategies.
             </p>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-6 lg:gap-20">

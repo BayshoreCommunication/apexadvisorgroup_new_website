@@ -40,11 +40,8 @@ const FeaturedSection = () => {
           </ScrollMotionEffect>
           <ScrollMotionEffect effect="fade-up" duration="2000">
             <p className="text-lg font-medium mt-3">
-              {` Stay ahead of the curve with Apex Advisor Group Inc's informative
-              and engaging blog posts. Our commitment is to provide you with
-              valuable insights to make informed decisions for your family and
-              business, ensuring your path to financial success. Start exploring
-              our blogs now!`}
+              {`Step-by-step guidance from experts to help you reduce or eliminate your tax burden
+                quickly and effectively.`}
             </p>
           </ScrollMotionEffect>
         </div>

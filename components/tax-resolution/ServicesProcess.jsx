@@ -60,12 +60,11 @@ const ServicesProcess = () => {
       <SectionLayout>
         <div className="w-full max-w-5xl text-center mx-auto mb-8">
           <h1 className="text-2xl md:text-4xl font-bold">
-            A clear path to resolve your IRS issues
+            Tax Resolution Services Process
           </h1>
           <p className="text-lg font-medium mt-3">
-            Stay ahead of the curve with Apex Advisor Group Inc{"'"}s
-            informative and engaging blog posts. Our commitment is to provide
-            you with valuable insights.
+            We simplify complex tax challenges, guiding you through each stage
+            with expert support and proven methods.
           </p>
         </div>
         <ScrollMotionEffect effect="fade-up" duration="2000">
