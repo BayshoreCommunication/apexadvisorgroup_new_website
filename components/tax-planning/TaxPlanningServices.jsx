@@ -5,52 +5,52 @@ import ScrollMotionEffect from "../motion copy/ScrollMotionEffect";
 
 const servicesProcessData = [
   {
-    title: "Back Tax Resolution Services",
+    title: "Strategic Tax Planning",
     description:
-      "Estimate taxes due and savings across multiple years with support for federal, state and local forms.",
-    icon: "/image/tax-resolution/back-tax-resolution-services.png",
+      "We provide personalized tax strategies, optimizing deductions, minimizing liabilities, and ensuring compliance to help you achieve financial success.",
+    icon: "/image/tax-planning-page/back-tax-resolution-services.png",
   },
   {
-    title: "Tax Lien and Levy Assistance",
+    title: "International Tax Planning",
     description:
-      "Minimize taxes with Corvee's continually updated database of 1,500+ tax strategies.",
-    icon: "/image/tax-resolution/tax-lien-and-levy-assistance.png",
+      "We offer expert international tax planning to optimize tax strategies, ensuring compliance and minimizing your global tax burden.",
+    icon: "/image/tax-planning-page/tax-lien-and-levy-assistance.png",
   },
   {
-    title: "Audit Representation",
+    title: "Business Tax Planning",
     description:
-      "Model the impact of entity and compensation changes to help clients choose the most tax-efficient structure.",
-    icon: "/image/tax-resolution/audit-representation.png",
+      "Our business tax planning services optimize tax advantages, minimize liabilities, and foster long-term growth with tailored, industry-specific solutions.",
+    icon: "/image/tax-planning-page/business-tax-planning.png",
   },
   {
-    title: "Assist Individuals Facing",
+    title: "Retirement Tax Planning",
     description:
-      "See how every business and entity affects the Form 1040 across jurisdictions in one consolidated multi-entity tax calculation.",
-    icon: "/image/tax-resolution/assist-individuals-facing.png",
+      "Our retirement tax planning services help maximize savings, optimize tax efficiency, and ensure your plan aligns with financial goals.",
+    icon: "/image/tax-planning-page/retirement-tax-planning.png",
   },
   {
-    title: "Penalty Abatement",
+    title: "Individual Income Tax Planning",
     description:
-      "Gather client data with tax return scanning and questionnaires, which delve deeper when needed and omit questions when possible.",
-    icon: "/image/tax-resolution/penalty-abatement.png",
+      "Our individual tax planning services optimize deductions, reduce taxable income, and minimize liabilities to help you achieve financial goals.",
+    icon: "/image/tax-planning-page/individual-income-tax-planning.png",
   },
   {
-    title: "Offer in Compromise (OIC)",
+    title: "State and Local Tax Planning",
     description:
-      "Show clients your value with professional plans featuring savings, strategies, documentation and calculations for every jurisdiction.",
-    icon: "/image/tax-resolution/offer-in-compromise.png",
+      "Our experts help businesses navigate state and local taxes, optimize savings, and ensure compliance with regulations across jurisdictions.",
+    icon: "/image/tax-planning-page/state-and-local-tax-planning.png",
   },
   {
-    title: "Installment Agreements",
+    title: "Estate and Gift Tax Planning",
     description:
-      "Gather client data with tax return scanning and questionnaires, which delve deeper when needed and omit questions when possible.",
-    icon: "/image/tax-resolution/installment-agreements.png",
+      "We provide personalized estate and gift tax planning to minimize taxes, ensure smooth asset transfer, and protect your legacy.",
+    icon: "/image/tax-planning-page/estate-and-gift-tax-planning.png",
   },
   {
-    title: "Tax Court Representation",
+    title: "Compliance and Reporting",
     description:
-      "Show clients your value with professional plans featuring savings, strategies, documentation and calculations for every jurisdiction.",
-    icon: "/image/tax-resolution/tax-court-representation.png",
+      "Apex Advisors ensures accurate tax filing, optimizes deductions, and provides audit support to maintain compliance with tax regulations.",
+    icon: "/image/tax-planning-page/compliance-and-reporting.png",
   },
 ];
 
@@ -70,11 +70,11 @@ const TaxPlanningServices = () => {
             our blogs now!`}
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {servicesProcessData.map((service, index) => (
-            <div key={index}>
-              <ScrollMotionEffect effect="fade-up" duration="2000">
-                <div className="flex flex-col lg:flex-row items-center gap-6  px-12 py-8 bg-white rounded-lg hover:shadow-md border duration-300">
+        <ScrollMotionEffect effect="fade-up" duration="2000">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {servicesProcessData.map((service, index) => (
+              <div key={index} className="h-full">
+                <div className="flex flex-col h-full lg:flex-row items-center gap-6 px-12 py-8 bg-white rounded-lg hover:shadow-md border duration-300">
                   <div className="flex-shrink-0">
                     <Image
                       src={service.icon}
@@ -84,19 +84,19 @@ const TaxPlanningServices = () => {
                       className="object-contain"
                     />
                   </div>
-                  <div>
+                  <div className="flex flex-col flex-grow">
                     <h3 className="text-xl font-semibold text-gray-800 text-center lg:text-start">
                       {service.title}
                     </h3>
-                    <p className="text-gray-600 mt-2  text-center lg:text-start">
+                    <p className="text-gray-600 mt-2 text-center lg:text-start">
                       {service.description}
                     </p>
                   </div>
                 </div>
-              </ScrollMotionEffect>
-            </div>
-          ))}
-        </div>
+              </div>
+            ))}
+          </div>
+        </ScrollMotionEffect>
       </SectionLayout>
     </div>
   );

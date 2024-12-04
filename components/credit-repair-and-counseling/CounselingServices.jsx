@@ -14,11 +14,9 @@ const CounselingServices = () => {
               Credit Repair & Counseling Services
             </h1>
             <p className="text-lg font-medium mt-3">
-              Stay ahead of the curve with Apex Advisor Group Inc{"'"}s
-              informative and engaging blog posts. Our commitment is to provide
-              you with valuable insights to make informed decisions for your
-              family and business, ensuring your path to financial success.
-              Start exploring our blogs now!
+              Apex Advisor offers personalized credit solutions to improve
+              scores, manage debt, and address inaccuracies, helping you regain
+              financial control and unlock better opportunities.
             </p>
           </div>
           <div className=" max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-6 lg:gap-20">
@@ -33,8 +31,9 @@ const CounselingServices = () => {
                     </h3>
 
                     <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-                      Estimate taxes due and savings across multiple years with
-                      support for federal, state and local forms.
+                      Apex Advisors offers comprehensive credit repair services,
+                      analyzing your credit to ensure an accurate reflection of
+                      your creditworthiness.
                     </p>
                   </li>
                   <li class="mb-10 ms-6 md:ms-12">
@@ -44,8 +43,9 @@ const CounselingServices = () => {
                     </h3>
 
                     <p class="text-base font-normal text-gray-500 dark:text-gray-400">
-                      Model the impact of entity and compensation changes to
-                      help clients choose the most tax-efficient structure.
+                      We provide personalized credit repair, with a dedicated
+                      specialist to guide you through correcting errors and
+                      improving your credit.
                     </p>
                   </li>
                   <li class="mb-10 ms-6 md:ms-12">
@@ -55,9 +55,9 @@ const CounselingServices = () => {
                     </h3>
 
                     <p class="text-base font-normal text-gray-500 dark:text-gray-400">
-                      Gather client data with tax return scanning and
-                      questionnaires, which delve deeper when needed and omit
-                      questions when possible.
+                      We handle creditor negotiations to remove or improve
+                      negative credit entries, enhancing your overall credit
+                      score.
                     </p>
                   </li>
                   <li class="ms-6 md:ms-12">
@@ -67,9 +67,9 @@ const CounselingServices = () => {
                     </h3>
 
                     <p class="text-base font-normal text-gray-500 dark:text-gray-400">
-                      Gather client data with tax return scanning and
-                      questionnaires, which delve deeper when needed and omit
-                      questions when possible.
+                      Apex Advisor helps you verify debts, removing incorrect
+                      items to improve credit scores and prevent unnecessary
+                      payments.
                     </p>
                   </li>
                 </ol>
@@ -84,8 +84,9 @@ const CounselingServices = () => {
                       Credit Building Strategies and Guidance
                     </h3>
                     <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-                      Minimize taxes with Corvee’s continually updated database
-                      of 1,500+ tax strategies.
+                      Apex Advisor helps you repair and build credit with
+                      strategies to secure your financial future and achieve
+                      your goals.
                     </p>
                   </li>
                   <li class="mb-10 ms-6 md:ms-12">
@@ -95,9 +96,9 @@ const CounselingServices = () => {
                     </h3>
 
                     <p class="text-base font-normal text-gray-500 dark:text-gray-400">
-                      See how every business and entity affects the Form 1040
-                      across jurisdictions in one consolidated multi-entity tax
-                      calculation.
+                      Apex Advisor offers identity theft resolution services to
+                      help restore your credit and protect your financial
+                      reputation from fraud.
                     </p>
                   </li>
                   <li class="mb-10 ms-6 md:ms-12">
@@ -107,9 +108,9 @@ const CounselingServices = () => {
                     </h3>
 
                     <p class="text-base font-normal text-gray-500 dark:text-gray-400">
-                      Show clients your value with professional plans featuring
-                      savings, strategies, documentation and calculations for
-                      every jurisdiction.
+                      {`Need a quick credit score update? ApexAdvisor's rapid
+                      rescore service ensures fast results for your urgent
+                      financial needs.`}
                     </p>
                   </li>
                   <li class="ms-6 md:ms-12">
@@ -119,9 +120,9 @@ const CounselingServices = () => {
                     </h3>
 
                     <p class="text-base font-normal text-gray-500 dark:text-gray-400">
-                      Show clients your value with professional plans featuring
-                      savings, strategies, documentation and calculations for
-                      every jurisdiction.
+                      Consolidate your debts into one manageable payment with a
+                      debt management plan, reducing your monthly financial
+                      burden.
                     </p>
                   </li>
                 </ol>

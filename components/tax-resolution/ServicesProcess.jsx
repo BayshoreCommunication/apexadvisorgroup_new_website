@@ -7,49 +7,49 @@ const servicesProcessData = [
   {
     title: "Back Tax Resolution Services",
     description:
-      "Estimate taxes due and savings across multiple years with support for federal, state and local forms.",
+      "Let our experts help resolve back taxes with personalized solutions, negotiating with authorities and minimizing liabilities for financial peace.",
     icon: "/image/tax-resolution/back-tax-resolution-services.png",
   },
   {
     title: "Tax Lien and Levy Assistance",
     description:
-      "Minimize taxes with Corvee's continually updated database of 1,500+ tax strategies.",
+      "We specialize in tax lien and levy assistance, negotiating with authorities to protect assets and release liens or levies.",
     icon: "/image/tax-resolution/tax-lien-and-levy-assistance.png",
   },
   {
     title: "Audit Representation",
     description:
-      "Model the impact of entity and compensation changes to help clients choose the most tax-efficient structure.",
+      "Navigate tax audits confidently with Apex Advisors, offering expert guidance, thorough documentation, and effective advocacy for your interests.",
     icon: "/image/tax-resolution/audit-representation.png",
   },
   {
     title: "Assist Individuals Facing",
     description:
-      "See how every business and entity affects the Form 1040 across jurisdictions in one consolidated multi-entity tax calculation.",
+      "Our compassionate team helps with innocent spouse relief, guiding you through your rights and ensuring fair tax resolution.",
     icon: "/image/tax-resolution/assist-individuals-facing.png",
   },
   {
     title: "Penalty Abatement",
     description:
-      "Gather client data with tax return scanning and questionnaires, which delve deeper when needed and omit questions when possible.",
+      "Our experts specialize in penalty abatement, negotiating with the IRS to minimize or eliminate penalties and reduce your financial burden.",
     icon: "/image/tax-resolution/penalty-abatement.png",
   },
   {
     title: "Offer in Compromise (OIC)",
     description:
-      "Show clients your value with professional plans featuring savings, strategies, documentation and calculations for every jurisdiction.",
+      "We specialize in the Offer in Compromise program, helping reduce tax debt through expert negotiation and comprehensive guidance.",
     icon: "/image/tax-resolution/offer-in-compromise.png",
   },
   {
     title: "Installment Agreements",
     description:
-      "Gather client data with tax return scanning and questionnaires, which delve deeper when needed and omit questions when possible.",
+      "Apex Advisors offers installment agreement services, helping you negotiate manageable payment plans to settle tax debt over time.",
     icon: "/image/tax-resolution/installment-agreements.png",
   },
   {
     title: "Tax Court Representation",
     description:
-      "Show clients your value with professional plans featuring savings, strategies, documentation and calculations for every jurisdiction.",
+      "Our skilled attorneys provide expert tax court representation, preparing your case and advocating for a fair resolution of your dispute.",
     icon: "/image/tax-resolution/tax-court-representation.png",
   },
 ];
