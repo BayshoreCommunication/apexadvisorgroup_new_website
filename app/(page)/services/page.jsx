@@ -8,6 +8,12 @@ import PageHeroSection from "@/components/shared/PageHeroSection";
 import Head from "next/head";
 import MotionEffect from "@/components/motion/MotionEffect";
 
+export const metadata = {
+  title: "Services | Tax, Accounting & Payroll Services Tampa",
+  description:
+    "Accounting & Tax Preparation Firm In Tampa, Florida Notary | Credit Repair & Counseling | Insurance",
+};
+
 const page = () => {
   const ServiceCard = ({ el, isReversed }) => (
     <div

@@ -7,6 +7,41 @@ import Head from "next/head";
 import MotionEffect from "@/components/motion/MotionEffect";
 import { redirect } from "next/navigation";
 
+export async function generateMetadata({ params }) {
+  const serviceDatas = serviceData?.filter(
+    (service) => service.slug === params.slug
+  );
+
+  if (!serviceDatas) {
+    return {
+      title: "Service not found",
+      description: "No service post available.",
+    };
+  }
+
+  let description = serviceDatas[0];
+
+  return {
+    title: description?.topBarTitle,
+    description: description?.topBarDescription,
+    openGraph: {
+      title: description?.topBarTitle,
+      description: description?.topBarDescription,
+      images: [
+        {
+          url: `/image/${description?.topBarImage}`,
+          width: 1200,
+          height: 600,
+          alt: "Og Image",
+        },
+      ],
+      url: `https://www.apexadvisorgroup.com/services/${description?.slug}`,
+      type: "article",
+      site_name: "Apex Advisor Group Inc",
+    },
+  };
+}
+
 const page = async ({ params }) => {
   const serviceDatas = serviceData?.filter(
     (service) => service.slug === params.slug

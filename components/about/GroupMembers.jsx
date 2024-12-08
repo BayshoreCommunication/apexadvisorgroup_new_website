@@ -19,7 +19,7 @@ const GroupMembers = () => {
               ></Image>
             </div>
             <div>
-              <h1 className="text-[42px] font-bold mb-4">Carlos Rosario</h1>
+              <h2 className="text-[42px] font-bold mb-4">Carlos Rosario</h2>
               <p className="text-base mb-4">
                 With over 20+ years of tax preparation and being in the
                 accounting industry, Carlos Rosario has established himself as
@@ -56,7 +56,7 @@ const GroupMembers = () => {
               ></Image>
             </div>
             <div>
-              <h1 className="text-[42px] font-bold mb-4">Jennifer Colon</h1>
+              <h2 className="text-[42px] font-bold mb-4">Jennifer Colon</h2>
               <p className="text-base mb-4">
                 Jennifer Colon has been in the tax and accounting industry since
                 2010. Jennifer began her career as a front office receptionist
@@ -94,7 +94,7 @@ const GroupMembers = () => {
               ></Image>
             </div>
             <div>
-              <h1 className="text-[42px] font-bold mb-4">Eddia Rosario</h1>
+              <h2 className="text-[42px] font-bold mb-4">Eddia Rosario</h2>
               <p className="text-base mb-4">
                 My name is Eddia Rosario and I am proud to be part of the Apex
                 Advisor Group! I have been in the tax and accounting industry
@@ -143,7 +143,7 @@ const GroupMembers = () => {
               ></Image>
             </div>
             <div>
-              <h1 className="text-[42px] font-bold mb-4">Stephane Calixte</h1>
+              <h2 className="text-[42px] font-bold mb-4">Stephane Calixte</h2>
               <p className="text-base mb-4">
                 With over 10 years of tax preparation experience, Stephane
                 started his career as a tax preparer for CBT Tax Services where
@@ -182,9 +182,9 @@ const GroupMembers = () => {
               ></Image>
             </div>
             <div>
-              <h1 className="text-[42px] font-bold mb-4">
+              <h2 className="text-[42px] font-bold mb-4">
                 Carlos Alberto Muñoz
-              </h1>
+              </h2>
               <p className="text-base">
                 As a registered tax preparer, Carlos Muñoz specializes in his
                 client’s financial well being. He uses his decade long
