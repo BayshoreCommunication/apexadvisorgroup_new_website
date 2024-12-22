@@ -13,7 +13,7 @@ const VideoSection = () => {
             <ScrollMotionEffect effect="fade-right" duration="2000">
               <div className="video-container rounded-3xl overflow-hidden border-3 ">
                 <iframe
-                  src={`https://www.youtube.com/embed/F61yBBOZWHU?si=a88gzahFdYjtXJ6x`}
+                  src={`https://www.youtube.com/embed/fNJtpj7ZZ2Y?si=0QqrJzagEPfbvuuB`}
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
@@ -27,10 +27,10 @@ const VideoSection = () => {
           <ScrollMotionEffect effect="fade-left" duration="2000">
             <div className="flex flex-col gap-y-4  lg:gap-y-6">
               <h2 className="font-semibold text-2xl md:text-5xl text-white">
-                Bad Credit? Get Expert Help to Improve Your Finances
+                Tax Planning for Your Business? Get Expert Help
               </h2>
               <p className="text-base lg:text-lg text-white">
-                {`Struggling with bad credit? Our credit repair specialists can help you take control of your finances. With expert guidance, we’ll help improve your credit score, remove inaccuracies, and build a stronger financial future.`}
+                {`Tax planning is essential for your business’s financial success. Our team of tax experts, including attorneys, CPAs, and enrolled agents, brings over 40 years of experience to help minimize tax liabilities, ensure compliance, and avoid costly mistakes. `}
               </p>
               <p className="text-base lg:text-lg text-white">
                 {`Let us handle your taxes while you focus on growing your business.`}

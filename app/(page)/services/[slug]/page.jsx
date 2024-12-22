@@ -53,14 +53,6 @@ const page = async ({ params }) => {
 
   return (
     <>
-      <Head>
-        <title>{serviceDatas[0]?.title}</title>
-        <meta
-          name="description"
-          content={`${serviceDatas[0]?.topBarDescription}`}
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </Head>
       <div className="mt-0 md:mt-[130px]">
         <PageHeroSection
           heading={serviceDatas[0]?.title}

@@ -13,7 +13,7 @@ const VideoSection = () => {
             <ScrollMotionEffect effect="fade-right" duration="2000">
               <div className="video-container rounded-3xl overflow-hidden border-3 ">
                 <iframe
-                  src={`https://www.youtube.com/embed/nFsCaOs2I9w?si=1Wo4sb_jUIvQOSzw`}
+                  src={`https://www.youtube.com/embed/MzU5m_4yGlA?si=G3e_53Jn3lNVU6R7`}
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
