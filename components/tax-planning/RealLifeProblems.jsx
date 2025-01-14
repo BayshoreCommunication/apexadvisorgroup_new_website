@@ -208,7 +208,7 @@ const RealLifeProblems = () => {
                   </div>
                   <div>
                     <p className="text-xl font-medium text-[#574EAB]">
-                      I am planning to purchase a health insurance policy for
+                      I am planning to purchase a life insurance policy for
                       $15,00. Can I save taxes on this expense?
                     </p>
                   </div>
