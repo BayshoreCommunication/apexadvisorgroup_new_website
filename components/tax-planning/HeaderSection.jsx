@@ -54,7 +54,7 @@ const HeaderSection = () => {
           <div className="w-1/2 ">
             <ScrollMotionEffect effect="fade-left" duration="2000">
               <Image
-                src="/image/tax-planning-page/tax-summary.png"
+                src="/image/tax-planning-page/tax-summary-1.png"
                 alt=""
                 width={270}
                 height={480}
