@@ -27,7 +27,8 @@ const CreditJourney = () => {
                   After checking my credit, <br /> I noticed something’s wrong
                 </p>
                 <Link
-                  href="/contact"
+                  href="https://calendly.com/jennyapexpro/tax-preparation?month=2025-01"
+                  target="_blank"
                   id="white-btn"
                   className="bg-white   hover:text-white text-base md:text-lg px-6 md:px-10 py-3 uppercase border border-[#0E758B] font-bold w-full text-center"
                 >
@@ -40,7 +41,8 @@ const CreditJourney = () => {
                   I don’t know what’s listed <br /> on my credit
                 </p>
                 <Link
-                  href="/contact"
+                  href="https://calendly.com/jennyapexpro/tax-preparation?month=2025-01"
+                  target="_blank"
                   id="white-btn"
                   className="bg-white   hover:text-white text-base md:text-lg px-6 md:px-10 py-3 uppercase border border-[#0E758B] font-bold w-full text-center"
                 >

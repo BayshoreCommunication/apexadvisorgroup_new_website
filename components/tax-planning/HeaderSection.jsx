@@ -40,11 +40,12 @@ const HeaderSection = () => {
               <ScrollMotionEffect effect="fade-right" duration="2500">
                 <div className="pt-2 lg:pt-5 text-center md:text-start">
                   <Link
-                    href="/contact"
+                    href="https://calendly.com/carlosapexadvisor/taxplanning?back=1&month=2025-01"
+                    target="_blank"
                     id="view-all-btn"
-                    className="bg-[#0E758B] text-white  hover:text-[#0E758B] text-base md:text-xl px-6 md:px-10 py-3 uppercase  border !border-[#0E758B] font-bold shadow-none lg:shadow-[0px_18px_30px_rgba(0,0,0,0.25)] w-full text-center"
+                    className="bg-[#0E758B] text-white hover:text-[#0E758B] text-base md:text-xl px-6 md:px-10 py-3 uppercase border !border-[#0E758B] font-bold shadow-none lg:shadow-[0px_18px_30px_rgba(0,0,0,0.25)] w-full text-center"
                   >
-                    Get Tax Help
+                    Get My Customized Tax Plan
                   </Link>
                 </div>
               </ScrollMotionEffect>

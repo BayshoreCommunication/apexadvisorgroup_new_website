@@ -45,13 +45,14 @@ const HeroSection = () => {
               </ScrollMotionEffect>
 
               <ScrollMotionEffect effect="fade-right" duration="3000">
-                <div className="pt-5 text-center md:text-start">
+                <div className="pt-4 text-center md:text-start">
                   <Link
-                    href="/contact"
+                    href="https://calendly.com/jennyapexpro/tax-preparation?month=2025-01"
+                    target="_blank"
                     id="view-all-btn"
                     className="bg-[#0E758B] text-white  hover:text-[#0E758B] text-base md:text-xl px-6 md:px-10 py-3 uppercase  border !border-[#0E758B] font-bold shadow-[0px_18px_30px_rgba(0,0,0,0.25)] w-full text-center"
                   >
-                    Get Tax Help
+                    TAKE CONTROL OF YOUR CREDIT NOW
                   </Link>
                 </div>
               </ScrollMotionEffect>

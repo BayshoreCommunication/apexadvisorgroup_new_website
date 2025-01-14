@@ -39,7 +39,8 @@ const CallToAction2 = () => {
           </ScrollMotionEffect>
           <ScrollMotionEffect effect="fade-up" duration="2000">
             <Link
-              href="/contact"
+              href="https://calendly.com/carlosapexadvisor/15min?back=1&month=2025-01"
+              target="_blank"
               id="view-all-btn"
               className="bg-[#0E758B] text-white  hover:text-[#0E758B] text-base md:text-xl px-6 md:px-10 py-3 uppercase  border !border-[#0E758B] font-bold "
             >

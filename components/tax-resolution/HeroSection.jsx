@@ -37,7 +37,7 @@ const HeroSection = () => {
               />
             </ScrollMotionEffect>
             <ScrollMotionEffect effect="fade-right" duration="1500">
-              <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold text-white text-center md:text-left leading-tight tracking-normal mt-6">
+              <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold text-white text-center md:text-left leading-tight tracking-normal mt-6 mb-5">
                 Millions written off by the IRS each year— see if you qualify
               </h1>
             </ScrollMotionEffect>
@@ -52,7 +52,8 @@ const HeroSection = () => {
             <ScrollMotionEffect effect="fade-right" duration="2500">
               <div className="pt-5 text-center md:text-start">
                 <Link
-                  href="/contact"
+                  href="https://calendly.com/carlosapexadvisor/15min?back=1&month=2025-01"
+                  target="_blank"
                   id="white-btn"
                   className="bg-white   hover:text-white text-base md:text-xl px-6 md:px-10 py-3 uppercase border border-[#0E758B] font-bold w-full text-center"
                 >

@@ -89,7 +89,7 @@ const RealLifeProblems = () => {
                 </div>
                 <div>
                   <p className="text-xl font-medium text-[#574EAB]">
-                    I am planning to purchase a health insurance policy for
+                    I am planning to purchase a life insurance policy for
                     $15,00. Can I save taxes on this expense?
                   </p>
                 </div>
@@ -252,8 +252,8 @@ const RealLifeProblems = () => {
                   </div>
                   <div>
                     <p className="text-xl font-medium text-[#8F312A]">
-                      Is there a way to reduce my taxes and increase my in-hand
-                      salary?
+                      Is there a way to reduce my taxes and increase my take
+                      home pay?
                     </p>
                   </div>
                 </div>
@@ -282,13 +282,17 @@ const RealLifeProblems = () => {
             <h3 className="text-transparent bg-clip-text bg-gradient-to-r from-[#D76FEF] to-[#5194FB] text-2xl font-bold md:text-4xl ">
               and a 100 more???
             </h3>
-            <Link
-              href="/contact"
-              id="view-all-btn"
-              className="bg-[#0E758B] text-white  hover:text-[#0E758B] text-base md:text-xl px-6 md:px-10 py-3 uppercase  border !border-[#0E758B] font-bold shadow-[0px_18px_30px_rgba(0,0,0,0.25)]"
-            >
-              get tax help
-            </Link>
+
+            <div className=" text-center md:text-start">
+              <Link
+                href="https://calendly.com/carlosapexadvisor/taxplanning?back=1&month=2025-01"
+                target="_blank"
+                id="view-all-btn"
+                className="bg-[#0E758B] text-white hover:text-[#0E758B] text-base md:text-xl px-6 md:px-10 py-3 uppercase border !border-[#0E758B] font-bold shadow-none lg:shadow-[0px_18px_30px_rgba(0,0,0,0.25)] w-full text-center"
+              >
+                Get My Customized Tax Plan
+              </Link>
+            </div>
           </div>
         </div>
       </SectionLayout>
