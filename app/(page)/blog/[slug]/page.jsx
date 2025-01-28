@@ -105,7 +105,7 @@ const page = async ({ params }) => {
         <style>{css}</style>
         <PageHeroSection
           heading={blogDetails[0]?.title}
-          subheading={blogDetails[0]?.author}
+          subheading={""}
           image={"/image/blog-image.jpg"}
           alt={"About Us Image"}
           width={1000}
