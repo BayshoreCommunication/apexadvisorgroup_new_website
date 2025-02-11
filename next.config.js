@@ -1,4 +1,4 @@
-const withTM = require('next-transpile-modules')(['some-module']); // Only include necessary modules
+const withTM = require("next-transpile-modules")(["some-module"]); // Only include necessary modules
 
 const nextConfig = {
   webpack: (config) => {
@@ -8,30 +8,35 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol: 'https',
-        hostname: 'picsum.photos',
-        port: '',
+        protocol: "https",
+        hostname: "picsum.photos",
+        port: "",
       },
       {
-        protocol: 'https',
-        hostname: 'drive.google.com',
-        port: '',
+        protocol: "https",
+        hostname: "drive.google.com",
+        port: "",
       },
       {
-        protocol: 'https',
-        hostname: 'lh3.googleusercontent.com',
-        port: '',
+        protocol: "https",
+        hostname: "lh3.googleusercontent.com",
+        port: "",
       },
       {
-        protocol: 'https',
-        hostname: 'res.cloudinary.com',
-        port: '',
+        protocol: "https",
+        hostname: "res.cloudinary.com",
+        port: "",
       },
 
       {
-        protocol: 'https',
-        hostname: 'example.com',
-        port: '',
+        protocol: "https",
+        hostname: "example.com",
+        port: "",
+      },
+      {
+        protocol: "https",
+        hostname: "bayshore.nyc3.digitaloceanspaces.com",
+        // hostname: "**",
       },
     ],
   },
