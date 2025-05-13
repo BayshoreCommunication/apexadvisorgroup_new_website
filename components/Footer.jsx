@@ -196,7 +196,8 @@ const Footer = () => {
           </div>
           <div className="md:flex items-center md:justify-center  gap-1">
             <div className="text-gray-300 font-thin text-sm md:text-base text-center">
-              ©2024 All Rights Reserved by Apex Advisor Group Inc.{" "}
+              <span>© {new Date().getFullYear()}</span> All Rights Reserved by
+              Apex Advisor Group Inc.{" "}
             </div>
             <div className="text-gray-300 font-thin ext-sm md:text-base text-center">
               {"  "} Design & Developed by {"  "}
