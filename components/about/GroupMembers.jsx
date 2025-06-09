@@ -170,7 +170,7 @@ const GroupMembers = () => {
             </div>
           </div>
         </MotionEffect>
-        <MotionEffect effect={"fade-up"} duration={"2000"}>
+{/*         <MotionEffect effect={"fade-up"} duration={"2000"}>
           <div className="flex-col flex lg:flex-row gap-6 pb-10 border-b-1">
             <div className="lg:max-w-[20%] w-full hover:brightness-75 hover:scale-105 duration-700 mb-6 lg:mb-0">
               <Image
@@ -198,7 +198,7 @@ const GroupMembers = () => {
               </p>
             </div>
           </div>
-        </MotionEffect>
+        </MotionEffect> */}
       </div>
     </SectionLayout>
   );
