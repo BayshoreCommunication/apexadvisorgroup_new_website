@@ -85,7 +85,7 @@ const Footer = () => {
                     <input
                       type="text"
                       id="first_name"
-                      class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2"
+                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2"
                       placeholder="example@gmail.com"
                       required
                     />
@@ -122,7 +122,7 @@ const Footer = () => {
                 viewBox="0 0 8 19"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
                   clipRule="evenodd"
                 />

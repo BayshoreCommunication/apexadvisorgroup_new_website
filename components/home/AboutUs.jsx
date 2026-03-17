@@ -15,7 +15,7 @@ const AboutUs = async () => {
               >
                 About Us
               </h2>
-              <hr class="h-[2px] my-0 bg-stone-950 border-0 w-24 mx-auto"></hr>
+              <hr className="h-[2px] my-0 bg-stone-950 border-0 w-24 mx-auto"></hr>
             </MotionEffect>
 
             <MotionEffect effect="fade-up" duration="2000">

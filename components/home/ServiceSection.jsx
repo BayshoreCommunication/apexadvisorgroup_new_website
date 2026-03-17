@@ -17,7 +17,7 @@ const ServiceSection = () => {
               >
                 Our <span className='text-[#00E0FF]'>Services</span>
               </h2>
-              <hr class='h-[2px] my-0 bg-[#00E0FF] border-0 w-24 mx-auto md:mx-0'></hr>
+              <hr className='h-[2px] my-0 bg-[#00E0FF] border-0 w-24 mx-auto md:mx-0'></hr>
               <p className='mb-4 text-lg text-stone-50 text-center md:text-left mt-6'>
                 Introducing our top-rated service that offers expert solutions
                 for all your needs. Our team of professionals provide efficient

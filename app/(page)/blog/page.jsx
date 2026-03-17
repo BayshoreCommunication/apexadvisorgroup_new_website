@@ -1,12 +1,11 @@
+import BlogSideBar from "@/components/blog/BlogSideBar";
 import MotionEffect from "@/components/motion/MotionEffect";
 import PageHeroSection from "@/components/shared/PageHeroSection";
 import SectionLayout from "@/components/shared/SectionLayout";
 import GetAllPostData from "@/lib/GetAllPostData";
+import parse from "html-react-parser";
 import Image from "next/image";
 import Link from "next/link";
-import parse from "html-react-parser";
-import BlogSideBar from "@/components/blog/BlogSideBar";
-import Head from "next/head";
 
 export const metadata = {
   title: "Tax & Accounting Insights Blog | Apex Advisor Group Tampa",
@@ -67,7 +66,7 @@ const page = async () => {
                           <div className="flex justify-center md:justify-start">
                             <button
                               type="button"
-                              class="text-white bg-[#0B7788] hover:bg-[#096573] font-medium  text-lg px-4 py-2 me-2 mb-2 focus:outline-none rounded-md"
+                              className="text-white bg-[#0B7788] hover:bg-[#096573] font-medium  text-lg px-4 py-2 me-2 mb-2 focus:outline-none rounded-md"
                             >
                               Read More
                             </button>

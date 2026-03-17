@@ -23,50 +23,50 @@ const CounselingServices = () => {
             <div>
               <ScrollMotionEffect effect="fade-right" duration="2000">
                 {" "}
-                <ol class="relative border-s-3 border-[#0E758B] dark:border-gray-700">
-                  <li class="mb-10 ms-6 md:ms-12">
-                    <span class="absolute flex items-center justify-center w-6 h-6 bg-[#0E758B] rounded-full -start-3.5 -top-2 ring-6 ring-[#0E758B] mt-2  "></span>
-                    <h3 class="flex items-center mb-1 text-xl lg:text-2xl font-semibold text-gray-900 dark:text-white">
+                <ol className="relative border-s-3 border-[#0E758B] dark:border-gray-700">
+                  <li className="mb-10 ms-6 md:ms-12">
+                    <span className="absolute flex items-center justify-center w-6 h-6 bg-[#0E758B] rounded-full -start-3.5 -top-2 ring-6 ring-[#0E758B] mt-2  "></span>
+                    <h3 className="flex items-center mb-1 text-xl lg:text-2xl font-semibold text-gray-900 dark:text-white">
                       Credit Analysis and Evaluation
                     </h3>
 
-                    <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+                    <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
                       Apex Advisors offers comprehensive credit repair services,
                       analyzing your credit to ensure an accurate reflection of
                       your creditworthiness.
                     </p>
                   </li>
-                  <li class="mb-10 ms-6 md:ms-12">
-                    <span class="absolute flex items-center justify-center w-6 h-6 bg-[#0E758B] rounded-full -start-3.5  ring-6 ring-[#0E758B] mt-2  "></span>
-                    <h3 class="mb-1 text-xl lg:text-2xl font-semibold text-gray-900 dark:text-white">
+                  <li className="mb-10 ms-6 md:ms-12">
+                    <span className="absolute flex items-center justify-center w-6 h-6 bg-[#0E758B] rounded-full -start-3.5  ring-6 ring-[#0E758B] mt-2  "></span>
+                    <h3 className="mb-1 text-xl lg:text-2xl font-semibold text-gray-900 dark:text-white">
                       Personalized Dispute Process
                     </h3>
 
-                    <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+                    <p className="text-base font-normal text-gray-500 dark:text-gray-400">
                       We provide personalized credit repair, with a dedicated
                       specialist to guide you through correcting errors and
                       improving your credit.
                     </p>
                   </li>
-                  <li class="mb-10 ms-6 md:ms-12">
-                    <span class="absolute flex items-center justify-center w-6 h-6 bg-[#0E758B] rounded-full -start-3.5  ring-6 ring-[#0E758B] mt-2  "></span>
-                    <h3 class="mb-1 text-xl lg:text-2xl font-semibold text-gray-900 dark:text-white">
+                  <li className="mb-10 ms-6 md:ms-12">
+                    <span className="absolute flex items-center justify-center w-6 h-6 bg-[#0E758B] rounded-full -start-3.5  ring-6 ring-[#0E758B] mt-2  "></span>
+                    <h3 className="mb-1 text-xl lg:text-2xl font-semibold text-gray-900 dark:text-white">
                       Creditor Communication and Negotiation
                     </h3>
 
-                    <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+                    <p className="text-base font-normal text-gray-500 dark:text-gray-400">
                       We handle creditor negotiations to remove or improve
                       negative credit entries, enhancing your overall credit
                       score.
                     </p>
                   </li>
-                  <li class="ms-6 md:ms-12">
-                    <span class="absolute flex items-center justify-center w-6 h-6 bg-[#0E758B] rounded-full -start-3.5  ring-6 ring-[#0E758B] mt-2  "></span>
-                    <h3 class="mb-1 text-xl lg:text-2xl font-semibold text-gray-900 dark:text-white">
+                  <li className="ms-6 md:ms-12">
+                    <span className="absolute flex items-center justify-center w-6 h-6 bg-[#0E758B] rounded-full -start-3.5  ring-6 ring-[#0E758B] mt-2  "></span>
+                    <h3 className="mb-1 text-xl lg:text-2xl font-semibold text-gray-900 dark:text-white">
                       Debt Validation Assistance
                     </h3>
 
-                    <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+                    <p className="text-base font-normal text-gray-500 dark:text-gray-400">
                       Apex Advisor helps you verify debts, removing incorrect
                       items to improve credit scores and prevent unnecessary
                       payments.
@@ -77,49 +77,49 @@ const CounselingServices = () => {
             </div>
             <div>
               <ScrollMotionEffect effect="fade-left" duration="2000">
-                <ol class="relative border-s-3 border-[#0E758B] dark:border-gray-700">
-                  <li class="mb-10 ms-6 md:ms-12">
-                    <span class="absolute flex items-center justify-center w-6 h-6 bg-[#0E758B] rounded-full -start-3.5 -top-2 ring-6 ring-[#0E758B] mt-2  "></span>
-                    <h3 class="flex items-center mb-1 text-xl lg:text-2xl font-semibold text-gray-900 dark:text-white">
+                <ol className="relative border-s-3 border-[#0E758B] dark:border-gray-700">
+                  <li className="mb-10 ms-6 md:ms-12">
+                    <span className="absolute flex items-center justify-center w-6 h-6 bg-[#0E758B] rounded-full -start-3.5 -top-2 ring-6 ring-[#0E758B] mt-2  "></span>
+                    <h3 className="flex items-center mb-1 text-xl lg:text-2xl font-semibold text-gray-900 dark:text-white">
                       Credit Building Strategies and Guidance
                     </h3>
-                    <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+                    <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
                       Apex Advisor helps you repair and build credit with
                       strategies to secure your financial future and achieve
                       your goals.
                     </p>
                   </li>
-                  <li class="mb-10 ms-6 md:ms-12">
-                    <span class="absolute flex items-center justify-center w-6 h-6 bg-[#0E758B] rounded-full -start-3.5  ring-6 ring-[#0E758B] mt-2  "></span>
-                    <h3 class="mb-1 text-xl lg:text-2xl font-semibold text-gray-900 dark:text-white">
+                  <li className="mb-10 ms-6 md:ms-12">
+                    <span className="absolute flex items-center justify-center w-6 h-6 bg-[#0E758B] rounded-full -start-3.5  ring-6 ring-[#0E758B] mt-2  "></span>
+                    <h3 className="mb-1 text-xl lg:text-2xl font-semibold text-gray-900 dark:text-white">
                       Identity Theft Resolution
                     </h3>
 
-                    <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+                    <p className="text-base font-normal text-gray-500 dark:text-gray-400">
                       Apex Advisor offers identity theft resolution services to
                       help restore your credit and protect your financial
                       reputation from fraud.
                     </p>
                   </li>
-                  <li class="mb-10 ms-6 md:ms-12">
-                    <span class="absolute flex items-center justify-center w-6 h-6 bg-[#0E758B] rounded-full -start-3.5  ring-6 ring-[#0E758B] mt-2  "></span>
-                    <h3 class="mb-1 text-xl lg:text-2xl font-semibold text-gray-900 dark:text-white">
+                  <li className="mb-10 ms-6 md:ms-12">
+                    <span className="absolute flex items-center justify-center w-6 h-6 bg-[#0E758B] rounded-full -start-3.5  ring-6 ring-[#0E758B] mt-2  "></span>
+                    <h3 className="mb-1 text-xl lg:text-2xl font-semibold text-gray-900 dark:text-white">
                       Rapid Rescore Services
                     </h3>
 
-                    <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+                    <p className="text-base font-normal text-gray-500 dark:text-gray-400">
                       {`Need a quick credit score update? ApexAdvisor's rapid
                       rescore service ensures fast results for your urgent
                       financial needs.`}
                     </p>
                   </li>
-                  <li class="ms-6 md:ms-12">
-                    <span class="absolute flex items-center justify-center w-6 h-6 bg-[#0E758B] rounded-full -start-3.5  ring-6 ring-[#0E758B] mt-2  "></span>
-                    <h3 class="mb-1 text-xl lg:text-2xl font-semibold text-gray-900 dark:text-white">
+                  <li className="ms-6 md:ms-12">
+                    <span className="absolute flex items-center justify-center w-6 h-6 bg-[#0E758B] rounded-full -start-3.5  ring-6 ring-[#0E758B] mt-2  "></span>
+                    <h3 className="mb-1 text-xl lg:text-2xl font-semibold text-gray-900 dark:text-white">
                       Debt Management Plans
                     </h3>
 
-                    <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+                    <p className="text-base font-normal text-gray-500 dark:text-gray-400">
                       Consolidate your debts into one manageable payment with a
                       debt management plan, reducing your monthly financial
                       burden.

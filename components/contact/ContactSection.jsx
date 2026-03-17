@@ -56,7 +56,7 @@ const ContactSection = () => {
     <SectionLayout>
       <div className="flex flex-col lg:flex-row gap-6 items-center">
         {/* contact-address */}
-        <div class="w-full flex-1">
+        <div className="w-full flex-1">
           <MotionEffect effect="fade-up" duration="2000">
             <div className="mb-5">
               <h3 className="text-2xl font-semibold mb-2">Address:</h3>
@@ -99,7 +99,7 @@ const ContactSection = () => {
                     />
                   </div>
 
-                  <div class="flex-1">
+                  <div className="flex-1">
                     <p className="text-lg font-semibold mb-2">Last Name *</p>
                     <input
                       className="p-2 border-1 border-[#0b7788] w-full"
@@ -184,7 +184,7 @@ const ContactSection = () => {
               </div>
               <button
                 type="submit"
-                class="text-white bg-[#0B7788] hover:bg-[#085c69] font-medium rounded-lg text-md px-6 py-2.5 me-2 mb-2 "
+                className="text-white bg-[#0B7788] hover:bg-[#085c69] font-medium rounded-lg text-md px-6 py-2.5 me-2 mb-2 "
               >
                 Send
               </button>

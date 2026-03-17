@@ -28,48 +28,48 @@ const ResolveIRS = () => {
                 We{"'"}ll review your situation and discuss what kind of tax
                 help you need.
               </p> */}
-                <ol class="relative ps-1 border-s-3 border-[#0E758B] dark:border-gray-700">
-                  <li class="mb-10 ms-6 md:ms-12">
-                    <span class="absolute flex items-center justify-center w-6 h-6 bg-[#0E758B] rounded-full -start-3 ring-6 lg:ring-8 ring-[#0E758B] mt-2  -top-2"></span>
-                    <h3 class="flex items-center mb-1 text-2xl lg:text-3xl font-semibold text-gray-900 dark:text-white">
+                <ol className="relative ps-1 border-s-3 border-[#0E758B] dark:border-gray-700">
+                  <li className="mb-10 ms-6 md:ms-12">
+                    <span className="absolute flex items-center justify-center w-6 h-6 bg-[#0E758B] rounded-full -start-3 ring-6 lg:ring-8 ring-[#0E758B] mt-2  -top-2"></span>
+                    <h3 className="flex items-center mb-1 text-2xl lg:text-3xl font-semibold text-gray-900 dark:text-white">
                       FREE consultation
                     </h3>
 
-                    <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+                    <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
                       We{"'"}ll review your situation and discuss what kind of
                       tax help you need.
                     </p>
                   </li>
-                  <li class="mb-10 ms-6 md:ms-12">
-                    <span class="absolute flex items-center justify-center w-6 h-6 bg-[#0E758B] rounded-full -start-3 ring-6 lg:ring-8 ring-[#0E758B] mt-2  "></span>
-                    <h3 class="mb-1 text-2xl lg:text-3xl font-semibold text-gray-900 dark:text-white">
+                  <li className="mb-10 ms-6 md:ms-12">
+                    <span className="absolute flex items-center justify-center w-6 h-6 bg-[#0E758B] rounded-full -start-3 ring-6 lg:ring-8 ring-[#0E758B] mt-2  "></span>
+                    <h3 className="mb-1 text-2xl lg:text-3xl font-semibold text-gray-900 dark:text-white">
                       FREE IRS investigation
                     </h3>
 
-                    <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+                    <p className="text-base font-normal text-gray-500 dark:text-gray-400">
                       We dig into your tax records and check 35 IRS compliance
                       points to identify ways to fix your tax issues.
                     </p>
                   </li>
-                  <li class="mb-10 ms-6 md:ms-12">
-                    <span class="absolute flex items-center justify-center w-6 h-6 bg-[#0E758B] rounded-full -start-3 ring-6 lg:ring-8 ring-[#0E758B] mt-2  "></span>
-                    <h3 class="mb-1 text-2xl lg:text-3xl font-semibold text-gray-900 dark:text-white">
+                  <li className="mb-10 ms-6 md:ms-12">
+                    <span className="absolute flex items-center justify-center w-6 h-6 bg-[#0E758B] rounded-full -start-3 ring-6 lg:ring-8 ring-[#0E758B] mt-2  "></span>
+                    <h3 className="mb-1 text-2xl lg:text-3xl font-semibold text-gray-900 dark:text-white">
                       FREE personalized plan
                     </h3>
 
-                    <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+                    <p className="text-base font-normal text-gray-500 dark:text-gray-400">
                       Your expert Tax consultant works with you to develop a
                       detailed IRS plan with clear pricing and specific next
                       steps just for you.
                     </p>
                   </li>
-                  <li class="ms-6 md:ms-12">
-                    <span class="absolute flex items-center justify-center w-6 h-6 bg-[#0E758B] rounded-full -start-3 ring-6 lg:ring-8 ring-[#0E758B] mt-2  "></span>
-                    <h3 class="mb-1 text-2xl lg:text-3xl font-semibold text-gray-900 dark:text-white">
+                  <li className="ms-6 md:ms-12">
+                    <span className="absolute flex items-center justify-center w-6 h-6 bg-[#0E758B] rounded-full -start-3 ring-6 lg:ring-8 ring-[#0E758B] mt-2  "></span>
+                    <h3 className="mb-1 text-2xl lg:text-3xl font-semibold text-gray-900 dark:text-white">
                       Get back on track
                     </h3>
 
-                    <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+                    <p className="text-base font-normal text-gray-500 dark:text-gray-400">
                       We work directly with the IRS to resolve your case and get
                       you back in good standing.
                     </p>

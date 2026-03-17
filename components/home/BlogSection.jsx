@@ -21,7 +21,7 @@ const BlogSection = async () => {
                 Blogs
               </h2>
 
-              <hr class='h-[2px] my-0 bg-stone-950 border-0 w-24 mx-auto'></hr>
+              <hr className='h-[2px] my-0 bg-stone-950 border-0 w-24 mx-auto'></hr>
               <p className='mb-4 text-lg text-stone-950 text-center max-w-[700px] mt-8'>
                 {`Stay ahead of the curve with Apex Advisor Group Inc's
                 informative and engaging blog posts. Our commitment is to
