@@ -216,7 +216,7 @@ const TaxBenefitsOfEarlyBusinessSuccessionPlanning = ({ postDate }) => {
         <p className="text-base leading-8 text-slate-800">
           Building a business requires years of sacrifice and unwavering
           dedication. For the owners we work with at Apex Advisor Group, these
-          companies represent a life's work and a primary vehicle for family
+          companies represent a life&apos;s work and a primary vehicle for family
           legacy. We find that the most successful founders realize the tax
           benefits of early business succession planning.
         </p>

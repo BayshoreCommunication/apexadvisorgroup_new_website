@@ -117,35 +117,39 @@ const page = async ({ params }) => {
         <SectionLayout>
           <div className="flex items-start justify-center gap-12">
             <div className="w-[100%] md:w-[75%]">
-              {blogDetails?.map((blogs, index) => (
-                <div key={index} className="mb-14">
-                  <div>
-                    <MotionEffect effect="fade-right" duration="2000">
-                      {blogs?.StaticContent ? (
-                        <blogs.StaticContent postDate={postDate(blogs?.createdAt)} />
-                      ) : (
-                        <>
-                          <Image
-                            width={1800}
-                            height={300}
-                            src={blogs?.featuredImage?.image?.url}
-                            alt={blogs?.featuredImage?.altText}
-                            className="bg-center bg-cover"
-                          />
+              {blogDetails?.map((blogs, index) => {
+                const StaticContent = blogs?.StaticContent;
 
-                          <p className="text-[1rem] text-black text-left italic mt-4 mb-4">
-                            {postDate(blogs?.createdAt)}
-                          </p>
+                return (
+                  <div key={index} className="mb-14">
+                    <div>
+                      <MotionEffect effect="fade-right" duration="2000">
+                        {StaticContent ? (
+                          <StaticContent postDate={postDate(blogs?.createdAt)} />
+                        ) : (
+                          <>
+                            <Image
+                              width={1800}
+                              height={300}
+                              src={blogs?.featuredImage?.image?.url}
+                              alt={blogs?.featuredImage?.altText}
+                              className="bg-center bg-cover"
+                            />
 
-                          <div className="font-normal text-[1rem] text-black mb-8 ">
-                            {parse(blogs?.body)}
-                          </div>
-                        </>
-                      )}
-                    </MotionEffect>
+                            <p className="text-[1rem] text-black text-left italic mt-4 mb-4">
+                              {postDate(blogs?.createdAt)}
+                            </p>
+
+                            <div className="font-normal text-[1rem] text-black mb-8 ">
+                              {parse(blogs?.body)}
+                            </div>
+                          </>
+                        )}
+                      </MotionEffect>
+                    </div>
                   </div>
-                </div>
-              ))}
+                );
+              })}
             </div>
             <div className="hidden lg:block w-[0%] md:w-[25%]">
               <BlogSideBar />
