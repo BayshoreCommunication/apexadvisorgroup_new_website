@@ -52,17 +52,20 @@ export async function generateMetadata({ params }) {
     };
   }
 
-  let description = parse(blogDetails?.body);
+  let description = parse(blogDetails?.body || "");
+  const metaDescription =
+    blogDetails?.metaDescription ||
+    blogDetails?.excerpt ||
+    description[0]?.props?.children?.props?.children ||
+    description[0]?.props?.children ||
+    "Read the blog posts by Apex Advisor Group Inc.";
 
   return {
-    title: blogDetails?.title,
-    description:
-      description[0]?.props?.children?.props?.children || blogDetails?.excerpt,
+    title: blogDetails?.metaTitle || blogDetails?.title,
+    description: metaDescription,
     openGraph: {
       title: blogDetails?.title,
-      description:
-        description[0]?.props?.children?.props?.children ||
-        blogDetails?.excerpt,
+      description: metaDescription,
       images: [blogDetails?.featuredImage?.image?.url],
       url: `https://www.apexadvisorgroup.com/blog/${blogDetails?.slug}`,
       type: "article",
@@ -118,21 +121,27 @@ const page = async ({ params }) => {
                 <div key={index} className="mb-14">
                   <div>
                     <MotionEffect effect="fade-right" duration="2000">
-                      <Image
-                        width={1800}
-                        height={300}
-                        src={blogs?.featuredImage?.image?.url}
-                        alt={blogs?.featuredImage?.altText}
-                        className="bg-center bg-cover"
-                      />
+                      {blogs?.StaticContent ? (
+                        <blogs.StaticContent postDate={postDate(blogs?.createdAt)} />
+                      ) : (
+                        <>
+                          <Image
+                            width={1800}
+                            height={300}
+                            src={blogs?.featuredImage?.image?.url}
+                            alt={blogs?.featuredImage?.altText}
+                            className="bg-center bg-cover"
+                          />
 
-                      <p className="text-[1rem] text-black text-left italic mt-4 mb-4">
-                        {postDate(blogs?.createdAt)}
-                      </p>
+                          <p className="text-[1rem] text-black text-left italic mt-4 mb-4">
+                            {postDate(blogs?.createdAt)}
+                          </p>
 
-                      <div className="font-normal text-[1rem] text-black mb-8 ">
-                        {parse(blogs?.body)}
-                      </div>
+                          <div className="font-normal text-[1rem] text-black mb-8 ">
+                            {parse(blogs?.body)}
+                          </div>
+                        </>
+                      )}
                     </MotionEffect>
                   </div>
                 </div>
