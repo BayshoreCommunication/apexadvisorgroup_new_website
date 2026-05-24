@@ -63,6 +63,9 @@ export async function generateMetadata({ params }) {
   return {
     title: blogDetails?.metaTitle || blogDetails?.title,
     description: metaDescription,
+    alternates: {
+      canonical: `https://www.apexadvisorgroup.com/blog/${blogDetails?.slug}`,
+    },
     openGraph: {
       title: blogDetails?.title,
       description: metaDescription,
