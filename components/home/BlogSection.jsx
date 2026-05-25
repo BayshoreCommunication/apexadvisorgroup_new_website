@@ -36,32 +36,37 @@ const BlogSection = async () => {
           {blogPostData?.data
             ?.filter((pub, no) => pub.published === true && no <= 2)
             ?.map((blogs, index) => (
-              <Link href={`/blog/${blogs?.slug}`} key={index}>
-                <MotionEffect effect='fade-up' duration='2000'>
-                  <div className='bg-slate-50 border rounded-lg shadow-lg p-5 transition-transform duration-300 hover:scale-105'>
-                    <div className=' p-0'>
+              <MotionEffect effect='fade-up' duration='2000' key={index}>
+                <article className='h-full overflow-hidden rounded-lg border bg-white shadow-lg transition-transform duration-300 hover:-translate-y-1'>
+                  <Link
+                    href={`/blog/${blogs?.slug}`}
+                    className='block focus:outline-none focus-visible:ring-2 focus-visible:ring-[#0E758B]'
+                  >
+                    <div className='relative aspect-[16/9] w-full bg-slate-100'>
                       <Image
-                        width='300'
-                        height='200'
-                        className='w-full object-cover h-[300px]'
+                        fill
+                        sizes='(min-width: 1280px) 33vw, (min-width: 1024px) 50vw, 100vw'
+                        className='object-contain p-3'
                         src={blogs?.featuredImage?.image?.url}
                         alt={blogs?.featuredImage?.altText}
                       />
                     </div>
-                    <div className='text-small block text-left mt-4'>
-                      <h2 className='text-default-500 text-lg font-bold line-clamp-1 mb-2'>
+                  </Link>
+                  <div className='flex min-h-[126px] flex-col items-start justify-between px-5 pb-5 pt-4 text-left'>
+                    <Link href={`/blog/${blogs?.slug}`} className='block'>
+                      <h2 className='mb-3 line-clamp-2 text-lg font-bold leading-7 text-stone-950'>
                         {blogs?.title}
                       </h2>
-                      <SecondaryButton
-                        title={'Read More'}
-                        href={`/blog/${blogs?.slug}`}
-                        style={'bg-[#0E758B] text-white'}
-                        radius={'sm'}
-                      />
-                    </div>
+                    </Link>
+                    <SecondaryButton
+                      title={'Read More'}
+                      link={`/blog/${blogs?.slug}`}
+                      style={'bg-[#0E758B] text-white'}
+                      radius={'sm'}
+                    />
                   </div>
-                </MotionEffect>
-              </Link>
+                </article>
+              </MotionEffect>
             ))}
         </div>
       </div>
