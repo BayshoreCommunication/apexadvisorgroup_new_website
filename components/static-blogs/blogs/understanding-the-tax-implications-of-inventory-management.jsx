@@ -167,9 +167,7 @@ const externalLinkClass =
 
 const externalRel = "nofollow noopener noreferrer";
 
-const UnderstandingTheTaxImplicationsOfInventoryManagement = ({
-  postDate,
-}) => {
+const UnderstandingTheTaxImplicationsOfInventoryManagement = ({ postDate }) => {
   return (
     <article className="text-[#1B2639]">
       <figure className="mb-8 overflow-hidden rounded-md bg-[#EEF6F8]">
@@ -279,8 +277,8 @@ const UnderstandingTheTaxImplicationsOfInventoryManagement = ({
           </Link>{" "}
           discusses accepted inventory methods, including FIFO and LIFO, and
           explains why inventory value is a major factor in taxable income. At
-          Apex Advisor Group, our accounting team in Tampa helps business
-          owners close that gap legally and strategically.
+          Apex Advisor Group, our accounting team in Tampa helps business owners
+          close that gap legally and strategically.
         </p>
       </section>
 
@@ -307,9 +305,7 @@ const UnderstandingTheTaxImplicationsOfInventoryManagement = ({
                   </td>
                   <td className="px-4 py-3 text-slate-700">{row.assumes}</td>
                   <td className="px-4 py-3 text-slate-700">{row.cogs}</td>
-                  <td className="px-4 py-3 text-slate-700">
-                    {row.taxImpact}
-                  </td>
+                  <td className="px-4 py-3 text-slate-700">{row.taxImpact}</td>
                   <td className="px-4 py-3 text-slate-700">{row.bestFor}</td>
                 </tr>
               ))}
@@ -321,9 +317,9 @@ const UnderstandingTheTaxImplicationsOfInventoryManagement = ({
       <div className="space-y-10">
         {methodSections.map((section) => (
           <section key={section.title}>
-            <h2 className="mb-3 text-2xl font-bold text-[#1B2639]">
+            <h3 className="mb-3 text-2xl font-bold text-[#1B2639]">
               {section.title}
-            </h2>
+            </h3>
             {section.paragraphs.map((paragraph) => (
               <p key={paragraph} className="text-base leading-8 text-slate-800">
                 {paragraph}
@@ -334,9 +330,9 @@ const UnderstandingTheTaxImplicationsOfInventoryManagement = ({
       </div>
 
       <div className="my-8 rounded-md border border-slate-200 bg-white p-5 shadow-sm">
-        <h3 className="mb-3 text-xl font-semibold text-[#0B7788]">
+        <h2 className="mb-3 text-xl font-semibold text-[#0B7788]">
           Why LIFO Is Getting Attention in 2026
-        </h3>
+        </h2>
         <p className="text-base leading-8 text-slate-800">
           A February 2026 analysis from{" "}
           <Link
@@ -502,9 +498,7 @@ const UnderstandingTheTaxImplicationsOfInventoryManagement = ({
               <h3 className="mb-2 text-xl font-semibold text-[#1B2639]">
                 {item.title}
               </h3>
-              <p className="text-base leading-8 text-slate-800">
-                {item.text}
-              </p>
+              <p className="text-base leading-8 text-slate-800">{item.text}</p>
             </div>
           ))}
         </div>
@@ -546,9 +540,8 @@ const UnderstandingTheTaxImplicationsOfInventoryManagement = ({
           Stop Guessing. Start Saving.
         </h2>
         <p className="mb-5 text-base leading-8 text-white">
-          The Apex Advisor Group team in Tampa is ready to review your
-          inventory method and uncover the tax savings you may be leaving on the
-          table.
+          The Apex Advisor Group team in Tampa is ready to review your inventory
+          method and uncover the tax savings you may be leaving on the table.
         </p>
         <Link
           href="/contact"
