@@ -3,7 +3,6 @@ import { serviceData } from "@/config/servicesData";
 import Image from "next/image";
 import Consultation from "@/components/shared/Consultation";
 import SectionLayoutBlog from "@/components/shared/SectionLayoutBlog";
-import Head from "next/head";
 import MotionEffect from "@/components/motion/MotionEffect";
 import { redirect } from "next/navigation";
 
@@ -12,7 +11,7 @@ export async function generateMetadata({ params }) {
     (service) => service.slug === params.slug
   );
 
-  if (!serviceDatas) {
+  if (!serviceDatas || serviceDatas.length === 0) {
     return {
       title: "Service not found",
       description: "No service post available.",
@@ -24,6 +23,9 @@ export async function generateMetadata({ params }) {
   return {
     title: description?.topBarTitle,
     description: description?.topBarDescription,
+    alternates: {
+      canonical: `/services/${description?.slug}`,
+    },
     openGraph: {
       title: description?.topBarTitle,
       description: description?.topBarDescription,

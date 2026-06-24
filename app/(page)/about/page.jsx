@@ -10,6 +10,9 @@ export const metadata = {
   title: "About Us | Tax Preparation & Accounting Services in Tampa",
   description:
     "Learn about Apex Advisor Group's 40+ years of experience in tax preparation, accounting, payroll, credit repair, and financial planning services in Tampa, Florida.",
+  alternates: {
+    canonical: "/about",
+  },
 };
 
 const page = () => {

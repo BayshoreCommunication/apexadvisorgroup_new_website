@@ -11,6 +11,9 @@ export const metadata = {
   title: "Tax & Accounting Insights Blog | Apex Advisor Group Tampa",
   description:
     "Stay updated with expert tips on tax preparation, accounting, payroll, credit repair, and financial planning from Apex Advisor Group’s blog, serving Tampa and beyond.",
+  alternates: {
+    canonical: "/blog",
+  },
 };
 
 const page = async () => {

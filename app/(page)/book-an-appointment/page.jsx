@@ -8,6 +8,9 @@ export const metadata = {
   title: "Book a Tax & Accounting Consultation |  Tax & Accounting Services Tampa",
   description:
     "Schedule an appointment with Apex Advisor Group for expert tax preparation, accounting, payroll, and credit repair services in Tampa. Trusted professionals ready to help.",
+  alternates: {
+    canonical: "/book-an-appointment",
+  },
 };
 
 const page = () => {

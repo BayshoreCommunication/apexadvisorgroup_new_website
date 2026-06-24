@@ -10,6 +10,14 @@ import ServicesProcess from "@/components/tax-resolution/ServicesProcess";
 import VideoSection from "@/components/tax-resolution/VideoSection";
 import WebsiteDisclaimer from "@/components/tax-resolution/WebsiteDisclaimer";
 
+export const metadata = {
+  title: "Tax Resolution Services & IRS Tax Relief | Apex Advisor Group",
+  description: "Get expert tax resolution services from Apex Advisor Group in Tampa. We help you resolve IRS tax issues, back taxes, audits, liens, and see if you qualify for IRS tax relief.",
+  alternates: {
+    canonical: "/tax-resolution",
+  },
+};
+
 const page = () => {
   return (
     <div>

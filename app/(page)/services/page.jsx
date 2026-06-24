@@ -5,13 +5,15 @@ import SecondaryButton from "@/components/shared/SecondaryButton";
 import { serviceData } from "@/config/servicesData";
 import Consultation from "@/components/shared/Consultation";
 import PageHeroSection from "@/components/shared/PageHeroSection";
-import Head from "next/head";
 import MotionEffect from "@/components/motion/MotionEffect";
 
 export const metadata = {
   title: "Services | Tax, Accounting & Payroll Services Tampa",
   description:
     "Accounting & Tax Preparation Firm In Tampa, Florida Notary | Credit Repair & Counseling | Insurance",
+  alternates: {
+    canonical: "/services",
+  },
 };
 
 const page = () => {
@@ -44,14 +46,6 @@ const page = () => {
 
   return (
     <>
-      <Head>
-        <title>Services</title>
-        <meta
-          name="description"
-          content="At Apex Advisor Group Inc, we offer Accounting, Tax Preparation, Planning &amp; Tax Resolution Services to clients across Tampa, Brandon, Riverview, Sun City &amp; Plant City."
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </Head>
       <div className="mt-0 md:mt-[130px]">
         <PageHeroSection
           heading={"Contact Apex Advisor Group Inc"}

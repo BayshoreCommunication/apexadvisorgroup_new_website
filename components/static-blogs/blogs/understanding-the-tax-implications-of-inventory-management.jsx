@@ -169,7 +169,7 @@ const externalRel = "nofollow noopener noreferrer";
 
 const UnderstandingTheTaxImplicationsOfInventoryManagement = ({ postDate }) => {
   return (
-    <article className="text-[#1B2639]">
+    <article className="text-[#1B2639] px-4 md:px-0">
       <figure className="mb-8 overflow-hidden rounded-md bg-[#EEF6F8]">
         <Image
           width={1800}

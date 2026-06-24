@@ -7,6 +7,14 @@ import Footer from "@/components/Footer";
 import ClientTestimonials from "@/components/tax-planning/ClientTestimonials";
 import React from "react";
 
+export const metadata = {
+  title: "Credit Repair & Counseling Services Tampa | Apex Advisor Group",
+  description: "Improve your credit score and take control of your financial life with professional credit repair and counseling services from Apex Advisor Group in Tampa.",
+  alternates: {
+    canonical: "/credit-repair-and-counseling",
+  },
+};
+
 const page = () => {
   return (
     <div>

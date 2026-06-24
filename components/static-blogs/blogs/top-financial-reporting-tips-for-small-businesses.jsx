@@ -133,7 +133,7 @@ const externalRel = "nofollow noopener noreferrer";
 
 const TopFinancialReportingTipsForSmallBusinesses = ({ postDate }) => {
   return (
-    <article className="text-[#1B2639]">
+    <article className="text-[#1B2639] px-4 md:px-0">
       <figure className="mb-8 overflow-hidden rounded-md bg-[#EEF6F8]">
         <Image
           width={1800}
@@ -456,7 +456,7 @@ const TopFinancialReportingTipsForSmallBusinesses = ({ postDate }) => {
         </p>
 
         <div className="my-6 rounded-md border-l-4 border-[#D5AD45] bg-[#EEF6F8] p-5">
-          <h4 className="mb-3 text-lg font-bold text-[#1B2639] uppercase tracking-wider">Pro Tips</h4>
+          <h2 className="mb-3 text-lg font-bold text-[#1B2639] uppercase tracking-wider">Pro Tips</h2>
           <ul className="space-y-2">
             {proTips1.map((tip, idx) => (
               <li key={idx} className="flex gap-2 text-slate-800 leading-7">
@@ -495,7 +495,7 @@ const TopFinancialReportingTipsForSmallBusinesses = ({ postDate }) => {
         </blockquote>
 
         <div className="my-6 rounded-md border-l-4 border-[#D5AD45] bg-[#EEF6F8] p-5">
-          <h4 className="mb-3 text-lg font-bold text-[#1B2639] uppercase tracking-wider">Pro Tips</h4>
+          <h2 className="mb-3 text-lg font-bold text-[#1B2639] uppercase tracking-wider">Pro Tips</h2>
           <ul className="space-y-2">
             {proTips2.map((tip, idx) => (
               <li key={idx} className="flex gap-2 text-slate-800 leading-7">

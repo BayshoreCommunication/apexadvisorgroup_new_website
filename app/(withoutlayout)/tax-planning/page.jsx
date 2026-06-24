@@ -7,6 +7,14 @@ import TaxPlanningServices from "@/components/tax-planning/TaxPlanningServices";
 import VideoSection from "@/components/tax-planning/VideoSection";
 import React from "react";
 
+export const metadata = {
+  title: "Strategic Tax Planning Services in Tampa | Apex Advisor Group",
+  description: "Maximize tax efficiency and reduce liabilities with strategic tax planning services from Apex Advisor Group. Schedule a consultation for a customized tax plan today.",
+  alternates: {
+    canonical: "/tax-planning",
+  },
+};
+
 const page = () => {
   return (
     <div>
