@@ -3,7 +3,7 @@ export default function robots() {
     rules: {
       userAgent: "*",
       allow: "/",
-      disallow: "/cgi-bin/",
+      disallow: ["/api/", "/private/"],
     },
     sitemap: "https://www.apexadvisorgroup.com/sitemap.xml",
   };
