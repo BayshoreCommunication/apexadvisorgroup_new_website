@@ -128,7 +128,10 @@ const page = async ({ params }) => {
                     <div>
                       <MotionEffect effect="fade-right" duration="2000">
                         {StaticContent ? (
-                          <StaticContent postDate={postDate(blogs?.createdAt)} />
+                          <StaticContent 
+                            postDate={postDate(blogs?.createdAt)} 
+                            updatedDate={blogs?.updatedAt ? postDate(blogs?.updatedAt) : null} 
+                          />
                         ) : (
                           <>
                             <Image
