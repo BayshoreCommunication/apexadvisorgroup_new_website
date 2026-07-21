@@ -2,13 +2,13 @@ import Image from "next/image";
 import Link from "next/link";
 
 const featuredImage = {
-  src: "/image/static-blogs/battery-charges-and-defenses-explained-by-battery-defense-attorney-clearwater.webp",
-  alt: "Battery defense attorney graphic showing criminal law books, gavel, case file, and battery charge documents explaining battery charges and legal defenses in Clearwater.",
-  title: "Battery Charges and Defenses Explained by a Battery Defense Attorney",
+  src: "/image/static-blogs/benefits-of-business-consulting-for-small-business-taxes.webp",
+  alt: "Business consulting graphic showing small business tax documents, financial reports, calculator, laptop with analytics dashboard, and tax planning resources for small businesses.",
+  title: "The Benefits of Business Consulting for Small Business Taxes",
   description:
-    "Professional legal services graphic illustrating battery charges, criminal defense strategies, and Florida battery laws. The image features criminal law books, a judge's gavel, case files, and legal documents, highlighting how an experienced battery defense attorney in Clearwater helps clients understand charges, protect their rights, and build a strong legal defense.",
+    "Professional business consulting graphic illustrating how expert consulting services help small businesses manage taxes, improve financial planning, and achieve sustainable growth. The image features tax documents, financial reports, business strategy resources, analytics dashboards, and budgeting tools, highlighting the value of strategic tax planning, financial analysis, and business advisory services.",
   caption:
-    "Learn how a Clearwater battery defense attorney explains battery charges, legal defenses, Florida criminal laws, and the steps to protect your rights after an arrest.",
+    " Discover how business consulting helps small businesses simplify tax planning, improve financial management, reduce tax risks, and build a stronger foundation for long-term growth.",
 };
 
 const keyTakeaways = [
