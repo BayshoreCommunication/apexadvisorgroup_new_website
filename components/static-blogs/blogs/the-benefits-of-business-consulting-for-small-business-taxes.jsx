@@ -188,7 +188,7 @@ const TheBenefitsOfBusinessConsultingForSmallBusinessTaxes = ({ postDate, update
       </div>
 
       <section className="mb-10">
-        <h2 className="mb-4 text-3xl font-bold text-[#1B2639] text-center">
+        <h2 className="mb-4 text-3xl font-bold text-[#1B2639] text-left">
           Key Takeaways
         </h2>
         <div className="grid gap-3 rounded-md bg-[#EEF6F8] p-5">
@@ -202,7 +202,7 @@ const TheBenefitsOfBusinessConsultingForSmallBusinessTaxes = ({ postDate, update
       </section>
 
       <section className="mb-10">
-        <h2 className="mb-3 text-2xl font-bold text-[#1B2639] text-center">
+        <h2 className="mb-3 text-2xl font-bold text-[#1B2639] text-left">
           Business Consulting Improves Taxes By Building A Year-Round System
         </h2>
         <p className="text-base leading-8 text-slate-800 text-justify">
@@ -220,7 +220,7 @@ const TheBenefitsOfBusinessConsultingForSmallBusinessTaxes = ({ postDate, update
       </section>
 
       <section className="mb-10">
-        <h3 className="mb-3 text-xl font-bold text-[#1B2639] text-center">
+        <h3 className="mb-3 text-xl font-bold text-[#1B2639] text-left">
           What &ldquo;Year-Round&rdquo; Means In Practice
         </h3>
         <p className="text-base leading-8 text-slate-800 text-justify mb-4">
@@ -234,7 +234,7 @@ const TheBenefitsOfBusinessConsultingForSmallBusinessTaxes = ({ postDate, update
       </section>
 
       <section className="mb-10">
-        <h2 className="mb-3 text-2xl font-bold text-[#1B2639] text-center">
+        <h2 className="mb-3 text-2xl font-bold text-[#1B2639] text-left">
           You Pay Less Tax When Your Entity And Owner Pay Are Set Correctly
         </h2>
         <p className="text-base leading-8 text-slate-800 text-justify">
@@ -246,7 +246,7 @@ const TheBenefitsOfBusinessConsultingForSmallBusinessTaxes = ({ postDate, update
       </section>
 
       <section className="mb-10">
-        <h3 className="mb-3 text-xl font-bold text-[#1B2639] text-center">
+        <h3 className="mb-3 text-xl font-bold text-[#1B2639] text-left">
           Entity Choice Impacts More Than Income Tax
         </h3>
         <p className="text-base leading-8 text-slate-800 text-justify mb-5">
@@ -296,7 +296,7 @@ const TheBenefitsOfBusinessConsultingForSmallBusinessTaxes = ({ postDate, update
       </section>
 
       <section className="mb-10">
-        <h2 className="mb-3 text-2xl font-bold text-[#1B2639] text-center">
+        <h2 className="mb-3 text-2xl font-bold text-[#1B2639] text-left">
           You Find More Deductions When Your Books And Categories Are Clean
         </h2>
         <p className="text-base leading-8 text-slate-800 text-justify">
@@ -305,7 +305,7 @@ const TheBenefitsOfBusinessConsultingForSmallBusinessTaxes = ({ postDate, update
       </section>
 
       <section className="mb-10">
-        <h3 className="mb-3 text-xl font-bold text-[#1B2639] text-center">
+        <h3 className="mb-3 text-xl font-bold text-[#1B2639] text-left">
           Common Deductions That Get Missed Without A System
         </h3>
         <p className="text-base leading-8 text-slate-800 text-justify">
@@ -317,7 +317,7 @@ const TheBenefitsOfBusinessConsultingForSmallBusinessTaxes = ({ postDate, update
       </section>
 
       <section className="mb-10">
-        <h2 className="mb-3 text-2xl font-bold text-[#1B2639] text-center">
+        <h2 className="mb-3 text-2xl font-bold text-[#1B2639] text-left">
           You Reduce Penalties By Fixing Compliance Before It Breaks
         </h2>
         <p className="text-base leading-8 text-slate-800 text-justify">
@@ -329,7 +329,7 @@ const TheBenefitsOfBusinessConsultingForSmallBusinessTaxes = ({ postDate, update
       </section>
 
       <section className="mb-10">
-        <h3 className="mb-3 text-xl font-bold text-[#1B2639] text-center">
+        <h3 className="mb-3 text-xl font-bold text-[#1B2639] text-left">
           What Gets Reviewed In A Tax Compliance Check
         </h3>
         <p className="text-base leading-8 text-slate-800 text-justify mb-4">
@@ -355,7 +355,7 @@ const TheBenefitsOfBusinessConsultingForSmallBusinessTaxes = ({ postDate, update
       </section>
 
       <section className="mb-10">
-        <h2 className="mb-3 text-2xl font-bold text-[#1B2639] text-center">
+        <h2 className="mb-3 text-2xl font-bold text-[#1B2639] text-left">
           You Improve Cash Flow By Planning Quarterly Taxes And Timing
         </h2>
         <p className="text-base leading-8 text-slate-800 text-justify">
@@ -364,7 +364,7 @@ const TheBenefitsOfBusinessConsultingForSmallBusinessTaxes = ({ postDate, update
       </section>
 
       <section className="mb-10">
-        <h3 className="mb-3 text-xl font-bold text-[#1B2639] text-center">
+        <h3 className="mb-3 text-xl font-bold text-[#1B2639] text-left">
           A Simple Quarterly Tax Planning Framework
         </h3>
         <p className="text-base leading-8 text-slate-800 text-justify mb-5">
@@ -396,7 +396,7 @@ const TheBenefitsOfBusinessConsultingForSmallBusinessTaxes = ({ postDate, update
       </section>
 
       <section className="mb-10">
-        <h2 className="mb-3 text-2xl font-bold text-[#1B2639] text-center">
+        <h2 className="mb-3 text-2xl font-bold text-[#1B2639] text-left">
           You Make Better Decisions With Tax Forecasting And Scenario Models
         </h2>
         <p className="text-base leading-8 text-slate-800 text-justify">
@@ -405,7 +405,7 @@ const TheBenefitsOfBusinessConsultingForSmallBusinessTaxes = ({ postDate, update
       </section>
 
       <section className="mb-10">
-        <h3 className="mb-3 text-xl font-bold text-[#1B2639] text-center">
+        <h3 className="mb-3 text-xl font-bold text-[#1B2639] text-left">
           Beginner, Intermediate, And Expert Ways To Forecast
         </h3>
         <ul className="list-disc pl-6 space-y-2 text-slate-800 leading-8 mb-4">
@@ -431,7 +431,7 @@ const TheBenefitsOfBusinessConsultingForSmallBusinessTaxes = ({ postDate, update
       </section>
 
       <section className="mb-10">
-        <h2 className="mb-3 text-2xl font-bold text-[#1B2639] text-center">
+        <h2 className="mb-3 text-2xl font-bold text-[#1B2639] text-left">
           You Strengthen Audit Readiness With Documentation And Clear Positions
         </h2>
         <p className="text-base leading-8 text-slate-800 text-justify">
@@ -440,7 +440,7 @@ const TheBenefitsOfBusinessConsultingForSmallBusinessTaxes = ({ postDate, update
       </section>
 
       <section className="mb-10">
-        <h3 className="mb-3 text-xl font-bold text-[#1B2639] text-center">
+        <h3 className="mb-3 text-xl font-bold text-[#1B2639] text-left">
           What &ldquo;Defensible&rdquo; Looks Like
         </h3>
         <p className="text-base leading-8 text-slate-800 text-justify mb-4">
@@ -466,7 +466,7 @@ const TheBenefitsOfBusinessConsultingForSmallBusinessTaxes = ({ postDate, update
       </section>
 
       <section className="mb-10">
-        <h2 className="mb-3 text-2xl font-bold text-[#1B2639] text-center">
+        <h2 className="mb-3 text-2xl font-bold text-[#1B2639] text-left">
           You Avoid Expensive Mistakes With Sales Tax And Multi-State Rules
         </h2>
         <p className="text-base leading-8 text-slate-800 text-justify">
@@ -475,7 +475,7 @@ const TheBenefitsOfBusinessConsultingForSmallBusinessTaxes = ({ postDate, update
       </section>
 
       <section className="mb-10">
-        <h2 className="mb-3 text-2xl font-bold text-[#1B2639] text-center">
+        <h2 className="mb-3 text-2xl font-bold text-[#1B2639] text-left">
           You Align Taxes With Benefits, Insurance, And Retirement Plans
         </h2>
         <p className="text-base leading-8 text-slate-800 text-justify">
@@ -487,7 +487,7 @@ const TheBenefitsOfBusinessConsultingForSmallBusinessTaxes = ({ postDate, update
       </section>
 
       <section className="mb-10">
-        <h2 className="mb-3 text-2xl font-bold text-[#1B2639] text-center">
+        <h2 className="mb-3 text-2xl font-bold text-[#1B2639] text-left">
           You Save Time Because Your Process Becomes Repeatable
         </h2>
         <p className="text-base leading-8 text-slate-800 text-justify">
@@ -496,7 +496,7 @@ const TheBenefitsOfBusinessConsultingForSmallBusinessTaxes = ({ postDate, update
       </section>
 
       <section className="mb-10">
-        <h3 className="mb-3 text-xl font-bold text-[#1B2639] text-center">
+        <h3 className="mb-3 text-xl font-bold text-[#1B2639] text-left">
           What A Clean Monthly Workflow Usually Includes
         </h3>
         <p className="text-base leading-8 text-slate-800 text-justify mb-4">
@@ -510,7 +510,7 @@ const TheBenefitsOfBusinessConsultingForSmallBusinessTaxes = ({ postDate, update
       </section>
 
       <section className="mb-10">
-        <h2 className="mb-3 text-2xl font-bold text-[#1B2639] text-center">
+        <h2 className="mb-3 text-2xl font-bold text-[#1B2639] text-left">
           How Business Consulting Helps At Different Stages Of Your Business
         </h2>
         <p className="text-base leading-8 text-slate-800 text-justify">
@@ -519,7 +519,7 @@ const TheBenefitsOfBusinessConsultingForSmallBusinessTaxes = ({ postDate, update
       </section>
 
       <section className="mb-10">
-        <h3 className="mb-3 text-xl font-bold text-[#1B2639] text-center">
+        <h3 className="mb-3 text-xl font-bold text-[#1B2639] text-left">
           What Beginners Need To Stop Overpaying
         </h3>
         <p className="text-base leading-8 text-slate-800 text-justify">
@@ -528,7 +528,7 @@ const TheBenefitsOfBusinessConsultingForSmallBusinessTaxes = ({ postDate, update
       </section>
 
       <section className="mb-10">
-        <h3 className="mb-3 text-xl font-bold text-[#1B2639] text-center">
+        <h3 className="mb-3 text-xl font-bold text-[#1B2639] text-left">
           What Growing Businesses Need For Control
         </h3>
         <p className="text-base leading-8 text-slate-800 text-justify">
@@ -537,7 +537,7 @@ const TheBenefitsOfBusinessConsultingForSmallBusinessTaxes = ({ postDate, update
       </section>
 
       <section className="mb-10">
-        <h3 className="mb-3 text-xl font-bold text-[#1B2639] text-center">
+        <h3 className="mb-3 text-xl font-bold text-[#1B2639] text-left">
           What Advanced Owners Need For Optimization
         </h3>
         <p className="text-base leading-8 text-slate-800 text-justify">
@@ -546,7 +546,7 @@ const TheBenefitsOfBusinessConsultingForSmallBusinessTaxes = ({ postDate, update
       </section>
 
       <section className="mb-10">
-        <h2 className="mb-3 text-2xl font-bold text-[#1B2639] text-center">
+        <h2 className="mb-3 text-2xl font-bold text-[#1B2639] text-left">
           What To Look For In A Small Business Tax Consultant
         </h2>
         <p className="text-base leading-8 text-slate-800 text-justify mb-4">
@@ -560,7 +560,7 @@ const TheBenefitsOfBusinessConsultingForSmallBusinessTaxes = ({ postDate, update
       </section>
 
       <section className="mb-10">
-        <h2 className="mb-3 text-2xl font-bold text-[#1B2639] text-center">
+        <h2 className="mb-3 text-2xl font-bold text-[#1B2639] text-left">
           Final Thought
         </h2>
         <p className="text-base leading-8 text-slate-800 text-justify">
@@ -569,7 +569,7 @@ const TheBenefitsOfBusinessConsultingForSmallBusinessTaxes = ({ postDate, update
       </section>
 
       <section className="mb-10">
-        <h2 className="mb-3 text-2xl font-bold text-[#1B2639] text-center">
+        <h2 className="mb-3 text-2xl font-bold text-[#1B2639] text-left">
           Ready To Stop Guessing And Start Planning With Apex Advisor Group?
         </h2>
         <p className="text-base leading-8 text-slate-800 text-justify">
@@ -594,7 +594,7 @@ const TheBenefitsOfBusinessConsultingForSmallBusinessTaxes = ({ postDate, update
       </section>
 
       <section className="mb-10">
-        <h2 className="mb-4 text-3xl font-bold text-[#1B2639] text-center">
+        <h2 className="mb-4 text-3xl font-bold text-[#1B2639] text-left">
           Frequently Asked Questions
         </h2>
         <div className="grid gap-4">
