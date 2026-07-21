@@ -2,13 +2,13 @@ import Image from "next/image";
 import Link from "next/link";
 
 const featuredImage = {
-  src: "/image/static-blogs/benefits-of-business-consulting-for-small-business-taxes.webp",
+  src: "/image/static-blogs/benefits-of-business-consulting-for-small-business-taxes.png",
   alt: "Business consulting graphic showing small business tax documents, financial reports, calculator, laptop with analytics dashboard, and tax planning resources for small businesses.",
   title: "The Benefits of Business Consulting for Small Business Taxes",
   description:
     "Professional business consulting graphic illustrating how expert consulting services help small businesses manage taxes, improve financial planning, and achieve sustainable growth. The image features tax documents, financial reports, business strategy resources, analytics dashboards, and budgeting tools, highlighting the value of strategic tax planning, financial analysis, and business advisory services.",
   caption:
-    " Discover how business consulting helps small businesses simplify tax planning, improve financial management, reduce tax risks, and build a stronger foundation for long-term growth.",
+    "Discover how business consulting helps small businesses simplify tax planning, improve financial management, reduce tax risks, and build a stronger foundation for long-term growth.",
 };
 
 const keyTakeaways = [
