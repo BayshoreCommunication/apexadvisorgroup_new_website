@@ -173,7 +173,143 @@ const externalRel = "nofollow noopener noreferrer";
 
 const TheRoleOfTaxPlanningInBusinessSuccession = ({ postDate, updatedDate }) => {
   return (
-    <article className="text-[#1B2639] px-4 md:px-0">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                  {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.apexadvisorgroup.com/"
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Blog",
+                    "item": "https://www.apexadvisorgroup.com/blog"
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "The Role of Tax Planning in Business Succession",
+                    "item": "https://www.apexadvisorgroup.com/blog/the-role-of-tax-planning-in-business-succession"
+                  }
+                ]
+              },
+              {
+                "@type": "BlogPosting",
+                "mainEntityOfPage": {
+                  "@type": "WebPage",
+                  "@id": "https://www.apexadvisorgroup.com/blog/the-role-of-tax-planning-in-business-succession"
+                },
+                "headline": "The Role of Tax Planning in Business Succession",
+                "name": "Powerful Tax Planning Tips for 2026 | Avoid Mistakes",
+                "description": "Learn how tax planning supports smooth business succession, reduces tax burdens, and helps protect assets for future generations in 2026.",
+                "url": "https://www.apexadvisorgroup.com/blog/the-role-of-tax-planning-in-business-succession",
+                "image": "https://www.apexadvisorgroup.com/_next/image?url=%2Fimage%2Fstatic-blogs%2Frole-of-tax-planning-in-business-succession-guide.webp&w=3840&q=75&dpl=dpl_DHp1dbEgmQv3CQRpTMRtjdJFzRys",
+                "isPartOf": {
+                  "@type": "Blog",
+                  "@id": "https://www.apexadvisorgroup.com/blog"
+                },
+                "about": {
+                  "@type": "Thing",
+                  "name": "Tax Planning for Business Succession",
+                  "description": "An overview of how tax planning, entity structure, valuation, timing, installment sales, gifting, trusts, insurance, and buy-sell agreements can affect the tax and financial outcomes of business succession."
+                },
+                "keywords": [
+                  "tax planning in business succession",
+                  "business succession tax planning",
+                  "business succession planning",
+                  "tax planning for business owners",
+                  "business sale tax planning",
+                  "business succession tax strategies",
+                  "business exit tax planning",
+                  "business sale capital gains tax",
+                  "family business succession tax",
+                  "buy sell agreement tax planning",
+                  "business succession advisor"
+                ],
+                "author": {
+                  "@type": "Organization",
+                  "name": "Apex Advisor Group"
+                },
+                "publisher": {
+                  "@type": "Organization",
+                  "name": "Apex Advisor Group",
+                  "url": "https://www.apexadvisorgroup.com/",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.apexadvisorgroup.com/_next/image?url=%2Fimage%2Fapex-logo.png&w=384&q=75&dpl=dpl_DHp1dbEgmQv3CQRpTMRtjdJFzRys"
+                  }
+                },
+                "datePublished": "2026-08-09",
+                "dateModified": "2026-08-09"
+              },
+              {
+                "@type": "FAQPage",
+                "mainEntity": [
+                  {
+                    "@type": "Question",
+                    "name": "When to Begin Tax Planning for Succession?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "You should start three to five years early. This window allows entity clean-up, valuation support, and staged transfers. It also gives time to adjust cash flow and reduce surprise taxes."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Does A Business Sale Always Create Capital Gains Tax?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Not always. Asset sales can create ordinary income from depreciation recapture. Stock sales often create capital gains. The deal structure decides the mix. Planning can shift outcomes and timing."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Why Does Entity Type Matter So Much In Succession?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Entity type changes who pays tax and when. It also changes sale taxation. C corporations can face double tax in asset sales. S corporations often allow cleaner seller results."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Can You Reduce Taxes When Transferring A Business To A Family?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Yes, if you plan ahead and have a good basis for your valuation. Gifting, staged sales, and trust strategies can shift future growth. You must document value and follow tax rules closely."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "What Is The Biggest Tax Risk In A Buy-Sell Agreement?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Tax mismatches create massive risks. Poor funding causes major disputes. Unclear pricing triggers heavy friction. A coordinated review helps prevent dividend treatment and valuation challenges."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "How Does Life Insurance Fit Into Succession Tax Planning?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Insurance can create liquidity when taxes are due. It often funds buy-sell agreements. It can also help cover estate tax exposure. Proper ownership and beneficiary setup matter for tax results."
+                    }
+                  }
+                ]
+              }
+            ]
+          })
+        }}
+      />
+      <article className="text-[#1B2639] px-4 md:px-0">
       {/* Featured Image */}
       <figure className="mb-8 overflow-hidden rounded-md bg-[#EEF6F8]">
         <Image
@@ -592,6 +728,7 @@ const TheRoleOfTaxPlanningInBusinessSuccession = ({ postDate, updatedDate }) => 
         Disclaimer: This blog is for informational purposes only. If you want to know anything in details, please contact Apex Advisor Group.
       </p>
     </article>
+    </>
   );
 };
 
