@@ -179,23 +179,28 @@ const HowToMinimizeTaxesInBusinessSuccessionPlanning = ({ postDate, updatedDate 
                 "name": "Proven How to Minimize Taxes Tips 2026 | Avoid Errors",
                 "description": "Discover how to minimize taxes in business succession planning with practical strategies to reduce tax liabilities and support a smooth ownership transition.",
                 "url": "https://www.apexadvisorgroup.com/blog/how-to-minimize-taxes-business-succession-plan",
-                "image": "https://www.apexadvisorgroup.com/_next/image?url=%2Fimage%2Fstatic-blogs%2Fhow-to-minimize-taxes-business-succession-plan.webp&w=3840&q=75&dpl=dpl_DHp1dbEgmQv3CQRpTMRtjdJFzRys",
+                "image": "https://www.apexadvisorgroup.com/_next/image?url=%2Fimage%2Fstatic-blogs%2Fhow-to-minimize-taxes-business-succession-plan.webp&w=3840&q=75&dpl=dpl_FmUye78e3ih6G49arpaMyzMHVqa2",
                 "isPartOf": {
                   "@type": "Blog",
                   "@id": "https://www.apexadvisorgroup.com/blog"
                 },
                 "about": {
                   "@type": "Thing",
-                  "name": "How to Minimize Taxes in Business Succession Planning",
-                  "description": "A strategic guide to minimizing tax liabilities, protecting your wealth legacy, and securing the financial future of your family business through effective succession planning."
+                  "name": "Business Succession Tax Planning",
+                  "description": "An overview of strategies for minimizing income, capital gains, estate, and gift taxes during business succession, including valuation, gifting, trusts, installment sales, buy-sell agreements, and insurance funding."
                 },
                 "keywords": [
                   "how to minimize taxes in business succession planning",
-                  "minimize taxes business succession",
                   "business succession tax planning",
+                  "minimize taxes business succession",
+                  "business succession planning",
                   "business succession tax strategies",
-                  "reduce tax liabilities business exit",
-                  "business succession tax tips 2026"
+                  "tax planning for business owners",
+                  "business sale tax planning",
+                  "business succession tax planning strategies",
+                  "reduce capital gains tax business sale",
+                  "family business succession tax planning",
+                  "business succession advisor"
                 ],
                 "author": {
                   "@type": "Organization",
@@ -207,7 +212,7 @@ const HowToMinimizeTaxesInBusinessSuccessionPlanning = ({ postDate, updatedDate 
                   "url": "https://www.apexadvisorgroup.com/",
                   "logo": {
                     "@type": "ImageObject",
-                    "url": "https://www.apexadvisorgroup.com/_next/image?url=%2Fimage%2Fapex-logo.png&w=384&q=75&dpl=dpl_DHp1dbEgmQv3CQRpTMRtjdJFzRys"
+                    "url": "https://www.apexadvisorgroup.com/_next/image?url=%2Fimage%2Fapex-logo.png&w=384&q=75&dpl=dpl_FmUye78e3ih6G49arpaMyzMHVqa2"
                   }
                 },
                 "datePublished": "2026-08-17",
