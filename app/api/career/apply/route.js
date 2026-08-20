@@ -1,6 +1,6 @@
+import clientPromise from "@/lib/mongodb";
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
-import clientPromise from "@/lib/mongodb";
 
 export const runtime = "nodejs";
 
@@ -33,7 +33,7 @@ export async function POST(request) {
     ) {
       return NextResponse.json(
         { error: "Missing required fields." },
-        { status: 400 }
+        { status: 400 },
       );
     }
 
@@ -41,7 +41,7 @@ export async function POST(request) {
     if (resume.size > MAX_SIZE) {
       return NextResponse.json(
         { error: "Resume file is too large." },
-        { status: 400 }
+        { status: 400 },
       );
     }
 
@@ -81,7 +81,7 @@ export async function POST(request) {
 
     await transporter.sendMail({
       from: `"Apex Advisor Group Careers" <${process.env.user}>`,
-      to: "arsahak.bayshore@gmail.com",
+      to: "carlos@apexadvisor.pro, arsahak.bayshore@gmail.com",
       replyTo: email,
       subject: `New Application: ${position} — ${fullName}`,
       html: `
@@ -93,15 +93,16 @@ export async function POST(request) {
         ${
           linkedin
             ? `<p><strong>LinkedIn/Portfolio:</strong> ${escapeHtml(
-                linkedin
+                linkedin,
               )}</p>`
             : ""
         }
         ${
           message
-            ? `<p><strong>Message:</strong><br/>${escapeHtml(
-                message
-              ).replace(/\n/g, "<br/>")}</p>`
+            ? `<p><strong>Message:</strong><br/>${escapeHtml(message).replace(
+                /\n/g,
+                "<br/>",
+              )}</p>`
             : ""
         }
       `,
@@ -119,7 +120,7 @@ export async function POST(request) {
     console.error("Career application submission failed:", error);
     return NextResponse.json(
       { error: "Something went wrong. Please try again." },
-      { status: 500 }
+      { status: 500 },
     );
   }
 }

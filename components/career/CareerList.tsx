@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
 import Link from "next/link";
 import MotionEffect from "../motion/MotionEffect";
 import SecondaryButton from "../shared/SecondaryButton";
@@ -76,7 +75,7 @@ const CareerList = () => {
     <div className="overflow-hidden">
       {/* Hero */}
       <section className="relative overflow-hidden bg-[#11869912] mt-[62px] md:mt-[130px]">
-        <SectionLayout img={""} bg={""}>
+        <SectionLayout img={""} bg={""} py="py-[1rem] md:py-[2.25rem]">
           <motion.div
             initial="hidden"
             animate="visible"
@@ -84,10 +83,10 @@ const CareerList = () => {
             className="lg:flex gap-10 items-center"
           >
             <div className="w-full lg:max-w-[55%] text-center lg:text-left">
-              <p className="text-[#0E758B] font-semibold tracking-wide uppercase text-sm mb-3">
+              <p className="text-[#0E758B] font-semibold tracking-wide uppercase text-sm mb-2">
                 Careers at Apex Advisor Group
               </p>
-              <h1 className="text-[42px] md:text-[56px] font-bold leading-tight mb-4 text-[#1B2639]">
+              <h1 className="text-[36px] md:text-[48px] font-bold leading-tight mb-3 text-[#1B2639]">
                 {heroWords.map((word, i) => (
                   <motion.span
                     key={i}
@@ -95,7 +94,7 @@ const CareerList = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.4, delay: i / 10 }}
                     className={`inline-block ${
-                      word === "Growth." ? "text-[#D5AD45]" : ""
+                      word === "Growth." ? "text-[#0E758B]" : ""
                     }`}
                   >
                     {word}&nbsp;
@@ -104,7 +103,7 @@ const CareerList = () => {
               </h1>
               <motion.p
                 variants={itemVariants}
-                className="text-base max-w-[480px] mx-auto lg:mx-0 mb-6"
+                className="text-base max-w-[480px] mx-auto lg:mx-0 mb-5"
               >
                 Work on meaningful tax and accounting projects in an environment
                 that values independence, trust, and professional growth.
@@ -133,13 +132,110 @@ const CareerList = () => {
 
             <div className="w-full hidden lg:block mt-10 lg:mt-0">
               <motion.div variants={itemVariants}>
-                <Image
-                  src={"/career.jpeg"}
-                  alt="Apex Advisor Group team"
-                  width={640}
-                  height={520}
-                  className="w-full rounded-tl-[120px] rounded-br-[120px] object-cover"
-                />
+                <div className="relative bg-[#1B2639] px-8 pt-7 pb-5 min-h-[300px] overflow-hidden">
+                  <div className="text-[11px] tracking-[0.12em] uppercase text-white/50 mb-1.5">
+                    Tampa Bay · Est. 2019
+                  </div>
+                  <div className="text-lg text-white mb-4">
+                    Seven years of growing together
+                  </div>
+                  <svg
+                    viewBox="0 0 460 260"
+                    fill="none"
+                    className="w-full h-auto"
+                  >
+                    <motion.path
+                      d="M20 220 C 100 220, 140 150, 200 140 S 300 60, 440 30"
+                      stroke="#0E758B"
+                      strokeWidth="2"
+                      initial={{ pathLength: 0 }}
+                      whileInView={{ pathLength: 1 }}
+                      viewport={{ once: true }}
+                      transition={{ duration: 2.2, ease: "easeOut", delay: 0.3 }}
+                    />
+
+                    <motion.g
+                      initial={{ opacity: 0, y: 6 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      viewport={{ once: true }}
+                      transition={{ duration: 0.6, delay: 0.7 }}
+                    >
+                      <circle cx="20" cy="220" r="4" fill="#F6F8F9" />
+                      <text
+                        x="32"
+                        y="216"
+                        fontSize="22"
+                        fontWeight={600}
+                        fill="#4FA8BC"
+                      >
+                        7
+                      </text>
+                      <text
+                        x="32"
+                        y="234"
+                        fontSize="11"
+                        letterSpacing="0.05em"
+                        fill="rgba(247,244,238,0.85)"
+                      >
+                        YEARS IN TAMPA BAY
+                      </text>
+                    </motion.g>
+
+                    <motion.g
+                      initial={{ opacity: 0, y: 6 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      viewport={{ once: true }}
+                      transition={{ duration: 0.6, delay: 1.35 }}
+                    >
+                      <circle cx="200" cy="140" r="4" fill="#F6F8F9" />
+                      <text
+                        x="212"
+                        y="136"
+                        fontSize="22"
+                        fontWeight={600}
+                        fill="#4FA8BC"
+                      >
+                        20+
+                      </text>
+                      <text
+                        x="212"
+                        y="154"
+                        fontSize="11"
+                        letterSpacing="0.05em"
+                        fill="rgba(247,244,238,0.85)"
+                      >
+                        OUR MENTORS&apos; YEARS EXPERIENCE
+                      </text>
+                    </motion.g>
+
+                    <motion.g
+                      initial={{ opacity: 0, y: 6 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      viewport={{ once: true }}
+                      transition={{ duration: 0.6, delay: 2 }}
+                    >
+                      <circle cx="440" cy="30" r="4" fill="#0E758B" />
+                      <text
+                        x="330"
+                        y="18"
+                        fontSize="24"
+                        fontWeight={700}
+                        fill="#4FA8BC"
+                      >
+                        100%
+                      </text>
+                      <text
+                        x="330"
+                        y="55"
+                        fontSize="11"
+                        letterSpacing="0.05em"
+                        fill="rgba(247,244,238,0.85)"
+                      >
+                        PROMOTED FROM WITHIN
+                      </text>
+                    </motion.g>
+                  </svg>
+                </div>
               </motion.div>
             </div>
           </motion.div>
@@ -215,8 +311,8 @@ const CareerList = () => {
                 duration={String(1000 + i * 300)}
                 delay={0}
               >
-                <div className="group border border-white/15 bg-white/[0.04] p-8 h-full transition duration-500 hover:-translate-y-1.5 hover:border-[#D5AD45] hover:bg-white/[0.07]">
-                  <span className="font-medium text-xs tracking-widest text-[#D5AD45]">
+                <div className="group border border-white/15 bg-white/[0.04] p-8 h-full transition duration-500 hover:-translate-y-1.5 hover:border-[#0E758B] hover:bg-white/[0.07]">
+                  <span className="font-medium text-xs tracking-widest text-[#8FC9D6]">
                     {stage.num}
                   </span>
                   <h3 className="text-2xl font-semibold mt-3 mb-3">
@@ -225,7 +321,7 @@ const CareerList = () => {
                   <p className="text-sm text-white/70 mb-6">{stage.body}</p>
                   <Link
                     href="/career/open-positions"
-                    className="inline-flex items-center gap-2 text-sm font-semibold text-[#D5AD45]"
+                    className="inline-flex items-center gap-2 text-sm font-semibold text-[#8FC9D6]"
                   >
                     {stage.cta}
                     <span className="transition duration-300 group-hover:translate-x-1">
@@ -279,7 +375,7 @@ const CareerList = () => {
         <SectionLayout img={""} bg={""}>
           <MotionEffect effect={"zoom-in"} duration={"1200"} delay={0}>
             <div className="text-center max-w-[560px] mx-auto py-6">
-              <div className="w-0 h-0 mx-auto mb-6 border-l-[13px] border-l-transparent border-r-[13px] border-r-transparent border-b-[22px] border-b-[#D5AD45]" />
+              <div className="w-0 h-0 mx-auto mb-6 border-l-[13px] border-l-transparent border-r-[13px] border-r-transparent border-b-[22px] border-b-[#0E758B]" />
               <h2 className="text-[30px] md:text-[42px] font-bold text-[#1B2639] mb-4">
                 Ready to build something real?
               </h2>
