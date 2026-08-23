@@ -1,5 +1,5 @@
 import PageHeroSection from '@/components/shared/PageHeroSection';
-import React from 'react';
+import React, { Suspense } from 'react';
 import ContactPageImg from '../../../public/image/contact.jpg';
 import MapSection from '@/components/contact/MapSection';
 import ContactSection from '@/components/contact/ContactSection';
@@ -32,7 +32,9 @@ const page = () => {
           width={1000}
           height={657}
         />
-        <ContactSection />
+        <Suspense fallback={null}>
+          <ContactSection />
+        </Suspense>
         <MapSection />
       </div>
     </>

@@ -1,11 +1,15 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import SectionLayout from "../shared/SectionLayout";
 import { send } from "emailjs-com";
 import Swal from "sweetalert2";
 import MotionEffect from "../motion/MotionEffect";
 
 const ContactSection = () => {
+  const searchParams = useSearchParams();
+  const position = searchParams.get("position");
+
   const [emailForm, setEmailForm] = useState({
     fname: "",
     lname: "",
@@ -14,6 +18,17 @@ const ContactSection = () => {
     organization: "",
     message: "",
   });
+
+  useEffect(() => {
+    if (position) {
+      setEmailForm((prev) => ({
+        ...prev,
+        message: `I would like to apply for the "${position}" position.\n\n`,
+      }));
+    }
+    // Only prefill on initial load for a given position, not on every keystroke.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [position]);
 
   const SendMail = (e) => {
     e.preventDefault();
@@ -81,6 +96,13 @@ const ContactSection = () => {
         <div className="w-full flex-1">
           <form onSubmit={SendMail}>
             <MotionEffect effect="fade-up" duration="2000">
+              {position && (
+                <div className="mb-4 bg-[#EEF6F8] border-l-4 border-[#0E758B] p-4">
+                  <p className="text-sm text-[#1B2639]">
+                    Applying for: <strong>{position}</strong>
+                  </p>
+                </div>
+              )}
               <div>
                 <div className="flex flex-col lg:flex-row w-full gap-4 mb-4">
                   <div className="flex-1">
