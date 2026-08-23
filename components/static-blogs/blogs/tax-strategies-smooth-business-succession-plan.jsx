@@ -328,7 +328,7 @@ const TaxStrategiesForSmoothBusinessSuccessionPlan = ({ postDate, updatedDate })
               Plan Your Smooth Succession with Confidence
             </h3>
             <p className="mb-4 text-base leading-8 text-slate-200">
-              Don't let unexpected taxes erode your business value. Reach out to Apex Advisor Group for an expert assessment.
+              Don&apos;t let unexpected taxes erode your business value. Reach out to Apex Advisor Group for an expert assessment.
             </p>
             <Link
               href="/contact"
@@ -500,7 +500,7 @@ const TaxStrategiesForSmoothBusinessSuccessionPlan = ({ postDate, updatedDate })
             Easy Beginner Steps You Can Take In The Next 30 Days
           </h3>
           <p className="text-base leading-8 text-slate-800 text-justify">
-            Start your first step with clarity, then move to numbers, then to documents. These steps are simple: list your desired successor, timeline, and income needs. Then request a valuation discussion, review entity types, tax returns, and look over existing buy-sell and estate documents. You don't need perfection; you need momentum.
+            Start your first step with clarity, then move to numbers, then to documents. These steps are simple: list your desired successor, timeline, and income needs. Then request a valuation discussion, review entity types, tax returns, and look over existing buy-sell and estate documents. You don&apos;t need perfection; you need momentum.
           </p>
 
           <h3 className="mb-3 mt-8 text-xl font-bold text-[#1B2639] text-left">
