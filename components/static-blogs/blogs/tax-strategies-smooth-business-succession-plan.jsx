@@ -123,36 +123,49 @@ const TaxStrategiesForSmoothBusinessSuccessionPlan = ({ postDate, updatedDate })
                 "name": "Best Tax Strategies to Avoid Mistakes | 2026",
                 "description": "Explore tax strategies for smooth business succession. Learn practical ways to reduce tax burdens and support a seamless ownership transition.",
                 "url": "https://www.apexadvisorgroup.com/blog/tax-strategies-smooth-business-succession-plan",
-                "image": "https://www.apexadvisorgroup.com/_next/image?url=%2Fimage%2Fstatic-blogs%2Ftax-strategies-smooth-business-succession-plan.webp&w=3840&q=75&dpl=dpl_FmUye78e3ih6G49arpaMyzMHVqa2",
+                "image": "https://www.apexadvisorgroup.com/_next/image?url=%2Fimage%2Fstatic-blogs%2Ftax-strategies-smooth-business-succession-plan.webp&w=3840&q=75&dpl=dpl_Cga69C89E2NYPXomaMRkSTJxbz9a",
                 "isPartOf": {
                   "@type": "Blog",
                   "@id": "https://www.apexadvisorgroup.com/blog"
                 },
                 "about": {
                   "@type": "Thing",
-                  "name": "Business Succession Tax Strategies",
-                  "description": "Comprehensive guide on business succession tax strategies, valuation discounts, buy-sell agreements, gifting, trusts, and liquidity planning."
+                  "name": "Tax Strategies for Business Succession",
+                  "description": "An overview of tax planning strategies for business succession, including early planning, business valuation, entity structure, buy-sell agreements, insurance funding, gifting, trusts, installment sales, ESOPs, charitable strategies, and basis planning."
                 },
                 "keywords": [
                   "tax strategies for smooth business succession",
                   "business succession tax planning",
-                  "tax strategies business succession planning",
-                  "business succession advisor",
-                  "reduce estate tax business succession",
-                  "buy sell agreement tax strategy",
-                  "family business succession tax strategies"
+                  "business succession planning",
+                  "tax planning for business succession",
+                  "business succession tax strategies",
+                  "business succession taxes",
+                  "tax efficient business succession",
+                  "business succession planning tax strategies",
+                  "business sale tax planning",
+                  "family business succession",
+                  "business succession tax",
+                  "business valuation succession planning",
+                  "buy-sell agreement tax planning",
+                  "business succession trusts",
+                  "business succession gifting",
+                  "ESOP business succession",
+                  "installment sale business succession",
+                  "business succession estate planning",
+                  "business succession financial planning",
+                  "Apex Advisor Group"
                 ],
                 "author": {
                   "@type": "Organization",
-                  "name": "Apex Advisor Group"
+                  "name": "Apex Advisor Group Inc"
                 },
                 "publisher": {
                   "@type": "Organization",
-                  "name": "Apex Advisor Group",
+                  "name": "Apex Advisor Group Inc",
                   "url": "https://www.apexadvisorgroup.com/",
                   "logo": {
                     "@type": "ImageObject",
-                    "url": "https://www.apexadvisorgroup.com/_next/image?url=%2Fimage%2Fapex-logo.png&w=384&q=75&dpl=dpl_FmUye78e3ih6G49arpaMyzMHVqa2"
+                    "url": "https://www.apexadvisorgroup.com/_next/image?url=%2Fimage%2Fapex-logo.png&w=384&q=75&dpl=dpl_Cga69C89E2NYPXomaMRkSTJxbz9a"
                   }
                 },
                 "datePublished": "2026-08-23",
@@ -166,7 +179,7 @@ const TaxStrategiesForSmoothBusinessSuccessionPlan = ({ postDate, updatedDate })
                     "name": "When Do You Start Thinking About Succession Tax Planning?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Start three to five years before transition. Earlier is better. Time lets you shift value, fund buyouts, and fix entity issues. Late planning limits options and increases taxes."
+                      "text": "Start three to five years before transition. Earlier is better. Time lets you shift value, fund buyouts, and fix entity issues. Late planning limits options and increases taxes. "
                     }
                   },
                   {
@@ -182,7 +195,7 @@ const TaxStrategiesForSmoothBusinessSuccessionPlan = ({ postDate, updatedDate })
                     "name": "Will A Buy-Sell Agreement Reduce My Taxes Automatically?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Not automatically. It helps when structured and funded correctly. It can support valuation and smooth transfers, especially if you follow key documents for farm transition management. An unfunded agreement often fails when a triggering event occurs."
+                      "text": "Not automatically. It helps when structured and funded correctly. It can support valuation and smooth transfers, especially if you follow key documents for farm transition management. An unfunded agreement often fails when a triggering event occurs. "
                     }
                   },
                   {
@@ -190,7 +203,7 @@ const TaxStrategiesForSmoothBusinessSuccessionPlan = ({ postDate, updatedDate })
                     "name": "What Tax Records Should I Organize For A Future Sale?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "You should organize five years of tax returns, financial statements, payroll filings, and basis records. Clean records speed due diligence, reduce buyer discounts, and prevent tax surprises. For more detailed guidance, refer to the official IRS documentation guidelines."
+                      "text": "You should organize five years of tax returns, financial statements, payroll filings, and basis records. Clean records speed due diligence, reduce buyer discounts, and prevent tax surprises. For more detailed guidance, refer to the official IRS documentation guidelines. "
                     }
                   }
                 ]
