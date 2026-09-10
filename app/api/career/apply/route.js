@@ -81,7 +81,7 @@ export async function POST(request) {
 
     await transporter.sendMail({
       from: `"Apex Advisor Group Careers" <${process.env.user}>`,
-      to: "carlos@apexadvisor.pro, arsahak.bayshore@gmail.com",
+      to: "carlos@apexadvisor.pro, alex@apexadvisor.pro, info@apexadvisor.pro",
       replyTo: email,
       subject: `New Application: ${position} — ${fullName}`,
       html: `
