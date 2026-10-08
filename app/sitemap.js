@@ -41,7 +41,11 @@ export default async function sitemap() {
         .filter((post) => post.published !== false)
         .map((post) => ({
           url: `${baseUrl}/blog/${post.slug}`,
-          lastModified: post.createdAt ? new Date(post.createdAt) : new Date(),
+          lastModified: post.updatedAt
+            ? new Date(post.updatedAt)
+            : post.createdAt
+            ? new Date(post.createdAt)
+            : new Date(),
           changeFrequency: "weekly",
           priority: 0.6,
         }));
