@@ -5,6 +5,7 @@ import Link from "next/link";
 import MotionEffect from "../motion/MotionEffect";
 import SecondaryButton from "../shared/SecondaryButton";
 import SectionLayout from "../shared/SectionLayout";
+import TrainingSchedule from "./TrainingSchedule";
 
 const values = [
   {
@@ -334,6 +335,9 @@ const CareerList = () => {
           </div>
         </SectionLayout>
       </section>
+
+      {/* Intern training schedule */}
+      <TrainingSchedule />
 
       {/* Why our people stay */}
       <SectionLayout img={""} bg={""}>
