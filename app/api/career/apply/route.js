@@ -81,7 +81,7 @@ export async function POST(request) {
 
     await transporter.sendMail({
       from: `"Apex Advisor Group Careers" <${process.env.user}>`,
-      to: "carlos@apexadvisor.pro, alex@apexadvisor.pro, info@apexadvisor.pro",
+      to: "alex@apexadvisor.pro, info@apexadvisor.pro",
       replyTo: email,
       subject: `New Application: ${position} — ${fullName}`,
       html: `
@@ -90,20 +90,18 @@ export async function POST(request) {
         <p><strong>Name:</strong> ${escapeHtml(fullName)}</p>
         <p><strong>Email:</strong> ${escapeHtml(email)}</p>
         <p><strong>Phone:</strong> ${escapeHtml(phone)}</p>
-        ${
-          linkedin
-            ? `<p><strong>LinkedIn/Portfolio:</strong> ${escapeHtml(
-                linkedin,
-              )}</p>`
-            : ""
+        ${linkedin
+          ? `<p><strong>LinkedIn/Portfolio:</strong> ${escapeHtml(
+            linkedin,
+          )}</p>`
+          : ""
         }
-        ${
-          message
-            ? `<p><strong>Message:</strong><br/>${escapeHtml(message).replace(
-                /\n/g,
-                "<br/>",
-              )}</p>`
-            : ""
+        ${message
+          ? `<p><strong>Message:</strong><br/>${escapeHtml(message).replace(
+            /\n/g,
+            "<br/>",
+          )}</p>`
+          : ""
         }
       `,
       attachments: [

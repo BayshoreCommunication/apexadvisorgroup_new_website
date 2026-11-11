@@ -4,6 +4,17 @@ import MotionEffect from "../motion/MotionEffect";
 import PageHeroSection from "../shared/PageHeroSection";
 import SectionLayout from "../shared/SectionLayout";
 
+const BulletList = ({ items }: { items: string[] }) => (
+  <ul className="space-y-2">
+    {items.map((item, idx) => (
+      <li key={idx} className="flex gap-3 text-base text-[#1B2639]/80">
+        <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[#0E758B]" />
+        <span>{item}</span>
+      </li>
+    ))}
+  </ul>
+);
+
 const OpenPositions = () => {
   return (
     <div>
@@ -65,68 +76,78 @@ const OpenPositions = () => {
                     {position.title}
                   </h2>
 
-                  <div className="mb-6 bg-[#EEF6F8] border-l-4 border-[#0E758B] p-4">
-                    <h3 className="font-semibold text-[#1B2639] mb-1">
-                      Timing
-                    </h3>
-                    <p className="text-sm text-[#1B2639]/80">
-                      {position.timing}
-                    </p>
+                  <div className="mb-6 bg-[#EEF6F8] border-l-4 border-[#0E758B] p-4 space-y-1">
+                    {position.details.map((detail) => (
+                      <p key={detail.label} className="text-sm text-[#1B2639]/80">
+                        <span className="font-semibold text-[#1B2639]">
+                          {detail.label}:
+                        </span>{" "}
+                        {detail.value}
+                      </p>
+                    ))}
                   </div>
 
                   <div className="mb-6">
                     <h3 className="font-semibold text-lg text-[#1B2639] mb-2">
-                      About Us
+                      About the Opportunity
                     </h3>
-                    <p className="text-base text-[#1B2639]/80">
-                      {position.aboutUs}
-                    </p>
-                  </div>
-
-                  <div className="mb-6">
-                    <h3 className="font-semibold text-lg text-[#1B2639] mb-2">
-                      What You’ll Do &amp; Learn
-                    </h3>
-                    <ul className="space-y-2">
-                      {position.whatYoullDo.map((item, idx) => (
-                        <li
-                          key={idx}
-                          className="flex gap-3 text-base text-[#1B2639]/80"
-                        >
-                          <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[#0E758B]" />
-                          <span>{item}</span>
-                        </li>
+                    <div className="space-y-3">
+                      {position.aboutTheOpportunity.map((para, idx) => (
+                        <p key={idx} className="text-base text-[#1B2639]/80">
+                          {para}
+                        </p>
                       ))}
-                    </ul>
+                    </div>
                   </div>
 
                   <div className="mb-6">
                     <h3 className="font-semibold text-lg text-[#1B2639] mb-2">
-                      Who Should Apply
+                      Key Responsibilities
                     </h3>
-                    <p className="text-base text-[#1B2639]/80">
-                      {position.whoShouldApply}
+                    <BulletList items={position.keyResponsibilities} />
+                  </div>
+
+                  <div className="mb-6">
+                    <h3 className="font-semibold text-lg text-[#1B2639] mb-2">
+                      Training &amp; Development
+                    </h3>
+                    <p className="text-base text-[#1B2639]/80 mb-3">
+                      {position.training.intro}
+                    </p>
+                    <BulletList items={position.training.topics} />
+                    <p className="text-base text-[#1B2639]/80 mt-4">
+                      <strong className="text-[#1B2639]">
+                        {position.training.highlight}
+                      </strong>{" "}
+                      {position.training.notes[0]}
+                    </p>
+                    {position.training.notes.slice(1).map((note, idx) => (
+                      <p key={idx} className="text-base text-[#1B2639]/80 mt-3">
+                        {note}
+                      </p>
+                    ))}
+                  </div>
+
+                  <div className="mb-6">
+                    <h3 className="font-semibold text-lg text-[#1B2639] mb-2">
+                      Qualifications
+                    </h3>
+                    <BulletList items={position.qualifications} />
+                    <p className="text-base font-semibold text-[#1B2639] mt-4">
+                      {position.qualificationsNote}
                     </p>
                   </div>
 
                   <div className="mb-8">
                     <h3 className="font-semibold text-lg text-[#1B2639] mb-2">
-                      What’s in It for You
+                      Why Join Apex Advisor Group?
                     </h3>
-                    <ul className="space-y-2">
-                      {position.whatsInItForYou.map((item, idx) => (
-                        <li
-                          key={idx}
-                          className="flex gap-3 text-base text-[#1B2639]/80"
-                        >
-                          <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[#0E758B]" />
-                          <span>{item}</span>
-                        </li>
-                      ))}
-                    </ul>
+                    <p className="text-base text-[#1B2639]/80">
+                      {position.whyJoin}
+                    </p>
                   </div>
 
-                  <p className="text-base font-medium text-[#1B2639] mb-8 italic">
+                  <p className="text-base font-semibold text-[#1B2639] mb-8">
                     {position.closing}
                   </p>
 

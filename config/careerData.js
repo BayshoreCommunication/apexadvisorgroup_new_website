@@ -1,30 +1,53 @@
 export const careerPositions = [
   {
-    slug: 'fall-tax-accounting-internship',
-    title:
-      'Fall Tax & Accounting Internship (Training to Employment Pathway)',
+    slug: 'tax-sales-preparation-associate',
+    title: 'Tax Sales & Preparation Associate',
     status: 'Open',
-    type: 'Internship → Paid Role',
-    timing:
-      'Start end of October — training runs until mid-December; successful interns transition into paid roles for tax season starting January.',
-    aboutUs:
-      'We’re a dynamic tax and accounting firm that believes in growing talent from the ground up. This internship is your gateway to starting a career in tax preparation and bookkeeping with us.',
-    whatYoullDo: [
-      'Intensive training on tax software and bookkeeping processes.',
-      'Develop a deep understanding of individual tax scenarios and filing strategies.',
-      'Gain insight into client communication and building long-term client relationships.',
-      'Real-world exposure working with actual client data.',
-      'By January, you’ll be fully onboarded into a commission-based role, earning while assisting clients during tax season.',
+    type: 'Training-to-Independent-Contractor Opportunity',
+    details: [
+      { label: 'Company', value: 'Apex Advisor Group' },
+      { label: 'Location', value: 'Tampa Bay, FL | Hybrid' },
+      { label: 'Compensation', value: 'Commission-Based' },
     ],
-    whoShouldApply:
-      'Recent grads, young professionals, or motivated college students eager to dive into finance. No prior experience needed — just a drive to learn.',
-    whatsInItForYou: [
-      'Free training that equips you with marketable skills.',
-      'Mentorship from experienced professionals.',
-      'A clear path to a commission-based role starting January, where you’ll earn as you serve clients.',
-      'Growth opportunities within our firm for those who excel.',
+    aboutTheOpportunity: [
+      'Apex Advisor Group is seeking ambitious, motivated individuals who are passionate about sales, relationship building, and professional growth.',
+      'This opportunity combines business development with tax preparation, allowing individuals to build their own client base while building skills in tax preparation, client acquisition, and relationship management.',
     ],
+    keyResponsibilities: [
+      'Generate new business through networking, referrals, and outreach.',
+      'Build and maintain relationships with individual and business clients.',
+      'Prepare individual and business tax returns.',
+      'Manage client communication, documentation, and follow-ups.',
+      'Participate in ongoing training and professional development.',
+    ],
+    training: {
+      intro:
+        'Selected candidates will participate in an approximately six-week hybrid training program covering:',
+      topics: [
+        'Individual and business tax preparation',
+        'Tax software and filing procedures',
+        'Sales and client acquisition strategies',
+        'Client relationship management',
+        'Accounting and bookkeeping basics',
+      ],
+      highlight:
+        'Training sessions are unpaid; however, candidates are eligible to earn commissions from day one.',
+      notes: [
+        'Candidates can begin working with clients they bring in during training, with hands-on guidance and support from the Apex team.',
+        'Upon successful completion of the training program, candidates may transition into an independent-contractor role.',
+      ],
+    },
+    qualifications: [
+      'Previous sales experience preferred.',
+      'Coursework, experience, or foundational knowledge in tax preparation or accounting preferred.',
+      'Self-motivated with a strong entrepreneurial mindset.',
+      'Strong interest in sales, prospecting, and business development.',
+      'Confidence in approaching potential clients and building professional relationships.',
+    ],
+    qualificationsNote: 'Prior tax preparation experience is not required.',
+    whyJoin:
+      'Apex Advisor Group provides structured training, ongoing mentorship, and the resources needed to support you as you develop your tax preparation skills and build your client base.',
     closing:
-      'This is a chance to enter tax season ready to shine. If you’re excited to learn, grow, and start earning by January—apply now!',
+      'Apply today to begin building your career with Apex Advisor Group.',
   },
 ];
