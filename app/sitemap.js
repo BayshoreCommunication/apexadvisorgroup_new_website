@@ -14,6 +14,9 @@ export default async function sitemap() {
     "/services",
     "/services-area",
     "/blog",
+    "/career",
+    "/career/open-positions",
+    "/career/apply",
     "/tax-resolution",
     "/tax-planning",
     "/miami2024",
@@ -41,16 +44,16 @@ export default async function sitemap() {
     const seenSlugs = new Set();
     const combinedPosts = [];
 
-    // Prioritize fetched posts
-    for (const post of fetchedPosts) {
+    // Ensure all static blog posts are included first
+    for (const post of staticBlogPosts) {
       if (post?.slug && !seenSlugs.has(post.slug) && post.published !== false) {
         seenSlugs.add(post.slug);
         combinedPosts.push(post);
       }
     }
 
-    // Ensure all static blog posts are included
-    for (const post of staticBlogPosts) {
+    // Append remaining fetched posts
+    for (const post of fetchedPosts) {
       if (post?.slug && !seenSlugs.has(post.slug) && post.published !== false) {
         seenSlugs.add(post.slug);
         combinedPosts.push(post);
