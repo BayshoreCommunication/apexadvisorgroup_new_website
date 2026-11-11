@@ -1240,3 +1240,4 @@ const CashFlowForecastingForSmallBusinesses = ({ postDate, updatedDate }) => {
 };
 
 export default CashFlowForecastingForSmallBusinesses;
+
